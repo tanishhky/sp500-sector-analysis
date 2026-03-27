@@ -1,0 +1,15 @@
+.env
+__pycache__/
+*.pyc
+close_prices.csv
+shares_batch*.json
+sector_ticker_map.json
+*.log
+.DS_Store
+
+# LaTeX build artifacts
+*.aux
+*.fdb_latexmk
+*.fls
+*.out
+*.synctex.gz

@@ -1,0 +1,298 @@
+Cause,Effect,P_Value
+Oil & Gas Refining & Marketing,Human Resource & Employment Services,5.3907158090734924e-05
+Movies & Entertainment,Health Care REITs,0.00017121305584074365
+Soft Drinks & Non-alcoholic Beverages,Life Sciences Tools & Services,0.000422638519423855
+Paper & Plastic Packaging Products & Materials,Oil & Gas Storage & Transportation,0.0006528513569350648
+Paper & Plastic Packaging Products & Materials,Multi-Family Residential REITs,0.0008521827519416692
+Personal Care Products,Life Sciences Tools & Services,0.0009512796246262332
+Electric Utilities,Diversified Support Services,0.0011637209164410596
+Health Care Distributors,Human Resource & Employment Services,0.0011712961225119015
+Multi-Family Residential REITs,Construction Machinery & Heavy Transportation Equipment,0.0012270702668384006
+Health Care Distributors,Insurance Brokers,0.0012459259425697902
+Multi-Family Residential REITs,Casinos & Gaming,0.002130694278275219
+Electric Utilities,Electrical Components & Equipment,0.0022126903688698997
+Packaged Foods & Meats,Life Sciences Tools & Services,0.0026029019281917864
+Insurance Brokers,Life Sciences Tools & Services,0.0026526119477345476
+Restaurants,"Hotels, Resorts & Cruise Lines",0.003335102582938294
+Oil & Gas Storage & Transportation,Casinos & Gaming,0.004061062141847157
+Passenger Airlines,Casinos & Gaming,0.004183450945180574
+Soft Drinks & Non-alcoholic Beverages,Biotechnology,0.004327091163808262
+Distributors,Oil & Gas Equipment & Services,0.004341332195557011
+Pharmaceuticals,Distributors,0.00485000656069058
+Multi-Family Residential REITs,Industrial Machinery & Supplies & Components,0.005300734118047
+Life Sciences Tools & Services,Personal Care Products,0.005320425782363137
+Pharmaceuticals,Restaurants,0.005332815439576726
+Electric Utilities,Specialty Chemicals,0.005615262431171212
+Oil & Gas Storage & Transportation,Air Freight & Logistics,0.005860379756225381
+Pharmaceuticals,Automotive Retail,0.005872695437004641
+Health Care REITs,Air Freight & Logistics,0.006085214338621342
+Consumer Staples Merchandise Retail,Health Care REITs,0.006181197903035162
+Multi-Utilities,Specialty Chemicals,0.006439082544281432
+Investment Banking & Brokerage,Retail REITs,0.006544023629148088
+Automobile Manufacturers,Multi-line Insurance,0.006611107605200949
+Retail REITs,Casinos & Gaming,0.006614321955178749
+Consumer Finance,Multi-Family Residential REITs,0.006847870476069402
+Application Software,"Technology Hardware, Storage & Peripherals",0.006907937017533282
+Building Products,Health Care REITs,0.006991469215442915
+Communications Equipment,Casinos & Gaming,0.007203589914894043
+Casinos & Gaming,Passenger Airlines,0.007215460324848055
+Health Care Services,Restaurants,0.007670971333192957
+Managed Health Care,Health Care REITs,0.007964016082534954
+Building Products,Electrical Components & Equipment,0.008070942849084616
+Multi-Utilities,Consumer Staples Merchandise Retail,0.008417127967563389
+Transaction & Payment Processing Services,Multi-Family Residential REITs,0.00941425539117748
+Retail REITs,Specialty Chemicals,0.009537448935802622
+Regional Banks,Oil & Gas Storage & Transportation,0.009648302094043179
+Human Resource & Employment Services,Oil & Gas Storage & Transportation,0.00972352689780196
+Electric Utilities,Building Products,0.010078149116437207
+Multi-Utilities,Diversified Support Services,0.010239058282995792
+Biotechnology,"Technology Hardware, Storage & Peripherals",0.010250274872593619
+Multi-Utilities,Life Sciences Tools & Services,0.01058368156383305
+Transaction & Payment Processing Services,Regional Banks,0.010708374888229004
+Electric Utilities,Restaurants,0.010874063761806404
+Biotechnology,Automobile Manufacturers,0.010889385745110666
+Life Sciences Tools & Services,Multi-Family Residential REITs,0.011093191365067132
+Rail Transportation,Restaurants,0.01155372882264753
+Packaged Foods & Meats,Health Care Services,0.011721362098085898
+Retail REITs,Paper & Plastic Packaging Products & Materials,0.01192804743350309
+Property & Casualty Insurance,Life Sciences Tools & Services,0.012042949742815825
+Electrical Components & Equipment,Health Care REITs,0.012193067490334338
+Multi-line Insurance,Transaction & Payment Processing Services,0.012204326523667071
+Fertilizers & Agricultural Chemicals,Financial Exchanges & Data,0.012288946965500345
+Multi-Utilities,Industrial Machinery & Supplies & Components,0.012420040866290033
+Multi-Utilities,Homebuilding,0.012670760669891229
+Communications Equipment,Electronic Equipment & Instruments,0.012738139722453303
+Household Products,Automobile Manufacturers,0.012788682984585752
+Packaged Foods & Meats,Biotechnology,0.012826608106382599
+Life Sciences Tools & Services,Soft Drinks & Non-alcoholic Beverages,0.012829009622221879
+Health Care Distributors,Multi-line Insurance,0.013268312078792395
+Electrical Components & Equipment,Multi-Family Residential REITs,0.013452215416659639
+Soft Drinks & Non-alcoholic Beverages,Consumer Staples Merchandise Retail,0.013455860196865743
+Retail REITs,Homebuilding,0.013465797472359998
+Fertilizers & Agricultural Chemicals,Consumer Staples Merchandise Retail,0.013498949557635993
+Retail REITs,Industrial Machinery & Supplies & Components,0.014073795890501159
+Movies & Entertainment,Automotive Retail,0.014087482370210614
+Transaction & Payment Processing Services,Communications Equipment,0.01414434566057402
+Health Care REITs,Transaction & Payment Processing Services,0.014384029656468542
+Soft Drinks & Non-alcoholic Beverages,Restaurants,0.014483306651991948
+Aerospace & Defense,Packaged Foods & Meats,0.014560101548480066
+Oil & Gas Equipment & Services,Transaction & Payment Processing Services,0.014680161335823741
+Health Care REITs,Household Products,0.01488086282787551
+Health Care REITs,Diversified Support Services,0.01495712235506794
+Industrial Machinery & Supplies & Components,Restaurants,0.015132394814005013
+Oil & Gas Equipment & Services,Human Resource & Employment Services,0.01521802519039473
+Asset Management & Custody Banks,Multi-Family Residential REITs,0.015270891333177163
+Restaurants,Distributors,0.01543119072639334
+Pharmaceuticals,Health Care Equipment,0.01543225071185251
+Internet Services & Infrastructure,Broadcasting,0.015503116842426414
+Transaction & Payment Processing Services,Semiconductor Materials & Equipment,0.015570908123118291
+Multi-Utilities,Electrical Components & Equipment,0.015577597036818706
+Electric Utilities,Distributors,0.015646654040306043
+Oil & Gas Storage & Transportation,Regional Banks,0.015777535359214195
+Soft Drinks & Non-alcoholic Beverages,Diversified Support Services,0.015974025650663463
+Oil & Gas Exploration & Production,Internet Services & Infrastructure,0.01619512782512868
+Broadcasting,Packaged Foods & Meats,0.016196324967496963
+Biotechnology,Life & Health Insurance,0.01636058697637108
+Restaurants,Electrical Components & Equipment,0.01660138412101655
+Health Care Equipment,Health Care REITs,0.01660520763237647
+Automobile Manufacturers,Oil & Gas Exploration & Production,0.016638557989545423
+Multi-Family Residential REITs,Specialty Chemicals,0.01669556994794868
+Pharmaceuticals,Homebuilding,0.016702808224541607
+Multi-Utilities,Building Products,0.016763346742975582
+Health Care Distributors,Electronic Equipment & Instruments,0.016855112701016584
+Restaurants,Passenger Airlines,0.016860971243677064
+Pharmaceuticals,Transaction & Payment Processing Services,0.017029094616594954
+Retail REITs,Transaction & Payment Processing Services,0.01731145078602794
+Multi-Utilities,Construction Machinery & Heavy Transportation Equipment,0.01785797502151039
+Pharmaceuticals,Life Sciences Tools & Services,0.0179203263477588
+Electric Utilities,"Hotels, Resorts & Cruise Lines",0.0180578274435039
+Packaged Foods & Meats,Multi-Utilities,0.01831212222843803
+Rail Transportation,Financial Exchanges & Data,0.01846773323045106
+Oil & Gas Exploration & Production,Human Resource & Employment Services,0.018757657902916496
+Pharmaceuticals,Specialty Chemicals,0.019118094716000664
+Biotechnology,Multi-line Insurance,0.01917553395636318
+Multi-Family Residential REITs,Homebuilding,0.019353764279308832
+Passenger Airlines,Application Software,0.01937449136105637
+Restaurants,Industrial Machinery & Supplies & Components,0.019383075118287563
+Health Care Services,Insurance Brokers,0.019779049005071492
+Asset Management & Custody Banks,Health Care REITs,0.020085566604730043
+Multi-Family Residential REITs,Electrical Components & Equipment,0.020122138564341873
+Retail REITs,Distributors,0.020178594738900716
+Health Care REITs,Biotechnology,0.021378655029532866
+Electric Utilities,Life Sciences Tools & Services,0.021443291162263865
+Homebuilding,Air Freight & Logistics,0.021497720419752273
+Health Care Supplies,Air Freight & Logistics,0.021529212285959966
+Health Care Equipment,Multi-Family Residential REITs,0.021555049798292182
+Diversified Support Services,Multi-Family Residential REITs,0.021745613407639895
+Building Products,"Hotels, Resorts & Cruise Lines",0.02181860922004239
+Oil & Gas Storage & Transportation,Construction Machinery & Heavy Transportation Equipment,0.021837851473209997
+Pharmaceuticals,Diversified Support Services,0.02200490705069778
+Movies & Entertainment,Interactive Media & Services,0.02200592293286621
+Health Care Services,Managed Health Care,0.022075336830937112
+Distributors,Soft Drinks & Non-alcoholic Beverages,0.022086289653188325
+Managed Health Care,Automotive Retail,0.022203983083329857
+Managed Health Care,Retail REITs,0.02260456708358824
+Building Products,Multi-Family Residential REITs,0.022776215521169013
+Semiconductors,Health Care REITs,0.02291123245936248
+Electric Utilities,Homebuilding,0.022977146400693624
+Interactive Media & Services,Health Care REITs,0.023034785403209156
+Regional Banks,Retail REITs,0.023193741916055204
+Electric Utilities,Application Software,0.0232539147593855
+Electric Utilities,Industrial Machinery & Supplies & Components,0.023541874075488047
+Fertilizers & Agricultural Chemicals,Diversified Support Services,0.02356883563290545
+Pharmaceuticals,Industrial Machinery & Supplies & Components,0.02406125926610034
+Pharmaceuticals,Personal Care Products,0.02414663512461537
+Transaction & Payment Processing Services,Electronic Equipment & Instruments,0.024158665208656848
+Communications Equipment,Investment Banking & Brokerage,0.024175898110722054
+Multi-Utilities,Semiconductors,0.024268458754278004
+Retail REITs,Air Freight & Logistics,0.024806120434465402
+Oil & Gas Refining & Marketing,Transaction & Payment Processing Services,0.024842430938036657
+Managed Health Care,Oil & Gas Exploration & Production,0.024966332160209954
+Restaurants,Insurance Brokers,0.025142947805755645
+Restaurants,Multi-line Insurance,0.02531944876011284
+Packaged Foods & Meats,Managed Health Care,0.025556179778828566
+Biotechnology,Oil & Gas Refining & Marketing,0.02557251200364245
+Oil & Gas Exploration & Production,Communications Equipment,0.025720444847936744
+Life Sciences Tools & Services,Air Freight & Logistics,0.025771458154707064
+Communications Equipment,Health Care REITs,0.02629902769167408
+Health Care REITs,Casinos & Gaming,0.026368648562834288
+Life & Health Insurance,Air Freight & Logistics,0.026369522535756317
+Rail Transportation,Building Products,0.026417366124390686
+Human Resource & Employment Services,Multi-line Insurance,0.026489334698145923
+Aerospace & Defense,Paper & Plastic Packaging Products & Materials,0.026592068459008415
+Distributors,Retail REITs,0.02672678899157302
+Managed Health Care,Life Sciences Tools & Services,0.026754432713211755
+Health Care REITs,Paper & Plastic Packaging Products & Materials,0.02680409256785789
+Multi-line Insurance,Air Freight & Logistics,0.02683394998890332
+Electric Utilities,Financial Exchanges & Data,0.026840363101514123
+Automotive Retail,Air Freight & Logistics,0.026980268853888514
+Environmental & Facilities Services,Transaction & Payment Processing Services,0.026999112023956516
+Building Products,Multi-line Insurance,0.027268151268949336
+Building Products,Passenger Airlines,0.027296401496200103
+Oil & Gas Refining & Marketing,Electronic Equipment & Instruments,0.027303575768063006
+Industrial Machinery & Supplies & Components,Multi-Family Residential REITs,0.027345154537938746
+Oil & Gas Storage & Transportation,Semiconductor Materials & Equipment,0.027509082047099787
+Pharmaceuticals,Retail REITs,0.027988275553704776
+Specialty Chemicals,Multi-line Insurance,0.028086822091871275
+Electronic Equipment & Instruments,Health Care REITs,0.028234640167695977
+Investment Banking & Brokerage,Multi-Family Residential REITs,0.028275542920752073
+Transaction & Payment Processing Services,Health Care REITs,0.02851044928312775
+"Technology Hardware, Storage & Peripherals",Application Software,0.02913429493064953
+Managed Health Care,Semiconductor Materials & Equipment,0.029409137544652658
+Electric Utilities,Paper & Plastic Packaging Products & Materials,0.02956616080210487
+Life Sciences Tools & Services,Oil & Gas Exploration & Production,0.029586973147205414
+Consumer Finance,Casinos & Gaming,0.029601241560667554
+Health Care Services,Specialty Chemicals,0.029989228008458445
+Paper & Plastic Packaging Products & Materials,Life & Health Insurance,0.030189457266693396
+Diversified Banks,Multi-Family Residential REITs,0.03093897528449699
+Pharmaceuticals,Environmental & Facilities Services,0.031058909671929348
+Fertilizers & Agricultural Chemicals,Transaction & Payment Processing Services,0.031154118798214375
+Multi-Family Residential REITs,Semiconductor Materials & Equipment,0.031276607639110755
+Multi-Utilities,Paper & Plastic Packaging Products & Materials,0.032078767416238746
+Life Sciences Tools & Services,Oil & Gas Storage & Transportation,0.03252504943713708
+Electric Utilities,Semiconductors,0.0325345319191519
+Broadcasting,Household Products,0.03257243590828353
+Retail REITs,Construction Machinery & Heavy Transportation Equipment,0.03278153614717746
+Oil & Gas Storage & Transportation,Transaction & Payment Processing Services,0.03280988449740413
+Health Care Services,Health Care REITs,0.03297205369402121
+Retail REITs,Electronic Equipment & Instruments,0.03346981386186629
+Specialty Chemicals,Multi-Family Residential REITs,0.03378364457823683
+Automobile Manufacturers,Oil & Gas Equipment & Services,0.03393612440938272
+Oil & Gas Storage & Transportation,Communications Equipment,0.03431781904939415
+Multi-Utilities,Application Software,0.03490234591831805
+Health Care Supplies,Passenger Airlines,0.03511681662847371
+Automobile Manufacturers,Life & Health Insurance,0.035149693149360776
+Oil & Gas Exploration & Production,Transaction & Payment Processing Services,0.03548516772812516
+Health Care Distributors,IT Consulting & Other Services,0.035546341711555525
+Multi-Family Residential REITs,"Hotels, Resorts & Cruise Lines",0.035626331587994345
+Communications Equipment,Electrical Components & Equipment,0.03566226500477582
+Electric Utilities,Electronic Equipment & Instruments,0.03567112792163431
+Electronic Equipment & Instruments,Automotive Retail,0.03592242698045728
+Property & Casualty Insurance,Paper & Plastic Packaging Products & Materials,0.03596317035329223
+Investment Banking & Brokerage,Communications Equipment,0.03608823695448201
+Environmental & Facilities Services,Distributors,0.03621162945361712
+Industrial Machinery & Supplies & Components,Life Sciences Tools & Services,0.03627652613938292
+Movies & Entertainment,Communications Equipment,0.03639052939959919
+Electric Utilities,"Apparel, Accessories & Luxury Goods",0.03648951575669976
+Application Software,Health Care REITs,0.036525804237992225
+Transaction & Payment Processing Services,Financial Exchanges & Data,0.0365730601138095
+Packaged Foods & Meats,Retail REITs,0.0367882764076451
+Health Care Distributors,Personal Care Products,0.03689600081651019
+Paper & Plastic Packaging Products & Materials,Environmental & Facilities Services,0.03697724420335759
+Oil & Gas Equipment & Services,Communications Equipment,0.03742691552700893
+IT Consulting & Other Services,Life Sciences Tools & Services,0.03743023807170721
+Health Care REITs,Homebuilding,0.03743439742995616
+Construction Machinery & Heavy Transportation Equipment,Multi-Family Residential REITs,0.03748063921562521
+IT Consulting & Other Services,Multi-line Insurance,0.037609453782499316
+Health Care REITs,Packaged Foods & Meats,0.03782074236916244
+Industrial Machinery & Supplies & Components,Health Care REITs,0.038024909693755486
+Packaged Foods & Meats,Restaurants,0.03804740305714307
+Oil & Gas Storage & Transportation,Paper & Plastic Packaging Products & Materials,0.03809575437171003
+Property & Casualty Insurance,Transaction & Payment Processing Services,0.0382832762960946
+Oil & Gas Equipment & Services,Electronic Equipment & Instruments,0.03836160659381307
+Pharmaceuticals,Electronic Equipment & Instruments,0.03847851841458706
+Biotechnology,Oil & Gas Exploration & Production,0.03880339509991749
+Oil & Gas Refining & Marketing,Internet Services & Infrastructure,0.03908371026402167
+Paper & Plastic Packaging Products & Materials,Retail REITs,0.039179710805445245
+Systems Software,Automotive Retail,0.039253246286123665
+Packaged Foods & Meats,Telecom Tower REITs,0.03957918846610507
+Health Care REITs,Specialty Chemicals,0.039723603766516964
+Oil & Gas Exploration & Production,Air Freight & Logistics,0.03973019509337683
+Health Care Distributors,Restaurants,0.039737250391560563
+Broadcasting,Passenger Airlines,0.040708868465905976
+Restaurants,Life Sciences Tools & Services,0.04081847541483243
+Pharmaceuticals,Health Care Services,0.04119268932256762
+Life & Health Insurance,Oil & Gas Storage & Transportation,0.04129004141024956
+Transaction & Payment Processing Services,Rail Transportation,0.041307892300461085
+Consumer Staples Merchandise Retail,Property & Casualty Insurance,0.04131475534565391
+Health Care Distributors,Multi-Family Residential REITs,0.0414169466012487
+Building Products,Retail REITs,0.04145860467223965
+Interactive Media & Services,Pharmaceuticals,0.041905060615597844
+Soft Drinks & Non-alcoholic Beverages,Financial Exchanges & Data,0.04192392490378083
+Managed Health Care,Specialty Chemicals,0.04225094218968342
+Property & Casualty Insurance,Biotechnology,0.0423017189561059
+Building Products,Asset Management & Custody Banks,0.04246416626997779
+Retail REITs,Building Products,0.04301860593736032
+Diversified Banks,Communications Equipment,0.04308837763980152
+Personal Care Products,Fertilizers & Agricultural Chemicals,0.04310099973864968
+Multi-Family Residential REITs,Health Care Supplies,0.04322634106103463
+Paper & Plastic Packaging Products & Materials,Consumer Finance,0.04350230045670384
+Passenger Airlines,Movies & Entertainment,0.04365048165264014
+Multi-Utilities,IT Consulting & Other Services,0.04382244766942488
+Oil & Gas Equipment & Services,Multi-line Insurance,0.04397398913589415
+Packaged Foods & Meats,Financial Exchanges & Data,0.044334496456318345
+Life & Health Insurance,Multi-Family Residential REITs,0.04450227619441074
+Electric Utilities,Biotechnology,0.04455276502859011
+Transaction & Payment Processing Services,Building Products,0.044669099522551596
+Multi-Utilities,Health Care Supplies,0.04500184360783132
+Managed Health Care,Communications Equipment,0.04525205431943185
+Electronic Equipment & Instruments,Multi-Family Residential REITs,0.04531382183217554
+Managed Health Care,Oil & Gas Storage & Transportation,0.04538737410796538
+Specialty Chemicals,Retail REITs,0.045394267665912064
+Consumer Staples Merchandise Retail,Multi-Utilities,0.04557214677385917
+Paper & Plastic Packaging Products & Materials,Life Sciences Tools & Services,0.045735045092034944
+Packaged Foods & Meats,Electric Utilities,0.04573639385584499
+Life Sciences Tools & Services,Rail Transportation,0.04577131530039009
+Multi-Family Residential REITs,Building Products,0.04582841150135254
+Health Care Distributors,Health Care Equipment,0.04582862477062423
+Health Care Services,Multi-Family Residential REITs,0.04586223343614685
+Specialty Chemicals,Oil & Gas Storage & Transportation,0.04606684117961932
+Soft Drinks & Non-alcoholic Beverages,Transaction & Payment Processing Services,0.04650214324918225
+Industrial Machinery & Supplies & Components,Passenger Airlines,0.0465576561054447
+Oil & Gas Refining & Marketing,Communications Equipment,0.04656369749293424
+Managed Health Care,Multi-Family Residential REITs,0.04672471661495925
+Health Care Distributors,Diversified Banks,0.047250657135941884
+Packaged Foods & Meats,Consumer Staples Merchandise Retail,0.047262944485921984
+Oil & Gas Equipment & Services,Internet Services & Infrastructure,0.04783873162816429
+Property & Casualty Insurance,Air Freight & Logistics,0.04821359360483801
+Packaged Foods & Meats,Specialty Chemicals,0.048353253969906175
+Transaction & Payment Processing Services,"Hotels, Resorts & Cruise Lines",0.048557355152078
+Rail Transportation,Homebuilding,0.04863303724094396
+Systems Software,Pharmaceuticals,0.04874421564874697
+Communications Equipment,Passenger Airlines,0.04889894104373198
+Soft Drinks & Non-alcoholic Beverages,Specialty Chemicals,0.04903519248067423
+Paper & Plastic Packaging Products & Materials,Multi-line Insurance,0.04913292986894478
+Electric Utilities,Passenger Airlines,0.049209787835126806
+Multi-Family Residential REITs,Air Freight & Logistics,0.049359150427039485
+Fertilizers & Agricultural Chemicals,Household Products,0.0496014383951104
+Pharmaceuticals,Rail Transportation,0.04995688421298367

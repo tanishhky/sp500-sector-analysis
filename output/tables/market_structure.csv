@@ -1,0 +1,69 @@
+Sector,Market_Structure_Binomial,Market_Structure_HHI,HHI_Overperformance,N_Significant,N_Companies,Top_Company,Top_Count,Ranking
+Aerospace & Defense,Duopolistic,Oligopolistic,0.10557094490612494,2,12,HWM,19,HWM:19;AXON:17;GE:15;RTX:11;TDG:11;TXT:9;GD:6;BA:6;NOC:6;HII:5;LMT:5;LHX:4
+Air Freight & Logistics,Oligopolistic,Monopolistic,0.253099173553719,0,4,EXPD,13,EXPD:13;FDX:11;CHRW:10;UPS:10
+"Apparel, Accessories & Luxury Goods",Monopolistic,Monopolistic,0.3206424747174301,1,4,RL,16,RL:16;TPR:15;LULU:7;NKE:3
+Application Software,Duopolistic,Oligopolistic,0.11415844178530876,2,11,CDNS,17,CDNS:17;SNPS:16;ORCL:15;FICO:13;INTU:11;PTC:10;ADSK:8;TYL:7;CRM:4;ADBE:3;WDAY:3
+Asset Management & Custody Banks,Duopolistic,Oligopolistic,0.11535750646096014,2,11,AMP,19,AMP:19;KKR:18;APO:15;BX:14;BK:11;STT:9;BLK:8;NTRS:6;IVZ:6;BEN:5;TROW:2
+Automobile Manufacturers,Monopolistic,Monopolistic,0.3436385255648038,0,3,TSLA,12,TSLA:12;F:9;GM:8
+Automotive Retail,Monopolistic,Monopolistic,0.37764791818845883,1,3,ORLY,16,ORLY:16;AZO:15;KMX:6
+Biotechnology,Oligopolistic,Oligopolistic,0.14404742829674733,0,8,ABBV,14,ABBV:14;VRTX:14;REGN:13;AMGN:12;GILD:10;MRNA:7;INCY:6;BIIB:3
+Broadcasting,Duopolistic,Monopolistic,0.3819855358316897,2,3,FOXA,17,FOXA:17;FOX:16;WBD:6
+Building Products,Oligopolistic,Duopolistic,0.16088077762348743,1,8,BLDR,16,BLDR:16;TT:15;JCI:11;CARR:10;LII:8;MAS:5;ALLE:4;AOS:2
+Casinos & Gaming,Oligopolistic,Monopolistic,0.2540154669839382,0,4,LVS,11,LVS:11;MGM:11;WYNN:11;CZR:8
+Communications Equipment,Monopolistic,Monopolistic,0.3333333333333333,1,4,ANET,19,ANET:19;MSI:9;FFIV:7;CSCO:4
+Construction Machinery & Heavy Transportation Equipment,Oligopolistic,Monopolistic,0.26239669421487605,0,4,CAT,15,CAT:15;WAB:11;CMI:9;PCAR:9
+Consumer Finance,Monopolistic,Monopolistic,0.3381893860561914,0,3,AXP,12,AXP:12;SYF:10;COF:9
+Consumer Staples Merchandise Retail,Oligopolistic,Duopolistic,0.21680313278746882,1,5,COST,16,COST:16;WMT:12;DLTR:9;DG:8;TGT:8
+Distributors,Monopolistic,Monopolistic,0.3359375,0,3,POOL,12,POOL:12;GPC:10;LKQ:10
+Diversified Banks,Oligopolistic,Duopolistic,0.17958341152186147,1,7,WFC,18,WFC:18;JPM:15;C:13;PNC:11;BAC:9;TFC:6;USB:1
+Diversified Support Services,Monopolistic,Monopolistic,0.36574074074074076,1,3,CTAS,17,CTAS:17;CPRT:11;LDOS:8
+Electric Utilities,Duopolistic,Oligopolistic,0.08418367346938775,2,14,VST,17,VST:17;CEG:11;EXC:11;SO:10;PEG:10;DUK:7;LNT:7;EIX:7;AEP:6;EVRG:6;WEC:6;FE:6;PPL:5;ES:3
+Electrical Components & Equipment,Oligopolistic,Duopolistic,0.2056,0,5,ETN,13,ETN:13;GNRC:10;EMR:10;AME:9;ROK:8
+Electronic Equipment & Instruments,Oligopolistic,Duopolistic,0.2016460905349794,0,5,TDY,12,TDY:12;KEYS:11;ROP:11;TRMB:11;ZBRA:9
+Environmental & Facilities Services,Monopolistic,Monopolistic,0.34256055363321797,0,4,RSG,15,RSG:15;ROL:11;WM:7;VLTO:1
+Fertilizers & Agricultural Chemicals,Duopolistic,Monopolistic,0.2907986111111111,2,4,CF,17,CF:17;CTVA:16;MOS:10;FMC:5
+Financial Exchanges & Data,Duopolistic,Oligopolistic,0.12585733882030178,2,9,CBOE,18,CBOE:18;NDAQ:17;ICE:15;MCO:14;SPGI:13;MSCI:10;CME:10;FDS:7;MKTX:4
+Health Care Distributors,Monopolistic,Monopolistic,0.3029513888888889,1,4,MCK,18,MCK:18;COR:14;CAH:13;HSIC:3
+Health Care Equipment,Oligopolistic,Oligopolistic,0.06958884688090737,4,18,ISRG,17,ISRG:17;BSX:17;IDXX:16;SYK:16;PODD:14;RMD:14;STE:13;ABT:13;DXCM:12;RVTY:9;EW:9;HOLX:9;ZBH:7;MDT:7;GEHC:5;BDX:5;TFX:1;BAX:0
+Health Care REITs,Monopolistic,Monopolistic,0.43425605536332185,1,3,WELL,18,WELL:18;VTR:13;DOC:3
+Health Care Services,Oligopolistic,Duopolistic,0.2053311120366514,0,5,DVA,12,DVA:12;LH:11;DGX:10;CI:8;CVS:8
+Health Care Supplies,Monopolistic,Monopolistic,0.3498622589531681,0,3,WST,14,WST:14;COO:11;ALGN:8
+Homebuilding,Monopolistic,Monopolistic,0.2849494348602023,0,4,PHM,15,PHM:15;DHI:13;NVR:7;LEN:6
+"Hotels, Resorts & Cruise Lines",Oligopolistic,Oligopolistic,0.14454376792039128,0,8,RCL,14,RCL:14;BKNG:12;HLT:12;EXPE:12;MAR:10;CCL:10;NCLH:5;ABNB:2
+Household Products,Monopolistic,Monopolistic,0.28987654320987655,1,4,CHD,16,CHD:16;CL:15;KMB:9;CLX:5
+Human Resource & Employment Services,Oligopolistic,Monopolistic,0.27636560302866414,0,4,ADP,15,ADP:15;PAYX:13;DAY:9;PAYC:6
+IT Consulting & Other Services,Oligopolistic,Duopolistic,0.22263313609467458,1,5,IT,16,IT:16;IBM:13;ACN:8;CTSH:8;EPAM:7
+Industrial Machinery & Supplies & Components,Oligopolistic,Oligopolistic,0.09326327641208482,5,14,PH,18,PH:18;HUBB:17;IR:17;GWW:17;PNR:16;SNA:13;XYL:11;DOV:9;NDSN:8;ITW:7;OTIS:6;IEX:4;SWK:2;FTV:1
+Insurance Brokers,Oligopolistic,Duopolistic,0.23150510204081634,1,5,AJG,18,AJG:18;BRO:14;ERIE:10;AON:9;WTW:5
+Interactive Media & Services,Oligopolistic,Monopolistic,0.29250000000000004,0,4,GOOG,13,GOOG:13;GOOGL:13;META:11;MTCH:3
+Internet Services & Infrastructure,Oligopolistic,Monopolistic,0.2673130193905817,0,4,GDDY,12,GDDY:12;PLTR:12;AKAM:7;VRSN:7
+Investment Banking & Brokerage,Oligopolistic,Monopolistic,0.2580340264650284,0,4,GS,14,GS:14;MS:13;RJF:10;SCHW:9
+Life & Health Insurance,Oligopolistic,Duopolistic,0.20425165182418845,0,5,AFL,15,AFL:15;MET:12;GL:11;PFG:11;PRU:10
+Life Sciences Tools & Services,Oligopolistic,Oligopolistic,0.1344517958412098,1,8,MTD,16,MTD:16;WAT:15;CRL:12;DHR:12;TMO:12;A:10;IQV:10;TECH:5
+Managed Health Care,Oligopolistic,Duopolistic,0.21983471074380162,0,5,UNH,15,UNH:15;MOH:14;ELV:12;HUM:8;CNC:6
+Movies & Entertainment,Monopolistic,Monopolistic,0.4107142857142857,0,3,NFLX,13,NFLX:13;LYV:12;DIS:3
+Multi-Family Residential REITs,Oligopolistic,Duopolistic,0.18785272776135448,0,6,MAA,15,MAA:15;CPT:14;ESS:10;AVB:9;EQR:9;UDR:4
+Multi-Utilities,Oligopolistic,Oligopolistic,0.09228515625,1,12,CNP,18,CNP:18;NI:14;DTE:13;SRE:12;PCG:12;ED:11;AEE:10;PNW:10;NEE:9;CMS:9;XEL:6;D:4
+Multi-line Insurance,Monopolistic,Monopolistic,0.33650416171224734,0,3,L,11,L:11;AIG:9;AIZ:9
+Oil & Gas Equipment & Services,Monopolistic,Monopolistic,0.3622222222222223,0,3,BKR,14,BKR:14;HAL:9;SLB:7
+Oil & Gas Exploration & Production,Oligopolistic,Oligopolistic,0.12406250000000002,0,9,FANG,13,FANG:13;EQT:13;TPL:13;APA:8;DVN:8;COP:7;OXY:7;CTRA:6;EOG:5
+Oil & Gas Refining & Marketing,Monopolistic,Monopolistic,0.39351851851851855,1,3,MPC,19,MPC:19;VLO:10;PSX:7
+Oil & Gas Storage & Transportation,Monopolistic,Monopolistic,0.3372781065088757,1,4,TRGP,19,TRGP:19;WMB:10;KMI:6;OKE:4
+Packaged Foods & Meats,Oligopolistic,Oligopolistic,0.09755463059313217,1,11,MDLZ,16,MDLZ:16;TSN:15;SJM:14;MKC:13;HSY:13;KHC:11;GIS:10;LW:10;CAG:8;CPB:8;HRL:6
+Paper & Plastic Packaging Products & Materials,Oligopolistic,Duopolistic,0.21492346938775508,0,5,PKG,15,PKG:15;AVY:13;SW:12;IP:10;AMCR:6
+Passenger Airlines,Monopolistic,Monopolistic,0.3858131487889273,0,3,UAL,15,UAL:15;DAL:14;LUV:5
+Personal Care Products,Monopolistic,Monopolistic,0.4403292181069958,1,3,PG,16,PG:16;EL:7;KVUE:4
+Pharmaceuticals,Oligopolistic,Duopolistic,0.17709957674314988,1,7,LLY,20,LLY:20;ZTS:12;BMY:8;MRK:8;JNJ:7;PFE:7;VTRS:5
+Property & Casualty Insurance,Oligopolistic,Oligopolistic,0.136035891684025,0,8,PGR,15,PGR:15;HIG:13;WRB:12;ACGL:9;ALL:9;CINF:8;TRV:7;CB:6
+Rail Transportation,Monopolistic,Monopolistic,0.341796875,0,3,NSC,13,NSC:13;CSX:10;UNP:9
+Regional Banks,Oligopolistic,Duopolistic,0.1748046875,0,6,CFG,13,CFG:13;FITB:13;RF:13;MTB:9;KEY:8;HBAN:8
+Restaurants,Oligopolistic,Duopolistic,0.17822265625,0,6,CMG,15,CMG:15;DRI:12;YUM:12;DPZ:10;MCD:9;SBUX:6
+Retail REITs,Oligopolistic,Duopolistic,0.24160000000000004,0,5,SPG,14,SPG:14;REG:14;KIM:12;O:8;FRT:2
+Semiconductor Materials & Equipment,Oligopolistic,Monopolistic,0.25031236984589755,1,5,KLAC,16,KLAC:16;AMAT:12;ENPH:10;LRCX:10;TER:1
+Semiconductors,Duopolistic,Oligopolistic,0.09259809750297264,2,14,AVGO,16,AVGO:16;NVDA:16;MPWR:11;ON:11;AMD:11;FSLR:10;MU:10;QCOM:8;ADI:7;MCHP:4;TXN:4;NXPI:4;INTC:3;SWKS:1
+Soft Drinks & Non-alcoholic Beverages,Oligopolistic,Monopolistic,0.26115407495538373,0,4,MNST,13,MNST:13;KO:11;KDP:10;PEP:7
+Specialty Chemicals,Oligopolistic,Oligopolistic,0.1222106601919297,1,9,SHW,17,SHW:17;ALB:13;ECL:12;DD:11;EMN:10;PPG:9;CE:8;LYB:8;IFF:5
+Systems Software,Oligopolistic,Duopolistic,0.18611570247933884,0,6,CRWD,13,CRWD:13;PANW:12;FTNT:11;NOW:8;MSFT:7;GEN:4
+"Technology Hardware, Storage & Peripherals",Oligopolistic,Oligopolistic,0.1446280991735537,0,8,DELL,13,DELL:13;SMCI:13;STX:9;AAPL:9;HPQ:8;NTAP:5;WDC:5;HPE:4
+Telecom Tower REITs,Monopolistic,Monopolistic,0.3979591836734694,0,3,AMT,14,AMT:14;SBAC:10;CCI:4
+Transaction & Payment Processing Services,Duopolistic,Duopolistic,0.19212962962962965,2,7,MA,20,MA:20;V:17;CPAY:13;PYPL:8;JKHY:7;FIS:4;GPN:3
