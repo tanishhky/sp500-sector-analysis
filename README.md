@@ -334,6 +334,18 @@ commodity-driven dynamics. A rolling 200-day connectedness index ranges from 55.
 to a peak of 87.0% on 2020-06-24, tracing the rise in systemic linkage through the
 COVID-19 crisis.
 
+<p align="center">
+  <img src="output/figures/spillover_network.png" alt="Sector spillover network" width="560">
+</p>
+
+<p align="center"><em>Sector return spillover network (strongest 20% of directed links). Node color is net connectedness (red = transmitter, blue = receiver), node size is total transmitted variance. Industrials and Financials are the dominant hubs; Energy is the principal receiver.</em></p>
+
+<p align="center">
+  <img src="output/figures/rolling_tci.png" alt="Rolling total connectedness index" width="720">
+</p>
+
+<p align="center"><em>Rolling 200-day total connectedness index, peaking at 87% during the 2020 COVID-19 crisis.</em></p>
+
 **Granger causality, done right.** On the daily series with maximum lag 5 and
 multiple-testing correction, 88 of 110 directed links are significant under FDR and
 54 under the stricter Bonferroni (versus about 6 expected by chance). The contrast
