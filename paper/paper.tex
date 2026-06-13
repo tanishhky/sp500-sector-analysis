@@ -22,7 +22,7 @@
 
 \begin{document}
 
-\title{Sector-Level Analysis and Clustering of S\&P 500 Companies Using Financial Metrics and Machine Learning}
+\title{S\&P 500 Sector Dynamics: Return Connectedness, Market Concentration, and Structural Clustering (2019 to 2025)}
 
 \author{
 \IEEEauthorblockN{Tanishk Yadav}
@@ -36,16 +36,16 @@ ORCID: 0009-0006-2382-9411}
 \maketitle
 
 \begin{abstract}
-This paper presents a comprehensive analysis of sector-level competitive dynamics within the S\&P 500 index, combining financial metrics, statistical testing, and unsupervised learning. We analyze 68 sub-sectors encompassing over 400 companies using five normalized parameters: year-over-year market capitalization growth, revenue growth, a novel squared-weight overperformance index, and short- and long-term beta covariances, with data spanning September 2019 through December 2025 (26 quarters). Market structures are classified as monopolistic, duopolistic, or oligopolistic using both binomial significance tests on outperformance counts and the Herfindahl-Hirschman Index (HHI), with strong agreement between methods (Pearson $r = 0.537$, $p < 10^{-4}$). Hierarchical and K-Means clustering identifies 2 statistically optimal sector groups, validated through leave-one-out cross-validation with a Random Forest classifier achieving 95.6\% accuracy and Fowlkes-Mallows index of 0.941. Temporal out-of-sample validation (training on 2019--2023, testing on 2024--2025) shows that 75\% of sectors maintain their market structure classification, while overperformance rankings show significant reshuffling ($r = 0.181$, $p = 0.14$), indicating that market dominance is not persistent. Granger causality tests uncover 297 significant lead-lag relationships between sectors, providing evidence of cross-sector information transmission. These findings carry implications for portfolio construction, sector rotation strategies, and regulatory policy.
+This working paper studies the structure and dynamics of the eleven GICS sectors of the S\&P 500 over September 2019 to December 2025, combining time-series econometrics, industrial-organization measures, and unsupervised learning across 401 constituents. Using daily market-cap-weighted sector returns (1,590 observations), we estimate a Diebold-Yilmaz (2012) generalized connectedness system: the total connectedness index is 78.6\%, indicating that most sector forecast-error variance is cross-sectional rather than own-sector. Industrials and Financials are the largest net transmitters of shocks while Energy is the largest net receiver, and a rolling 200-day connectedness index rises from about 55\% to a 2020 peak of 87\%, tracing systemic stress through the COVID-19 crisis. Pairwise Granger causality on the daily series, corrected for multiple testing, finds 88 of 110 directed links significant under Benjamini-Hochberg FDR (54 under the stricter Bonferroni); the same test on quarterly data is underpowered and yields no links surviving correction, underscoring the role of sampling frequency and multiple-testing control. At the sub-sector level (69 GICS sub-industries), market concentration measured by the Herfindahl-Hirschman Index is rising on net (45 of 69 sub-sectors concentrating), led by Semiconductors and Automobile Manufacturers. Hierarchical and K-means clustering recovers a coherent two-group sector taxonomy, and out-of-sample tests show that broad market-structure labels are fairly stable while growth-dominance rankings reshuffle ($r = 0.181$, $p = 0.14$), indicating that sector dominance is not persistent.
 \end{abstract}
 
 \begin{IEEEkeywords}
-S\&P 500, Financial Metrics, Clustering, Herfindahl-Hirschman Index, Overperformance Index, Granger Causality, Market Structure, Sector Analysis
+S\&P 500, sector connectedness, Diebold-Yilmaz, VAR, generalized variance decomposition, Granger causality, Herfindahl-Hirschman Index, market concentration, clustering, time-series econometrics
 \end{IEEEkeywords}
 
-%--------------------------------------------------------------
+%============================================================
 \section{Introduction}
-%--------------------------------------------------------------
+%============================================================
 
 Understanding competitive dynamics within stock market sectors is fundamental to investment strategy and regulatory policy~\cite{fama1970, bali2016}. While individual stock analysis is well-studied, the sector-level perspective reveals structural patterns that are invisible at the company level: whether an industry is dominated by one firm, shared between two, or dispersed across many competitors.
 
@@ -55,26 +55,26 @@ The analysis covers 68 GICS sub-sectors of the S\&P 500 index with quarterly mar
 
 \begin{enumerate}
     \item \textbf{Statistical rigor}: Market structure classifications are supported by binomial significance tests, not arbitrary thresholds, with cross-validation through HHI comparison.
-    \item \textbf{Temporal out-of-sample validation}: An in-sample (2019--2023) / out-of-sample (2024--2025) split tests whether market structures and concentration rankings persist beyond the training window.
+    \item \textbf{Temporal out-of-sample validation}: An in-sample (2019-2023) / out-of-sample (2024-2025) split tests whether market structures and concentration rankings persist beyond the training window.
     \item \textbf{Time-varying analysis}: Rolling-window overperformance concentration shows how market structures evolve across market cycles, rather than treating them as static.
-    \item \textbf{Inter-sector dependencies}: Granger causality tests on sector-level returns reveal directional lead-lag relationships, providing evidence of cross-sector information transmission that is relevant for sector rotation strategies.
+    \item \textbf{Cross-sector connectedness}: a Diebold-Yilmaz generalized variance-decomposition system on daily sector returns quantifies shock propagation across sectors (total connectedness, net transmitters and receivers, and a time-varying index), complemented by multiple-testing-corrected Granger causality.
 \end{enumerate}
 
-%--------------------------------------------------------------
+%============================================================
 \section{Related Work}
-%--------------------------------------------------------------
+%============================================================
 
 The application of clustering techniques to financial data has a rich history. Mantegna~\cite{mantegna1999} introduced hierarchical clustering of stocks based on return correlations, establishing the concept of market taxonomy. Tumminello et al.~\cite{tumminello2010} extended this to analyze the dynamic evolution of financial networks.
 
-Market concentration measurement using HHI is standard in industrial economics~\cite{rhoades1993}. The U.S. Department of Justice considers markets with HHI below 0.15 as unconcentrated, 0.15--0.25 as moderately concentrated, and above 0.25 as highly concentrated~\cite{doj2010}. We adapt these thresholds for our overperformance-based HHI.
+Market concentration measurement using HHI is standard in industrial economics~\cite{rhoades1993}. The U.S. Department of Justice considers markets with HHI below 0.15 as unconcentrated, 0.15-0.25 as moderately concentrated, and above 0.25 as highly concentrated~\cite{doj2010}. We adapt these thresholds for our overperformance-based HHI.
 
 Granger causality has been applied to financial time series by Billio et al.~\cite{billio2012}, who used it to measure interconnectedness among financial institutions as a systemic risk indicator. Our application extends this to sector-level returns rather than individual institutions.
 
 Beta estimation for sectors follows the capital asset pricing model framework~\cite{sharpe1964}, with the distinction that we compute market-capitalization-weighted sector returns as the dependent variable rather than individual stock returns.
 
-%--------------------------------------------------------------
+%============================================================
 \section{Methodology}
-%--------------------------------------------------------------
+%============================================================
 
 \subsection{Data and Preprocessing}
 
@@ -137,7 +137,7 @@ and compare against traditional HHI from market capitalization shares:
     \text{HHI}_{\text{mktcap}} = \sum_i \left(\frac{M_i}{\sum_j M_j}\right)^2
 \end{equation}
 
-Classification thresholds follow DOJ guidelines~\cite{doj2010}: HHI $> 0.25$ (monopolistic), $0.15$--$0.25$ (duopolistic), $< 0.15$ (oligopolistic).
+Classification thresholds follow DOJ guidelines~\cite{doj2010}: HHI $> 0.25$ (monopolistic), $0.15$-$0.25$ (duopolistic), $< 0.15$ (oligopolistic).
 
 \subsection{Sector Clustering}
 
@@ -161,27 +161,30 @@ Rather than training a neural network on $N = 68$ samples (which would be statis
 
 To assess whether identified market structures are persistent or ephemeral, we split the data temporally:
 \begin{itemize}
-    \item \textbf{In-sample}: September 2019 -- December 2023 (17 quarters, 70\%)
-    \item \textbf{Out-of-sample}: January 2024 -- December 2025 (8 quarters, 30\%)
+    \item \textbf{In-sample}: September 2019 - December 2023 (17 quarters, 70\%)
+    \item \textbf{Out-of-sample}: January 2024 - December 2025 (8 quarters, 30\%)
 \end{itemize}
 All metrics, overperformance rankings, and market structure classifications are computed independently on each split. We measure: (a)~the Pearson correlation of overperformance index values between splits, and (b)~the agreement rate of market structure classifications (monopolistic/duopolistic/oligopolistic).
 
 \subsection{Time-Varying Analysis}
 
-To assess whether market structures are stable or evolving, we compute the HHI of overperformance counts in a rolling 8-quarter (2-year) window for each sector. This reveals transitions between competitive regimes across different market cycles (pre-COVID, pandemic, recovery, and the 2024--2025 AI-driven rally).
+To assess whether market structures are stable or evolving, we compute the HHI of overperformance counts in a rolling 8-quarter (2-year) window for each sector. This reveals transitions between competitive regimes across different market cycles (pre-COVID, pandemic, recovery, and the 2024-2025 AI-driven rally).
 
-\subsection{Granger Causality}
+\subsection{Cross-Sector Connectedness and Granger Causality}
 
-We test pairwise Granger causality~\cite{granger1969} between all sector-level quarterly return series:
+Cross-sector dynamics are studied on \emph{daily} market-cap-weighted sector returns (about 1,590 observations per series) rather than the 25 quarterly points used elsewhere, which are far too few for a VAR.
+
+\textbf{Generalized connectedness.} We fit a VAR($p$) on the 11 GICS-sector daily returns ($p$ by AIC) and compute the generalized forecast-error variance decomposition (Pesaran and Shin, 1998) at a 10-day horizon, row-normalized into the Diebold and Yilmaz (2012) connectedness table, from which we report the total connectedness index, net directional connectedness (transmitters versus receivers), and a rolling 200-day total index.
+
+\textbf{Granger causality.} We also test pairwise Granger causality~\cite{granger1969}:
 \begin{equation}
     R_{i,t} = \alpha + \sum_{l=1}^{L} \beta_l R_{i,t-l} + \sum_{l=1}^{L} \gamma_l R_{j,t-l} + \varepsilon_t
 \end{equation}
+with an F-test of $H_0: \gamma_1 = \cdots = \gamma_L = 0$ and maximum lag $L = 5$ days. Because all directed pairs are tested at once, $p$-values are corrected with both Benjamini-Hochberg FDR and Bonferroni, and we report survivor counts rather than the raw count.
 
-The null hypothesis $H_0: \gamma_1 = \gamma_2 = \cdots = \gamma_L = 0$ is tested using an F-test with maximum lag $L = 2$ quarters. This identifies directional lead-lag relationships: sector $j$ ``Granger-causes'' sector $i$ if past returns of $j$ significantly improve the prediction of $i$'s returns.
-
-%--------------------------------------------------------------
+%============================================================
 \section{Results}
-%--------------------------------------------------------------
+%============================================================
 
 \subsection{Market Structure Classification}
 
@@ -200,7 +203,7 @@ The discrepancy between methods is informative: HHI computed from market capital
     \label{fig:market-structure}
 \end{figure}
 
-Table~\ref{tab:top-hhi} presents the sectors with the highest traditional HHI from market capitalization shares. Notably, Internet Services \& Infrastructure (dominated by Palantir at 88.8\%) has risen to the third-highest concentration, reflecting PLTR's extraordinary market cap growth during 2024--2025.
+Table~\ref{tab:top-hhi} presents the sectors with the highest traditional HHI from market capitalization shares. Notably, Internet Services \& Infrastructure (dominated by Palantir at 88.8\%) has risen to the third-highest concentration, reflecting PLTR's extraordinary market cap growth during 2024-2025.
 
 \begin{table}[H]
 \centering
@@ -239,7 +242,7 @@ Silhouette analysis identifies $k = 2$ as the statistically optimal partition (s
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.85\columnwidth]{fig/silhouette.png}
-    \caption{Silhouette scores for $k \in \{2, \ldots, 10\}$. The dominant peak at $k = 2$ (score = 0.360) reflects a clean binary partition in the data. Secondary peaks at $k = 5$--$6$ suggest finer sub-structure within the two main groups.}
+    \caption{Silhouette scores for $k \in \{2, \ldots, 10\}$. The dominant peak at $k = 2$ (score = 0.360) reflects a clean binary partition in the data. Secondary peaks at $k = 5$-$6$ suggest finer sub-structure within the two main groups.}
     \label{fig:silhouette}
 \end{figure}
 
@@ -296,7 +299,7 @@ Fowlkes-Mallows Index       & 0.941 \\
 
 \subsection{In-Sample / Out-of-Sample Validation}
 
-To test whether market structures are persistent, we train on 2019--2023 (in-sample, 17 quarters) and evaluate on 2024--2025 (out-of-sample, 8 quarters). Two key findings emerge:
+To test whether market structures are persistent, we train on 2019-2023 (in-sample, 17 quarters) and evaluate on 2024-2025 (out-of-sample, 8 quarters). Two key findings emerge:
 
 \textbf{Market structure classifications are moderately stable}: 75.0\% of sectors (51/68) receive the same market structure label (monopolistic, duopolistic, or oligopolistic) in both the in-sample and out-of-sample periods. This suggests that the competitive structure of most sectors persists across a 2-year horizon, though a quarter of sectors undergo structural transitions.
 
@@ -305,7 +308,7 @@ To test whether market structures are persistent, we train on 2019--2023 (in-sam
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.9\columnwidth]{fig/is_oos_overperformance.png}
-    \caption{Overperformance index: in-sample (2019--2023) vs. out-of-sample (2024--2025). The weak correlation ($r = 0.181$, $p = 0.14$) indicates that which firms dominate a sector's growth is not persistent, even when the overall market structure is.}
+    \caption{Overperformance index: in-sample (2019-2023) vs. out-of-sample (2024-2025). The weak correlation ($r = 0.181$, $p = 0.14$) indicates that which firms dominate a sector's growth is not persistent, even when the overall market structure is.}
     \label{fig:isoos}
 \end{figure}
 
@@ -317,9 +320,9 @@ Rolling-window analysis with an 8-quarter (2-year) window confirms that market c
 
 \begin{itemize}
     \item Technology Hardware maintains consistently extreme concentration throughout the full period, reflecting Apple's persistent dominance.
-    \item Oil \& Gas Storage \& Transportation shows a marked increase in concentration during 2021--2022, coinciding with the energy price shock, followed by partial reversion.
+    \item Oil \& Gas Storage \& Transportation shows a marked increase in concentration during 2021-2022, coinciding with the energy price shock, followed by partial reversion.
     \item Aerospace \& Defense displays cyclical concentration patterns, suggesting competitive dynamics shift with defense spending cycles.
-    \item Internet Services \& Infrastructure concentration spiked during 2024--2025, driven by Palantir's extraordinary market cap growth during the AI rally.
+    \item Internet Services \& Infrastructure concentration spiked during 2024-2025, driven by Palantir's extraordinary market cap growth during the AI rally.
 \end{itemize}
 
 \begin{figure}[H]
@@ -329,47 +332,37 @@ Rolling-window analysis with an 8-quarter (2-year) window confirms that market c
     \label{fig:rolling}
 \end{figure}
 
-\subsection{Granger Causality: Inter-Sector Dependencies}
+\subsection{Cross-Sector Connectedness}
 
-Granger causality tests at $\alpha = 0.05$ with maximum lag $L = 2$ identify \textbf{297 significant pairs} out of $68 \times 67 = 4{,}556$ possible directional relationships (6.5\% of all pairs). This exceeds the 5\% expected by chance under the global null, suggesting genuine inter-sector information transmission.
+An earlier version of this study reported ``297 significant Granger pairs'' from pairwise tests on 25 quarterly observations at an uncorrected $p < 0.05$. That count is a multiple-comparisons artifact: across $68 \times 67 = 4{,}556$ directed pairs roughly 235 are significant by chance alone, and \emph{zero} survive Benjamini-Hochberg FDR or Bonferroni correction. We replace it with two properly powered analyses on daily market-cap-weighted sector returns (1,590 observations across the 11 GICS sectors).
 
-Table~\ref{tab:granger} presents the most statistically significant lead-lag relationships.
+\textbf{Generalized connectedness.} Following Diebold and Yilmaz (2012), we fit a VAR (lag selected by AIC) and compute the generalized forecast-error variance decomposition (Pesaran and Shin, 1998) at a 10-day horizon, row-normalized into a connectedness table. The total connectedness index is \textbf{78.6\%}: most of each sector's forecast-error variance is explained by shocks to \emph{other} sectors. Net directional connectedness (Table~\ref{tab:connectedness}) ranks sectors as transmitters or receivers.
 
 \begin{table}[H]
 \centering
-\caption{Top Granger-Causal Sector Pairs}
-\label{tab:granger}
+\caption{Net Directional Connectedness (transmitter $> 0 >$ receiver)}
+\label{tab:connectedness}
 \small
-\begin{tabular}{p{2.6cm}p{2.6cm}c}
+\begin{tabular}{lclc}
 \toprule
-\textbf{Cause} & \textbf{Effect} & \textbf{$p$-value} \\
+\textbf{Transmitter} & \textbf{NET} & \textbf{Receiver} & \textbf{NET} \\
 \midrule
-Oil \& Gas Refining      & Human Resources    & $< 10^{-4}$ \\
-Movies \& Ent.           & Health Care REITs  & 0.0002 \\
-Soft Drinks              & Life Sci. Tools    & 0.0004 \\
-Packaging Products       & Oil \& Gas Storage & 0.0007 \\
-Personal Care            & Life Sci. Tools    & 0.0010 \\
-Electric Utilities       & Diversified Svc.   & 0.0012 \\
-Health Care Distrib.     & Human Resources    & 0.0012 \\
-Pharmaceuticals          & Insurance Brokers  & 0.0012 \\
+Industrials & $+24.2$ & Energy                 & $-23.4$ \\
+Financials  & $+24.1$ & Communication Services & $-14.9$ \\
+Materials   & $+15.9$ & Utilities              & $-10.4$ \\
+Health Care & $+3.5$  & Consumer Discretionary & $-10.4$ \\
+Real Estate & $+0.1$  & Consumer Staples       & $-8.6$  \\
 \bottomrule
 \end{tabular}
 \end{table}
 
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=\columnwidth]{fig/granger_heatmap.png}
-    \caption{Granger causality $p$-value heatmap for the 15 most interconnected sectors. Green cells indicate non-significant relationships; red cells indicate sectors where column sector Granger-causes row sector ($p < 0.05$).}
-    \label{fig:granger}
-\end{figure}
+Cyclical hubs (Industrials, Financials, Materials) propagate shocks system-wide, while Energy is the largest net receiver, consistent with its idiosyncratic, commodity-driven dynamics. A rolling 200-day connectedness index ranges from 55.5\% to a peak of 87.0\% on 24 June 2020, tracing systemic linkage through the COVID-19 crisis.
 
-The defensive sectors (Personal Care, Soft Drinks, Health Care) exhibit strong causal influence on growth-oriented sectors, consistent with a flight-to-quality mechanism: when defensive sectors outperform, it predicts subsequent rotation into growth. The energy sector (Oil \& Gas Refining) shows strong causal influence on labor-intensive sectors (Human Resources), consistent with the cost channel through which energy prices affect operating margins.
+\textbf{Granger causality, done right.} On the daily series with maximum lag 5 and multiple-testing correction, 88 of 110 directed links are significant under FDR and 54 under the stricter Bonferroni (versus about 6 expected by chance). The contrast with the quarterly result (0 surviving correction) is the methodological point: sampling frequency and multiple-testing control determine whether cross-sector causality is detectable at all.
 
-\textbf{Caveat}: With 68 sectors and 22--26 quarterly observations per series, these Granger tests have limited statistical power. The aggregate rate of significant pairs (6.5\% vs. 5\% null expectation) provides modest evidence of inter-sector dependence, but individual pair results should be interpreted as hypothesis-generating. Multiple testing corrections (e.g., Bonferroni) would reduce the significant count substantially; however, the Bonferroni correction is overly conservative for dependent test statistics, as sector returns are correlated by construction.
-
-%--------------------------------------------------------------
+%============================================================
 \section{Discussion}
-%--------------------------------------------------------------
+%============================================================
 
 \subsection{Methodological Contributions}
 
@@ -388,7 +381,7 @@ The finding that market structures are moderately persistent but dominant firms 
 \begin{itemize}
     \item \textbf{Sector allocation}: The binary cluster structure (concentrated vs. dispersed sectors) provides a stable framework for sector-level risk budgeting. Concentrated sectors carry higher idiosyncratic risk due to single-stock dependence.
     \item \textbf{Stock selection}: Within-sector stock selection based on past overperformance is not a reliable strategy, as the $r = 0.181$ IS/OOS correlation shows. Factor-based approaches within sectors may be more robust.
-    \item \textbf{Sector rotation}: The 297 significant Granger-causal pairs suggest that cross-sector momentum signals contain predictive information, particularly from defensive to growth sectors.
+    \item \textbf{Sector rotation}: high daily connectedness (TCI 78.6\%) and 88 of 110 FDR-significant Granger links indicate cross-sector return information is pervasive, so lead-lag and sector-momentum signals plausibly carry predictive content; the net-transmitter ranking (Industrials, Financials) points to where shocks originate.
 \end{itemize}
 
 \subsection{Limitations}
@@ -403,14 +396,14 @@ Several limitations should be acknowledged:
     \item \textbf{Granger $\neq$ causation}: Lead-lag relationships indicate predictive information flow, not economic causation. Omitted common factors may drive apparent inter-sector dependencies.
 \end{itemize}
 
-%--------------------------------------------------------------
+%============================================================
 \section{Conclusion}
-%--------------------------------------------------------------
+%============================================================
 
 This paper provides a rigorous, multi-method analysis of competitive dynamics within S\&P 500 sub-sectors using data through December 2025. Key findings include:
 
 \begin{enumerate}
-    \item \textbf{Market structures are heterogeneous}: 37 of 68 sectors (54\%) exhibit oligopolistic competition, while 22 (32\%) show statistically significant monopolistic tendencies. The extreme outliers are Technology Hardware (Apple: 94.1\%), Automobile Manufacturers (Tesla: 93.1\%), and Internet Services (Palantir: 88.8\%, reflecting the 2024--2025 AI rally).
+    \item \textbf{Market structures are heterogeneous}: 37 of 68 sectors (54\%) exhibit oligopolistic competition, while 22 (32\%) show statistically significant monopolistic tendencies. The extreme outliers are Technology Hardware (Apple: 94.1\%), Automobile Manufacturers (Tesla: 93.1\%), and Internet Services (Palantir: 88.8\%, reflecting the 2024-2025 AI rally).
 
     \item \textbf{Growth dominance partially tracks size dominance}: The overperformance HHI correlates with market-cap HHI at $r = 0.537$ ($p < 10^{-4}$), validating the overperformance index while revealing that growth-based and size-based concentration provide complementary views.
 
@@ -418,52 +411,52 @@ This paper provides a rigorous, multi-method analysis of competitive dynamics wi
 
     \item \textbf{Market structures are stable but dominant firms rotate}: 75\% of sectors maintain their classification out-of-sample, but overperformance rankings reshuffle significantly ($r = 0.181$, $p = 0.14$). This asymmetry implies that sector-level allocation is more robust than within-sector stock selection based on past dominance.
 
-    \item \textbf{Sectors are interdependent}: 297 significant Granger-causal pairs (6.5\% of all possible, exceeding the 5\% null expectation) suggest genuine cross-sector information transmission, with defensive sectors leading growth sectors.
+    \item \textbf{Sectors are highly interdependent}: a Diebold-Yilmaz total connectedness index of 78.6\% and 88 of 110 FDR-significant daily Granger links establish pervasive cross-sector transmission, with Industrials and Financials the dominant net transmitters and Energy the dominant net receiver; the same tests on quarterly data detect nothing after correction.
 \end{enumerate}
 
-Future work should extend the temporal window to include a full business cycle, apply network-based analysis (e.g., minimum spanning trees~\cite{mantegna1999}) to the Granger causality structure, incorporate ESG metrics as additional clustering features, and test whether the identified sector clusters predict differential risk-adjusted returns in an out-of-sample portfolio allocation framework.
+Future work should extend the window to a full business cycle, estimate time-varying connectedness with a rolling or TVP-VAR to study how transmitter and receiver roles rotate across regimes, incorporate ESG metrics as additional clustering features, and test whether the connectedness network and sector clusters predict differential risk-adjusted returns in an out-of-sample allocation framework.
 
 \smallskip
 \noindent\textbf{Code Availability}: The complete codebase, including data processing, analysis, and visualization scripts, is available at \url{https://github.com/tanishhky/sp500-sector-analysis}.
 
-%--------------------------------------------------------------
+%============================================================
 \begin{thebibliography}{20}
 
 \bibitem{fama1970}
-E.~F. Fama, ``Efficient capital markets: A review of theory and empirical work,'' \textit{The Journal of Finance}, vol.~25, no.~2, pp.~383--417, 1970.
+E.~F. Fama, ``Efficient capital markets: A review of theory and empirical work,'' \textit{The Journal of Finance}, vol.~25, no.~2, pp.~383-417, 1970.
 
 \bibitem{sharpe1964}
-W.~F. Sharpe, ``Capital asset prices: A theory of market equilibrium under conditions of risk,'' \textit{The Journal of Finance}, vol.~19, no.~3, pp.~425--442, 1964.
+W.~F. Sharpe, ``Capital asset prices: A theory of market equilibrium under conditions of risk,'' \textit{The Journal of Finance}, vol.~19, no.~3, pp.~425-442, 1964.
 
 \bibitem{markowitz1952}
-H.~Markowitz, ``Portfolio selection,'' \textit{The Journal of Finance}, vol.~7, no.~1, pp.~77--91, 1952.
+H.~Markowitz, ``Portfolio selection,'' \textit{The Journal of Finance}, vol.~7, no.~1, pp.~77-91, 1952.
 
 \bibitem{rhoades1993}
-S.~A. Rhoades, ``The Herfindahl-Hirschman index,'' \textit{Federal Reserve Bulletin}, vol.~79, pp.~188--189, 1993.
+S.~A. Rhoades, ``The Herfindahl-Hirschman index,'' \textit{Federal Reserve Bulletin}, vol.~79, pp.~188-189, 1993.
 
 \bibitem{doj2010}
 U.S. Department of Justice and Federal Trade Commission, ``Horizontal merger guidelines,'' 2010. [Online]. Available: \url{https://www.justice.gov/atr/horizontal-merger-guidelines-08192010}
 
 \bibitem{ward1963}
-J.~H. Ward~Jr., ``Hierarchical grouping to optimize an objective function,'' \textit{Journal of the American Statistical Association}, vol.~58, no.~301, pp.~236--244, 1963.
+J.~H. Ward~Jr., ``Hierarchical grouping to optimize an objective function,'' \textit{Journal of the American Statistical Association}, vol.~58, no.~301, pp.~236-244, 1963.
 
 \bibitem{rousseeuw1987}
-P.~J. Rousseeuw, ``Silhouettes: A graphical aid to the interpretation and validation of cluster analysis,'' \textit{Journal of Computational and Applied Mathematics}, vol.~20, pp.~53--65, 1987.
+P.~J. Rousseeuw, ``Silhouettes: A graphical aid to the interpretation and validation of cluster analysis,'' \textit{Journal of Computational and Applied Mathematics}, vol.~20, pp.~53-65, 1987.
 
 \bibitem{breiman2001}
-L.~Breiman, ``Random forests,'' \textit{Machine Learning}, vol.~45, no.~1, pp.~5--32, 2001.
+L.~Breiman, ``Random forests,'' \textit{Machine Learning}, vol.~45, no.~1, pp.~5-32, 2001.
 
 \bibitem{granger1969}
-C.~W.~J. Granger, ``Investigating causal relations by econometric models and cross-spectral methods,'' \textit{Econometrica}, vol.~37, no.~3, pp.~424--438, 1969.
+C.~W.~J. Granger, ``Investigating causal relations by econometric models and cross-spectral methods,'' \textit{Econometrica}, vol.~37, no.~3, pp.~424-438, 1969.
 
 \bibitem{mantegna1999}
-R.~N. Mantegna, ``Hierarchical structure in financial markets,'' \textit{The European Physical Journal B}, vol.~11, no.~1, pp.~193--197, 1999.
+R.~N. Mantegna, ``Hierarchical structure in financial markets,'' \textit{The European Physical Journal B}, vol.~11, no.~1, pp.~193-197, 1999.
 
 \bibitem{tumminello2010}
-M.~Tumminello, F.~Lillo, and R.~N. Mantegna, ``Correlation, hierarchies, and networks in financial markets,'' \textit{Journal of Economic Behavior \& Organization}, vol.~75, no.~1, pp.~40--58, 2010.
+M.~Tumminello, F.~Lillo, and R.~N. Mantegna, ``Correlation, hierarchies, and networks in financial markets,'' \textit{Journal of Economic Behavior \& Organization}, vol.~75, no.~1, pp.~40-58, 2010.
 
 \bibitem{billio2012}
-M.~Billio, M.~Getmansky, A.~W. Lo, and L.~Pelizzon, ``Econometric measures of connectedness and systemic risk in the finance and insurance sectors,'' \textit{Journal of Financial Economics}, vol.~104, no.~3, pp.~535--559, 2012.
+M.~Billio, M.~Getmansky, A.~W. Lo, and L.~Pelizzon, ``Econometric measures of connectedness and systemic risk in the finance and insurance sectors,'' \textit{Journal of Financial Economics}, vol.~104, no.~3, pp.~535-559, 2012.
 
 \bibitem{bali2016}
 T.~G. Bali, R.~F. Engle, and S.~Murray, \textit{Empirical Asset Pricing: The Cross Section of Stock Returns}. Hoboken, NJ: Wiley, 2016.
@@ -478,7 +471,7 @@ R.~S. Tsay, \textit{Analysis of Financial Time Series}, 3rd~ed. Hoboken, NJ: Wil
 J.~H. Cochrane, \textit{Asset Pricing}, Revised~ed. Princeton, NJ: Princeton University Press, 2005.
 
 \bibitem{pedregosa2011}
-F.~Pedregosa~\textit{et al.}, ``Scikit-learn: Machine learning in Python,'' \textit{Journal of Machine Learning Research}, vol.~12, pp.~2825--2830, 2011.
+F.~Pedregosa~\textit{et al.}, ``Scikit-learn: Machine learning in Python,'' \textit{Journal of Machine Learning Research}, vol.~12, pp.~2825-2830, 2011.
 
 \bibitem{hull2018}
 J.~C. Hull, \textit{Options, Futures, and Other Derivatives}, 10th~ed. New York: Pearson, 2018.
@@ -487,7 +480,7 @@ J.~C. Hull, \textit{Options, Futures, and Other Derivatives}, 10th~ed. New York:
 C.~M. Bishop, \textit{Pattern Recognition and Machine Learning}. New York: Springer, 2006.
 
 \bibitem{macqueen1967}
-J.~MacQueen, ``Some methods for classification and analysis of multivariate observations,'' in \textit{Proc. 5th Berkeley Symp. on Mathematical Statistics and Probability}, vol.~1, pp.~281--297, 1967.
+J.~MacQueen, ``Some methods for classification and analysis of multivariate observations,'' in \textit{Proc. 5th Berkeley Symp. on Mathematical Statistics and Probability}, vol.~1, pp.~281-297, 1967.
 
 \end{thebibliography}
 

@@ -1,0 +1,89 @@
+cause,effect,min_p
+Financials,Consumer Staples,2.862505512615326e-13
+Financials,Utilities,2.0884630167164347e-12
+Industrials,Utilities,6.995891109309224e-12
+Health Care,Industrials,3.522273247568442e-11
+Consumer Staples,Industrials,7.437633288691578e-11
+Energy,Utilities,1.1387091177026528e-09
+Real Estate,Utilities,2.3175248561661943e-09
+Consumer Staples,Energy,1.3349869788029664e-08
+Health Care,Energy,4.048032016422994e-08
+Industrials,Consumer Staples,4.6449720972607844e-08
+Utilities,Real Estate,1.05248672935962e-07
+Consumer Discretionary,Utilities,1.3191032558097972e-07
+Financials,Materials,6.365011061311808e-07
+Industrials,Real Estate,6.795937779847728e-07
+Real Estate,Consumer Staples,6.833863645474423e-07
+Energy,Consumer Staples,8.353284135477871e-07
+Utilities,Energy,2.135366181405224e-06
+Financials,Industrials,3.3324412530026843e-06
+Utilities,Industrials,3.6188718579374923e-06
+Financials,Real Estate,3.7022816788402397e-06
+Consumer Staples,Financials,4.160440132611274e-06
+Consumer Staples,Real Estate,4.707732827999086e-06
+Health Care,Communication Services,5.979440497985402e-06
+Consumer Staples,Communication Services,6.2945249979629735e-06
+Financials,Communication Services,8.170495949791571e-06
+Health Care,Materials,8.915748931559144e-06
+Industrials,Energy,9.834740421371922e-06
+Real Estate,Energy,1.0882168332174058e-05
+Health Care,Information Technology,1.1079284595368427e-05
+Utilities,Materials,1.1965078928124925e-05
+Health Care,Financials,1.4018627088517644e-05
+Materials,Utilities,1.605560754972999e-05
+Health Care,Consumer Staples,1.737005076578409e-05
+Information Technology,Utilities,2.710453758734485e-05
+Financials,Information Technology,3.044236043953915e-05
+Health Care,Consumer Discretionary,3.160800454244188e-05
+Industrials,Materials,3.522025474700917e-05
+Energy,Information Technology,3.6674243178768106e-05
+Financials,Energy,4.212804818094773e-05
+Consumer Staples,Materials,4.764746906530253e-05
+Consumer Staples,Information Technology,4.902862829805449e-05
+Health Care,Utilities,6.497148465721993e-05
+Utilities,Financials,7.110963870948297e-05
+Information Technology,Energy,8.182416016612436e-05
+Information Technology,Consumer Discretionary,9.795289557535852e-05
+Real Estate,Communication Services,0.0001772849875647924
+Utilities,Information Technology,0.00021679618406277053
+Real Estate,Information Technology,0.0002205772317950257
+Health Care,Real Estate,0.00025131737928638727
+Materials,Consumer Staples,0.00026507276670605063
+Utilities,Consumer Discretionary,0.0002869252755136655
+Industrials,Health Care,0.00030225185082451226
+Financials,Health Care,0.0003394279895771859
+Energy,Communication Services,0.0004164081000946747
+Communication Services,Utilities,0.0005035759192860419
+Utilities,Communication Services,0.0007002297735515072
+Consumer Discretionary,Consumer Staples,0.0007582714942820393
+Communication Services,Consumer Staples,0.000834531994112851
+Information Technology,Industrials,0.0009288720992386865
+Industrials,Consumer Discretionary,0.0010861643844824816
+Financials,Consumer Discretionary,0.0013537472353427873
+Industrials,Communication Services,0.0013759809932925426
+Consumer Staples,Consumer Discretionary,0.0014895088654061583
+Industrials,Information Technology,0.001685746815764545
+Real Estate,Industrials,0.002119394132627411
+Information Technology,Consumer Staples,0.0030271145047995273
+Energy,Consumer Discretionary,0.0030903149942501373
+Real Estate,Materials,0.003303653891229843
+Industrials,Financials,0.0037203127749593987
+Consumer Staples,Utilities,0.004071731830655903
+Real Estate,Health Care,0.004122937538948039
+Energy,Health Care,0.0045498435079155035
+Information Technology,Materials,0.006234054763542213
+Materials,Communication Services,0.007099730894230857
+Communication Services,Consumer Discretionary,0.00917417038035902
+Energy,Materials,0.012164711552255644
+Materials,Energy,0.015507315838196338
+Energy,Financials,0.017041985312914638
+Communication Services,Industrials,0.01812294949865371
+Consumer Discretionary,Real Estate,0.019248392146806757
+Consumer Staples,Health Care,0.0192637979977062
+Energy,Industrials,0.020060302826190302
+Materials,Information Technology,0.02357997984505101
+Materials,Industrials,0.025567967795179707
+Materials,Financials,0.02756811594762964
+Information Technology,Real Estate,0.029619979094786558
+Utilities,Consumer Staples,0.03009273020041996
+Consumer Discretionary,Materials,0.031245147916876718

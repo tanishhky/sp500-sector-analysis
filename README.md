@@ -1,7 +1,8 @@
-# Sector-Level Analysis and Clustering of S&P 500 Companies Using Financial Metrics and Machine Learning
+# S&P 500 Sector Dynamics: Return Connectedness, Market Concentration, and Structural Clustering (2019 to 2025)
 
 **Author:** Tanishk Yadav | NYU Tandon School of Engineering
 **ORCID:** [0009-0006-2382-9411](https://orcid.org/0009-0006-2382-9411)
+**Status:** Working paper, not peer-reviewed.
 
 ---
 
@@ -9,25 +10,27 @@
 
 | Metric | Value |
 |---|---|
-| Sectors analyzed | 68 |
-| Companies covered | 400+ |
-| Data range | Sep 2019 – Dec 2025 |
-| Optimal clusters | 2 |
-| LOO-CV Accuracy | 95.6% |
-| Adjusted Rand Index | 0.791 |
-| Fowlkes-Mallows Index | 0.941 |
-| HHI Correlation | 0.537 |
-| IS/OOS Structure Agreement | 75.0% |
-| IS/OOS Growth Dominance *r* | 0.181 |
-| Granger-causal pairs (*p* < 0.05) | 297 |
+| Study period | Sep 2019 to Dec 2025 |
+| GICS sectors / sub-sectors | 11 / 69 |
+| Constituents | 401 |
+| Daily return observations | 1,590 |
+| **Total Connectedness Index** (Diebold-Yilmaz) | **78.6%** |
+| Largest net shock transmitter | Industrials (+24.2) |
+| Largest net shock receiver | Energy (-23.4) |
+| Rolling 200d connectedness (peak) | 55.5% to 87.0% (Jun 2020) |
+| Granger links, daily, FDR-significant | 88 / 110 (54 under Bonferroni) |
+| Granger links, quarterly, after correction | 0 (underpowered) |
+| Sub-sectors with rising concentration (HHI) | 45 / 69 |
+| Silhouette-optimal sector clusters | 2 |
+| Market dominance persistence (OOS rank *r*) | 0.181 (*p* = 0.14, not persistent) |
 
 ---
 
 ## Abstract
 
-This paper presents a comprehensive analysis of sector-level competitive dynamics within the S&P 500 index, combining financial metrics, statistical testing, and unsupervised learning. We analyze 68 sub-sectors encompassing over 400 companies using five normalized parameters: year-over-year market capitalization growth, revenue growth, a novel squared-weight overperformance index, and short- and long-term beta covariances, with data spanning September 2019 through December 2025 (26 quarters). Market structures are classified as monopolistic, duopolistic, or oligopolistic using both binomial significance tests on outperformance counts and the Herfindahl-Hirschman Index (HHI), with strong agreement between methods (Pearson *r* = 0.537, *p* < 10⁻⁴). Hierarchical and K-Means clustering identifies 2 statistically optimal sector groups, validated through leave-one-out cross-validation with a Random Forest classifier achieving 95.6% accuracy and Fowlkes-Mallows index of 0.941. Temporal out-of-sample validation (training on 2019–2023, testing on 2024–2025) shows that 75% of sectors maintain their market structure classification, while overperformance rankings show significant reshuffling (*r* = 0.181, *p* = 0.14), indicating that market dominance is not persistent. Granger causality tests uncover 297 significant lead-lag relationships between sectors, providing evidence of cross-sector information transmission. These findings carry implications for portfolio construction, sector rotation strategies, and regulatory policy.
+This working paper studies the structure and dynamics of the eleven GICS sectors of the S&P 500 over September 2019 to December 2025, combining time-series econometrics, industrial-organization measures, and unsupervised learning across 401 constituents. Using daily market-cap-weighted sector returns (1,590 observations), we estimate a Diebold-Yilmaz (2012) generalized connectedness system: the total connectedness index is 78.6%, indicating that most sector forecast-error variance is cross-sectional rather than own-sector. Industrials and Financials are the largest net transmitters of shocks while Energy is the largest net receiver, and a rolling 200-day connectedness index rises from about 55% to a 2020 peak of 87%, tracing systemic stress through the COVID-19 crisis. Pairwise Granger causality on the daily series, corrected for multiple testing, finds 88 of 110 directed links significant under Benjamini-Hochberg FDR (54 under the stricter Bonferroni); the same test on quarterly data is underpowered and yields no links surviving correction, underscoring the importance of sampling frequency and multiple-testing control. At the sub-sector level (69 GICS sub-industries), market concentration measured by the Herfindahl-Hirschman Index is rising on net (45 of 69 sub-sectors concentrating), led by Semiconductors and Automobile Manufacturers, while a minority fragment. Hierarchical and K-means clustering recovers a coherent two-group sector taxonomy, and out-of-sample tests show that broad market-structure labels are fairly stable while growth-dominance rankings reshuffle (rank correlation 0.181, *p* = 0.14), indicating that sector dominance is not persistent.
 
-**Keywords:** S&P 500, Financial Metrics, Clustering, Herfindahl-Hirschman Index, Overperformance Index, Granger Causality, Market Structure, Sector Analysis
+**Keywords:** S&P 500, sector connectedness, Diebold-Yilmaz, VAR, generalized variance decomposition, Granger causality, Herfindahl-Hirschman Index, market concentration, clustering, time-series econometrics
 
 ---
 
@@ -42,7 +45,7 @@ The analysis covers 68 GICS sub-sectors of the S&P 500 index with quarterly mark
 1. **Statistical rigor**: Market structure classifications are supported by binomial significance tests, not arbitrary thresholds, with cross-validation through HHI comparison.
 2. **Temporal out-of-sample validation**: An in-sample (2019–2023) / out-of-sample (2024–2025) split tests whether market structures and concentration rankings persist beyond the training window.
 3. **Time-varying analysis**: Rolling-window overperformance concentration shows how market structures evolve across market cycles, rather than treating them as static.
-4. **Inter-sector dependencies**: Granger causality tests on sector-level returns reveal directional lead-lag relationships, providing evidence of cross-sector information transmission that is relevant for sector rotation strategies.
+4. **Cross-sector connectedness**: a Diebold-Yilmaz generalized variance-decomposition system on daily sector returns quantifies how shocks propagate across sectors (total connectedness, net transmitters and receivers, and a time-varying index), complemented by multiple-testing-corrected Granger causality.
 
 ---
 
@@ -149,15 +152,33 @@ All metrics, overperformance rankings, and market structure classifications are 
 
 ### 3.6 Time-Varying Analysis
 
-To assess whether market structures are stable or evolving, we compute the HHI of overperformance counts in a rolling 8-quarter (2-year) window for each sector. This reveals transitions between competitive regimes across different market cycles (pre-COVID, pandemic, recovery, and the 2024–2025 AI-driven rally).
+To assess whether market structures are stable or evolving, we track the
+Herfindahl-Hirschman Index (HHI of market-cap shares) per sub-sector across all 26
+quarters and fit a linear trend per sub-sector (`src/hhi_dynamics.py`). This
+separates sub-sectors that are concentrating from those that are fragmenting across
+the pre-COVID, pandemic, recovery, and 2024 to 2025 AI-driven regimes.
 
-### 3.7 Granger Causality
+### 3.7 Cross-Sector Connectedness and Granger Causality
 
-We test pairwise Granger causality [12] between all sector-level quarterly return series:
+Cross-sector dynamics are studied on **daily** market-cap-weighted sector returns
+(`src/build_sector_returns.py`), about 1,590 observations per series, rather than the
+25 quarterly points used elsewhere (far too few for a VAR).
+
+**Generalized connectedness.** We fit a VAR(*p*) on the 11 GICS-sector daily returns
+(*p* by AIC) and compute the generalized forecast-error variance decomposition
+(Pesaran and Shin, 1998) at a 10-day horizon, row-normalized into the Diebold-Yilmaz
+(2012) connectedness table. From it we report the total connectedness index,
+directional "to" and "from" connectedness, net connectedness (transmitters versus
+receivers), and a rolling 200-day total index (`src/connectedness.py`).
+
+**Granger causality.** We also test pairwise Granger causality:
 
 $$R_{i,t} = \alpha + \sum_{l=1}^{L} \beta_l R_{i,t-l} + \sum_{l=1}^{L} \gamma_l R_{j,t-l} + \varepsilon_t$$
 
-The null hypothesis $H_0: \gamma_1 = \gamma_2 = \cdots = \gamma_L = 0$ is tested using an F-test with maximum lag $L = 2$ quarters. This identifies directional lead-lag relationships: sector $j$ "Granger-causes" sector $i$ if past returns of $j$ significantly improve the prediction of $i$'s returns.
+with an F-test of $H_0: \gamma_1 = \cdots = \gamma_L = 0$ and maximum lag $L = 5$ days.
+Because all directed pairs are tested at once, *p*-values are corrected for multiple
+comparisons with both Benjamini-Hochberg FDR and Bonferroni, and we report survivor
+counts rather than the raw count.
 
 ---
 
@@ -233,6 +254,8 @@ Silhouette analysis identifies *k* = 2 as the statistically optimal partition (s
 
 Leave-one-out cross-validation with a Random Forest classifier achieves **95.6%** accuracy, substantially above the 50% expected by chance for 2 classes. Only 3 of 68 sectors are misclassified.
 
+> **Interpretation caveat.** The Random Forest is trained to predict the *same* K-means labels from the *same* five features that produced those labels, so this measures cluster *separability* in feature space (it corroborates the silhouette result), not external or predictive validity. It should be read as "the two groups are cleanly separable," not as evidence that the clusters predict anything out of sample. The two-cluster split is also imbalanced (about 55 vs 13 sectors), which inflates raw accuracy; the agreement indices (ARI, FM) are the more informative figures.
+
 | Metric | Score |
 |---|---|
 | Silhouette Score | 0.360 |
@@ -281,30 +304,46 @@ Rolling-window analysis with an 8-quarter (2-year) window confirms that market c
 
 <p align="center"><em>Figure 8: Rolling 8-quarter HHI for the six most concentrated sectors. The horizontal dashed line at HHI = 0.25 marks the DOJ threshold for high concentration. Market structures are visibly non-stationary, with concentration levels shifting in response to macroeconomic and sector-specific shocks.</em></p>
 
-### 4.6 Granger Causality: Inter-Sector Dependencies
+### 4.6 Cross-Sector Connectedness (Diebold-Yilmaz)
 
-Granger causality tests at α = 0.05 with maximum lag *L* = 2 identify **297 significant pairs** out of 68 × 67 = 4,556 possible directional relationships (6.5% of all pairs). This exceeds the 5% expected by chance under the global null, suggesting genuine inter-sector information transmission.
+An earlier version of this study reported "297 significant Granger pairs" from
+pairwise tests on 25 quarterly observations at an uncorrected *p* < 0.05. That count
+is a multiple-comparisons artifact: across 4,556 directed pairs roughly 235 are
+significant by chance alone, and **zero survive Benjamini-Hochberg FDR or Bonferroni
+correction**. We replace it with two properly powered analyses on daily
+market-cap-weighted sector returns (1,590 observations across the 11 GICS sectors).
 
-| Cause | Effect | *p*-value |
-|---|---|---|
-| Oil & Gas Refining | Human Resources | < 10⁻⁴ |
-| Movies & Ent. | Health Care REITs | 0.0002 |
-| Soft Drinks | Life Sci. Tools | 0.0004 |
-| Packaging Products | Oil & Gas Storage | 0.0007 |
-| Personal Care | Life Sci. Tools | 0.0010 |
-| Electric Utilities | Diversified Svc. | 0.0012 |
-| Health Care Distrib. | Human Resources | 0.0012 |
-| Pharmaceuticals | Insurance Brokers | 0.0012 |
+**Generalized connectedness.** Following Diebold and Yilmaz (2012), we fit a VAR
+(lag selected by AIC) and compute the generalized forecast-error variance
+decomposition at a 10-day horizon. The **total connectedness index is 78.6%**: most
+of each sector's forecast-error variance is explained by shocks to *other* sectors,
+not itself. Net directional connectedness ranks sectors as shock transmitters or
+receivers:
 
-<p align="center">
-  <img src="output/figures/granger_heatmap.png" alt="Granger Causality Heatmap" width="800">
-</p>
+| Net transmitters | NET | Net receivers | NET |
+|---|---|---|---|
+| Industrials | +24.2 | Energy | -23.4 |
+| Financials | +24.1 | Communication Services | -14.9 |
+| Materials | +15.9 | Utilities | -10.4 |
+| Health Care | +3.5 | Consumer Discretionary | -10.4 |
+| Real Estate | +0.1 | Consumer Staples | -8.6 |
 
-<p align="center"><em>Figure 9: Granger causality p-value heatmap for the 15 most interconnected sectors. Green cells indicate non-significant relationships; red cells indicate sectors where column sector Granger-causes row sector (p < 0.05).</em></p>
+Cyclical hubs (Industrials, Financials, Materials) propagate shocks system-wide,
+while Energy is the largest net receiver, consistent with its idiosyncratic,
+commodity-driven dynamics. A rolling 200-day connectedness index ranges from 55.5%
+to a peak of 87.0% on 2020-06-24, tracing the rise in systemic linkage through the
+COVID-19 crisis.
 
-The defensive sectors (Personal Care, Soft Drinks, Health Care) exhibit strong causal influence on growth-oriented sectors, consistent with a flight-to-quality mechanism: when defensive sectors outperform, it predicts subsequent rotation into growth. The energy sector (Oil & Gas Refining) shows strong causal influence on labor-intensive sectors (Human Resources), consistent with the cost channel through which energy prices affect operating margins.
+**Granger causality, done right.** On the daily series with maximum lag 5 and
+multiple-testing correction, 88 of 110 directed links are significant under FDR and
+54 under the stricter Bonferroni (versus about 6 expected by chance). The contrast
+with the quarterly result (0 surviving correction) is the methodological point:
+sampling frequency and multiple-testing control determine whether cross-sector
+causality is detectable at all. Measured on an adequate sample, cross-sector
+information transmission within the S&P 500 is pervasive and robust.
 
-**Caveat**: With 68 sectors and 22–26 quarterly observations per series, these Granger tests have limited statistical power. The aggregate rate of significant pairs (6.5% vs. 5% null expectation) provides modest evidence of inter-sector dependence, but individual pair results should be interpreted as hypothesis-generating. Multiple testing corrections (e.g., Bonferroni) would reduce the significant count substantially; however, the Bonferroni correction is overly conservative for dependent test statistics, as sector returns are correlated by construction.
+Reproduce with `python src/build_sector_returns.py && python src/connectedness.py`
+(outputs in `output/connectedness/`).
 
 ---
 
@@ -326,7 +365,7 @@ The finding that market structures are moderately persistent but dominant firms 
 
 - **Sector allocation**: The binary cluster structure (concentrated vs. dispersed sectors) provides a stable framework for sector-level risk budgeting. Concentrated sectors carry higher idiosyncratic risk due to single-stock dependence.
 - **Stock selection**: Within-sector stock selection based on past overperformance is not a reliable strategy, as the *r* = 0.181 IS/OOS correlation shows. Factor-based approaches within sectors may be more robust.
-- **Sector rotation**: The 297 significant Granger-causal pairs suggest that cross-sector momentum signals contain predictive information, particularly from defensive to growth sectors.
+- **Sector rotation**: high daily connectedness (TCI 78.6%) and 88 of 110 FDR-significant Granger links indicate cross-sector return information is pervasive, so lead-lag and sector-momentum signals plausibly carry predictive content; the net-transmitter ranking (Industrials, Financials) points to where shocks originate.
 
 ### 5.3 Limitations
 
@@ -350,9 +389,9 @@ This paper provides a rigorous, multi-method analysis of competitive dynamics wi
 
 4. **Market structures are stable but dominant firms rotate**: 75% of sectors maintain their classification out-of-sample, but overperformance rankings reshuffle significantly (*r* = 0.181, *p* = 0.14). This asymmetry implies that sector-level allocation is more robust than within-sector stock selection based on past dominance.
 
-5. **Sectors are interdependent**: 297 significant Granger-causal pairs (6.5% of all possible, exceeding the 5% null expectation) suggest genuine cross-sector information transmission, with defensive sectors leading growth sectors.
+5. **Sectors are highly interdependent**: a Diebold-Yilmaz total connectedness index of 78.6% and 88 of 110 FDR-significant daily Granger links establish pervasive cross-sector transmission, with Industrials and Financials the dominant net transmitters and Energy the dominant net receiver. The same tests on quarterly data detect nothing after correction, a caution on sampling frequency and multiple testing.
 
-Future work should extend the temporal window to include a full business cycle, apply network-based analysis (e.g., minimum spanning trees [9]) to the Granger causality structure, incorporate ESG metrics as additional clustering features, and test whether the identified sector clusters predict differential risk-adjusted returns in an out-of-sample portfolio allocation framework.
+Future work should extend the window to a full business cycle, estimate time-varying connectedness with a rolling or TVP-VAR to study how transmitter and receiver roles rotate across regimes, incorporate ESG metrics as additional clustering features, and test whether the connectedness network and sector clusters predict differential risk-adjusted returns in an out-of-sample allocation framework.
 
 ---
 
