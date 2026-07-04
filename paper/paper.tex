@@ -356,9 +356,41 @@ Real Estate & $+0.1$  & Consumer Staples       & $-8.6$  \\
 \end{tabular}
 \end{table}
 
-Cyclical hubs (Industrials, Financials, Materials) propagate shocks system-wide, while Energy is the largest net receiver, consistent with its idiosyncratic, commodity-driven dynamics. A rolling 200-day connectedness index ranges from 55.5\% to a peak of 87.0\% on 24 June 2020, tracing systemic linkage through the COVID-19 crisis.
+Cyclical hubs (Industrials, Financials, Materials) propagate shocks system-wide, while Energy is the largest net receiver, consistent with its idiosyncratic, commodity-driven dynamics. Fig.~\ref{fig:spillover} visualizes the directed network implied by the connectedness table, and Fig.~\ref{fig:netconn} the net positions. A rolling 200-day connectedness index (Fig.~\ref{fig:tci}) ranges from 55.5\% to a peak of 87.0\% on 24 June 2020, tracing systemic linkage through the COVID-19 crisis.
 
-\textbf{Granger causality, done right.} On the daily series with maximum lag 5 and multiple-testing correction, 88 of 110 directed links are significant under FDR and 54 under the stricter Bonferroni (versus about 6 expected by chance). The contrast with the quarterly result (0 surviving correction) is the methodological point: sampling frequency and multiple-testing control determine whether cross-sector causality is detectable at all.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\columnwidth]{fig/spillover_network.png}
+    \caption{Directed spillover network from the generalized variance decomposition (10-day horizon). Edge intensity is pairwise directional connectedness; node color encodes the net transmitter (warm) versus receiver (cool) position. The cyclical hubs sit at the center of the transmission structure.}
+    \label{fig:spillover}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\columnwidth]{fig/net_connectedness.png}
+    \caption{Net directional connectedness by sector (transmitters positive, receivers negative), the graphical counterpart of Table~\ref{tab:connectedness}.}
+    \label{fig:netconn}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\columnwidth]{fig/rolling_tci.png}
+    \caption{Rolling 200-day total connectedness index of daily sector returns. Systemic linkage jumps in the COVID-19 crash (peak 87.0\% on 24 June 2020) and never returns to its pre-2020 lows, consistent with a persistently more connected sector system.}
+    \label{fig:tci}
+\end{figure}
+
+\textbf{Granger causality, done right.} On the daily series with maximum lag 5 and multiple-testing correction, 88 of 110 directed links are significant under FDR and 54 under the stricter Bonferroni (versus about 6 expected by chance); Fig.~\ref{fig:granger} maps the surviving links. The contrast with the quarterly result (0 surviving correction) is the methodological point: sampling frequency and multiple-testing control determine whether cross-sector causality is detectable at all.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\columnwidth]{fig/granger_heatmap.png}
+    \caption{Pairwise Granger causality on daily sector returns (max lag 5). Cells mark directed links significant after Benjamini-Hochberg FDR control (88 of 110; 54 survive Bonferroni). The same test on 25 quarterly observations yields zero links after correction.}
+    \label{fig:granger}
+\end{figure}
+
+\subsection{Reproducibility}
+
+Every number and figure in this paper regenerates from the public repository with one command per stage: \texttt{python src/build\_sector\_returns.py} (constituent prices to daily market-cap-weighted GICS sector returns), \texttt{python src/connectedness.py} (VAR, generalized FEVD, rolling index, corrected Granger tests), \texttt{python src/hhi\_dynamics.py} (concentration dynamics), and \texttt{python src/analysis.py} (clustering and market-structure classification). Outputs are written to \texttt{output/} as CSV tables and PNG figures consumed directly by this document.
 
 %============================================================
 \section{Discussion}
