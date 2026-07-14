@@ -1,47 +1,44 @@
-\documentclass[conference]{IEEEtran}
+\documentclass[11pt]{article}
 \usepackage[utf8]{inputenc}
+\usepackage[margin=1in]{geometry}
 \usepackage{amsmath,amssymb,amsfonts}
 \usepackage{graphicx}
 \usepackage{booktabs}
 \usepackage{multirow}
-\usepackage{hyperref}
 \usepackage{float}
 \usepackage{array}
 \usepackage{caption}
 \usepackage{subcaption}
-\usepackage{color}
-\usepackage{cite}
-\usepackage{url}
+\usepackage{xcolor}
+\usepackage{fancyhdr}
+\usepackage[hidelinks]{hyperref}
+\usepackage{titlesec}
 
-\hypersetup{
-    colorlinks=true,
-    linkcolor=blue,
-    citecolor=blue,
-    urlcolor=blue
-}
+\definecolor{accent}{HTML}{B07D1F}
+\titleformat{\section}{\large\bfseries\color{accent}}{\thesection}{0.6em}{}
+\captionsetup{font=small, labelfont=bf}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\footnotesize\itshape S\&P 500 Sector Dynamics}
+\fancyhead[R]{\footnotesize\thepage}
+\renewcommand{\headrulewidth}{0.3pt}
+
+\title{\textbf{S\&P 500 Sector Dynamics: Return Connectedness, Market Concentration, and Structural Clustering (2019 to 2025)}}
+\author{Tanishk Yadav\\[2pt]\textit{New York University}\\New York, NY, USA\\[2pt]ORCID: 0009-0006-2382-9411}
+\date{July 2026}
 
 \begin{document}
 
-\title{S\&P 500 Sector Dynamics: Return Connectedness, Market Concentration, and Structural Clustering (2019 to 2025)}
-
-\author{
-\IEEEauthorblockN{Tanishk Yadav}
-\IEEEauthorblockA{
-% Department of Financial Engineering\\
-New York University\\
-New York, NY, USA\\
-ORCID: 0009-0006-2382-9411}
-}
-
 \maketitle
+\thispagestyle{fancy}
 
 \begin{abstract}
 This working paper studies the structure and dynamics of the eleven GICS sectors of the S\&P 500 over September 2019 to December 2025, combining time-series econometrics, industrial-organization measures, and unsupervised learning across 401 constituents. Using daily market-cap-weighted sector returns (1,590 observations), we estimate a Diebold-Yilmaz (2012) generalized connectedness system: the total connectedness index is 78.6\%, indicating that most sector forecast-error variance is cross-sectional rather than own-sector. Industrials and Financials are the largest net transmitters of shocks while Energy is the largest net receiver, and a rolling 200-day connectedness index rises from about 55\% to a 2020 peak of 87\%, tracing systemic stress through the COVID-19 crisis. Pairwise Granger causality on the daily series, corrected for multiple testing, finds 88 of 110 directed links significant under Benjamini-Hochberg FDR (54 under the stricter Bonferroni); the same test on quarterly data is underpowered and yields no links surviving correction, underscoring the role of sampling frequency and multiple-testing control. At the sub-sector level (69 GICS sub-industries), market concentration measured by the Herfindahl-Hirschman Index is rising on net (45 of 69 sub-sectors concentrating), led by Semiconductors and Automobile Manufacturers. Hierarchical and K-means clustering recovers a coherent two-group sector taxonomy, and out-of-sample tests show that broad market-structure labels are fairly stable while growth-dominance rankings reshuffle ($r = 0.181$, $p = 0.14$), indicating that sector dominance is not persistent.
 \end{abstract}
 
-\begin{IEEEkeywords}
-S\&P 500, sector connectedness, Diebold-Yilmaz, VAR, generalized variance decomposition, Granger causality, Herfindahl-Hirschman Index, market concentration, clustering, time-series econometrics
-\end{IEEEkeywords}
+\medskip
+\noindent\textbf{Keywords:} S\&P 500, sector connectedness, Diebold-Yilmaz, VAR, generalized variance decomposition, Granger causality, Herfindahl-Hirschman Index, market concentration, clustering, time-series econometrics
 
 %============================================================
 \section{Introduction}
@@ -448,8 +445,6 @@ This paper provides a rigorous, multi-method analysis of competitive dynamics wi
 
 Future work should extend the window to a full business cycle, estimate time-varying connectedness with a rolling or TVP-VAR to study how transmitter and receiver roles rotate across regimes, incorporate ESG metrics as additional clustering features, and test whether the connectedness network and sector clusters predict differential risk-adjusted returns in an out-of-sample allocation framework.
 
-\smallskip
-\noindent\textbf{Code Availability}: The complete codebase, including data processing, analysis, and visualization scripts, is available at \url{https://github.com/tanishhky/sp500-sector-analysis}.
 
 %============================================================
 \begin{thebibliography}{20}

@@ -2,7 +2,8 @@
 
 **Author:** Tanishk Yadav | NYU Tandon School of Engineering
 **ORCID:** [0009-0006-2382-9411](https://orcid.org/0009-0006-2382-9411)
-**Status:** Working paper, not peer-reviewed.
+**Status:** Working paper, not peer-reviewed. Available as an SSRN preprint:
+[Abstract ID 6475898](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6475898).
 
 ---
 
