@@ -97,7 +97,7 @@ GICS = {
     "Movies & Entertainment": "Communication Services",
 }
 
-START, END = "2019-09-01", "2025-12-31"
+START, END = "2019-09-01", "2026-08-29"  # extended OOS daily series through last week
 
 
 def _quarterly_caps() -> dict[str, pd.Series]:

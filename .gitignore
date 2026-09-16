@@ -13,3 +13,4 @@ sector_ticker_map.json
 *.fls
 *.out
 *.synctex.gz
+.venv/

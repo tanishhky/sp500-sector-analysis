@@ -10,17 +10,17 @@ import pandas as pd
 # ============================================================
 # >>> CHANGE THIS ONE DATE TO UPDATE EVERYTHING <<<
 # ============================================================
-DATA_END_DATE = "2025-12-31"
+DATA_END_DATE = "2026-06-30"  # extended OOS through last completed quarter (2026-08-29 run)
 # ============================================================
 
 DATA_START_DATE = "2019-09-30"
 FETCH_START = "2019-07-01"  # buffer before first quarter end
 
-# IS/OOS split: 70% of quarters go to in-sample
-_total_quarters = len(pd.date_range(DATA_START_DATE, DATA_END_DATE, freq='QE'))
-_is_quarters = int(_total_quarters * 0.7)
-_all_qe = pd.date_range(DATA_START_DATE, DATA_END_DATE, freq='QE')
-IS_OOS_CUTOFF = str(_all_qe[_is_quarters - 1].date())  # auto-computed
+# IS/OOS split: originally 70% of quarters through 2025-12-31, giving an
+# in-sample cutoff of 2023-12-31. HARDCODED (not re-derived) so extending
+# DATA_END_DATE for the out-of-sample extension does not also shift the
+# in-sample window -- the in-sample period must stay Sept 2019-Dec 2023.
+IS_OOS_CUTOFF = "2023-12-31"
 
 # Derived dates
 QUARTER_ENDS = pd.date_range(DATA_START_DATE, DATA_END_DATE, freq='QE')
@@ -36,7 +36,7 @@ DATA_REVENUE = PROJECT_ROOT / "data_revenue"
 OUTPUT_DIR = PROJECT_ROOT / "output"
 FIG_DIR = OUTPUT_DIR / "figures"
 TBL_DIR = OUTPUT_DIR / "tables"
-SECTOR_MAP_PATH = PROJECT_ROOT / "sector_ticker_map.json"
+SECTOR_MAP_PATH = PROJECT_ROOT / "src" / "sp500_constituents.json"  # path was stale; this is the real file (fetch_data_fast.py needs it)
 
 # API Keys
 def load_env(env_path=None):
