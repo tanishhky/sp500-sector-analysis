@@ -1,0 +1,25 @@
+sample,dep,conc,coef,se,t,p,N,T,within_R2
+ETF (baseline),FROM,top3_lag_pp,-0.0373,0.0795,-0.4695,0.6398,1034,94,0.0467
+ETF (baseline),FROM,hhi_lag_pp,0.0077,0.1194,0.0648,0.9485,1034,94,0.046
+ETF (baseline),TO,top3_lag_pp,-0.5021,0.2034,-2.4686,0.0154,1034,94,0.1185
+ETF (baseline),TO,hhi_lag_pp,-0.3348,0.3155,-1.0611,0.2914,1034,94,0.093
+ETF (baseline),NET,top3_lag_pp,-0.4648,0.1299,-3.5785,0.0006,1034,94,0.167
+ETF (baseline),NET,hhi_lag_pp,-0.3425,0.2013,-1.7013,0.0922,1034,94,0.1182
+"Constituent-built, uncapped",FROM,top3_lag_pp,-0.1724,0.0776,-2.2207,0.0288,1034,94,0.053
+"Constituent-built, uncapped",FROM,hhi_lag_pp,-0.2246,0.1351,-1.6631,0.0997,1034,94,0.0453
+"Constituent-built, uncapped",TO,top3_lag_pp,-0.8274,0.2102,-3.9358,0.0002,1034,94,0.1371
+"Constituent-built, uncapped",TO,hhi_lag_pp,-0.9244,0.4039,-2.2886,0.0244,1034,94,0.0904
+"Constituent-built, uncapped",NET,top3_lag_pp,-0.6551,0.1367,-4.7922,0.0,1034,94,0.1827
+"Constituent-built, uncapped",NET,hhi_lag_pp,-0.6997,0.2726,-2.567,0.0119,1034,94,0.1105
+"ETF, excl. IT and COM",FROM,top3_lag_pp,-0.0491,0.11,-0.4464,0.6563,846,94,0.0287
+"ETF, excl. IT and COM",FROM,hhi_lag_pp,-0.1168,0.2184,-0.5345,0.5943,846,94,0.0287
+"ETF, excl. IT and COM",TO,top3_lag_pp,-0.6036,0.2336,-2.5839,0.0113,846,94,0.0684
+"ETF, excl. IT and COM",TO,hhi_lag_pp,-0.8717,0.5422,-1.6076,0.1113,846,94,0.0507
+"ETF, excl. IT and COM",NET,top3_lag_pp,-0.5545,0.1399,-3.9648,0.0001,846,94,0.1187
+"ETF, excl. IT and COM",NET,hhi_lag_pp,-0.7549,0.3579,-2.1091,0.0376,846,94,0.0796
+"Constituent, excl. IT and COM",FROM,top3_lag_pp,-0.1135,0.0944,-1.2014,0.2326,846,94,0.0257
+"Constituent, excl. IT and COM",FROM,hhi_lag_pp,-0.2687,0.1941,-1.384,0.1697,846,94,0.0256
+"Constituent, excl. IT and COM",TO,top3_lag_pp,-0.6975,0.21,-3.3213,0.0013,846,94,0.0638
+"Constituent, excl. IT and COM",TO,hhi_lag_pp,-1.2127,0.5162,-2.3494,0.0209,846,94,0.0471
+"Constituent, excl. IT and COM",NET,top3_lag_pp,-0.5841,0.1334,-4.377,0.0,846,94,0.103
+"Constituent, excl. IT and COM",NET,hhi_lag_pp,-0.944,0.3528,-2.6753,0.0088,846,94,0.0702

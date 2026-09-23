@@ -1,0 +1,111 @@
+,,0
+Communication Services,Consumer Discretionary,False
+Communication Services,Consumer Staples,False
+Communication Services,Energy,False
+Communication Services,Financials,False
+Communication Services,Health Care,False
+Communication Services,Industrials,False
+Communication Services,Information Technology,False
+Communication Services,Materials,False
+Communication Services,Real Estate,False
+Communication Services,Utilities,False
+Consumer Discretionary,Communication Services,False
+Consumer Discretionary,Consumer Staples,False
+Consumer Discretionary,Energy,False
+Consumer Discretionary,Financials,False
+Consumer Discretionary,Health Care,False
+Consumer Discretionary,Industrials,False
+Consumer Discretionary,Information Technology,False
+Consumer Discretionary,Materials,False
+Consumer Discretionary,Real Estate,False
+Consumer Discretionary,Utilities,False
+Consumer Staples,Communication Services,False
+Consumer Staples,Consumer Discretionary,False
+Consumer Staples,Energy,False
+Consumer Staples,Financials,False
+Consumer Staples,Health Care,False
+Consumer Staples,Industrials,False
+Consumer Staples,Information Technology,False
+Consumer Staples,Materials,False
+Consumer Staples,Real Estate,False
+Consumer Staples,Utilities,False
+Energy,Communication Services,False
+Energy,Consumer Discretionary,False
+Energy,Consumer Staples,False
+Energy,Financials,False
+Energy,Health Care,False
+Energy,Industrials,False
+Energy,Information Technology,False
+Energy,Materials,False
+Energy,Real Estate,False
+Energy,Utilities,False
+Financials,Communication Services,False
+Financials,Consumer Discretionary,False
+Financials,Consumer Staples,False
+Financials,Energy,False
+Financials,Health Care,False
+Financials,Industrials,False
+Financials,Information Technology,False
+Financials,Materials,False
+Financials,Real Estate,False
+Financials,Utilities,False
+Health Care,Communication Services,False
+Health Care,Consumer Discretionary,False
+Health Care,Consumer Staples,False
+Health Care,Energy,False
+Health Care,Financials,False
+Health Care,Industrials,False
+Health Care,Information Technology,False
+Health Care,Materials,False
+Health Care,Real Estate,False
+Health Care,Utilities,False
+Industrials,Communication Services,False
+Industrials,Consumer Discretionary,False
+Industrials,Consumer Staples,False
+Industrials,Energy,False
+Industrials,Financials,False
+Industrials,Health Care,False
+Industrials,Information Technology,False
+Industrials,Materials,False
+Industrials,Real Estate,False
+Industrials,Utilities,False
+Information Technology,Communication Services,False
+Information Technology,Consumer Discretionary,False
+Information Technology,Consumer Staples,False
+Information Technology,Energy,False
+Information Technology,Financials,False
+Information Technology,Health Care,False
+Information Technology,Industrials,False
+Information Technology,Materials,False
+Information Technology,Real Estate,False
+Information Technology,Utilities,False
+Materials,Communication Services,False
+Materials,Consumer Discretionary,False
+Materials,Consumer Staples,False
+Materials,Energy,False
+Materials,Financials,False
+Materials,Health Care,False
+Materials,Industrials,False
+Materials,Information Technology,False
+Materials,Real Estate,False
+Materials,Utilities,False
+Real Estate,Communication Services,False
+Real Estate,Consumer Discretionary,False
+Real Estate,Consumer Staples,False
+Real Estate,Energy,False
+Real Estate,Financials,False
+Real Estate,Health Care,False
+Real Estate,Industrials,False
+Real Estate,Information Technology,False
+Real Estate,Materials,False
+Real Estate,Utilities,False
+Utilities,Communication Services,False
+Utilities,Consumer Discretionary,False
+Utilities,Consumer Staples,False
+Utilities,Energy,False
+Utilities,Financials,False
+Utilities,Health Care,False
+Utilities,Industrials,False
+Utilities,Information Technology,False
+Utilities,Materials,False
+Utilities,Real Estate,False

@@ -1,0 +1,79 @@
+Symbol,GICS Sector,GICS Sub-Industry,start,end,source
+AAL,Industrials,,2015-03-23,2024-09-23,removed
+AAP,Consumer Discretionary,,2015-07-09,2023-08-25,removed
+AIV,Real Estate,,2003-03-14,2020-12-21,removed
+ALK,Industrials,,2016-05-13,2023-12-18,removed
+AMG,Financials,,2014-07-01,2019-12-23,removed
+AMTM,Industrials,,2024-09-30,2024-12-23,removed
+APC,Energy,,1997-07-28,2019-08-09,removed
+AVB,Real Estate,,2007-01-10,2026-08-18,removed
+BBT,Financials,,1997-12-04,2019-12-09,removed
+BBWI,Consumer Discretionary,,2021-08-03,2024-10-01,removed
+BHF,Financials,,2017-08-07,2019-04-02,removed
+BIO,Health Care,,2020-06-22,2024-09-23,removed
+BWA,Consumer Discretionary,,2011-12-19,2025-03-24,removed
+CAG,Consumer Staples,,1996-01-02,2026-06-30,removed
+CE,Materials,,2018-12-24,2025-03-24,removed
+COTY,Consumer Staples,,2016-10-03,2020-09-21,removed
+CPB,Consumer Staples,,1996-01-02,2026-06-22,removed
+CPRI,Consumer Discretionary,,2016-01-04,2020-05-12,removed
+CZR,Consumer Discretionary,,2021-03-22,2025-09-22,removed
+DXC,Information Technology,,2017-04-04,2023-10-02,removed
+EMN,Materials,,1996-01-02,2025-11-04,removed
+ENPH,Information Technology,,2021-01-07,2025-09-22,removed
+EPAM,Information Technology,,2021-12-14,2026-06-02,removed
+ETSY,Consumer Discretionary,,2020-09-21,2024-09-23,removed
+FLR,Industrials,,2000-12-22,2019-06-03,removed
+FLS,Industrials,,2008-10-02,2021-03-22,removed
+FMC,Materials,,2009-08-19,2025-03-24,removed
+FTI,Energy,,2009-06-05,2021-02-12,removed
+GT,Consumer Discretionary,,1996-01-02,2019-02-27,removed
+HOG,Consumer Discretionary,,2000-01-31,2020-06-22,removed
+HP,Energy,,2010-03-01,2020-05-22,removed
+HRB,Consumer Discretionary,,1996-01-02,2020-09-21,removed
+IPGP,Information Technology,,2018-03-07,2022-06-21,removed
+JEF,Financials,,2007-08-27,2019-09-26,removed
+KMX,Consumer Discretionary,,2010-06-28,2025-10-31,removed
+KSS,Consumer Discretionary,,1998-08-14,2020-09-21,removed
+LB,Energy,,1996-01-02,2021-08-03,removed
+LKQ,Consumer Discretionary,,2016-05-23,2025-12-22,removed
+LNC,Financials,,1996-01-02,2023-09-18,removed
+LUMN,Communication Services,,2020-09-18,2023-03-20,removed
+LW,Consumer Staples,,2018-12-03,2026-03-23,removed
+M,Consumer Discretionary,,1996-01-02,2020-04-06,removed
+MAC,Real Estate,,2013-05-09,2019-12-23,removed
+MAT,Consumer Discretionary,,1996-01-02,2019-06-07,removed
+MHK,Consumer Discretionary,,2013-12-23,2025-12-22,removed
+MKTX,Financials,,2019-07-01,2025-09-22,removed
+MOH,Health Care,,2022-03-02,2026-03-23,removed
+MTCH,Communication Services,,2021-09-20,2026-03-23,removed
+NKTR,Health Care,,2018-03-19,2019-10-03,removed
+NOV,Energy,,2005-03-14,2021-09-20,removed
+NWL,Consumer Staples,,1996-01-02,2023-09-18,removed
+OGN,Health Care,,2021-06-04,2023-10-18,removed
+PARA,Information Technology,,2022-02-17,2025-08-08,removed
+PAYC,Information Technology,,2020-01-28,2026-03-23,removed
+PENN,Consumer Discretionary,,2021-03-22,2022-09-19,removed
+POOL,Industrials,,2020-10-07,2026-06-22,removed
+PRGO,Health Care,,2011-12-19,2021-09-20,removed
+PVH,Consumer Discretionary,,2013-02-14,2022-09-19,removed
+QRVO,Information Technology,,2015-06-12,2024-12-23,removed
+RHI,Industrials,,2000-12-05,2024-06-24,removed
+SBNY,Financials,,2021-12-20,2023-03-15,removed
+SEDG,Information Technology,,2021-12-20,2023-12-18,removed
+SLG,Real Estate,,2015-03-23,2021-03-22,removed
+SOLS,Materials,,2025-10-30,2025-12-22,removed
+STI,Industrials,,1996-01-02,2019-12-09,removed
+TFX,Health Care,,2019-01-18,2025-03-24,removed
+TRIP,Consumer Discretionary,,2011-12-21,2019-12-23,removed
+UA,Consumer Discretionary,,2016-04-08,2022-06-21,removed
+UAA,Consumer Discretionary,,2014-05-01,2022-06-21,removed
+UNM,Financials,,1996-01-02,2021-09-20,removed
+VFC,Consumer Discretionary,,1996-01-02,2024-04-01,removed
+VNO,Real Estate,,2005-08-12,2023-01-04,removed
+VNT,Information Technology,,2020-10-12,2021-03-22,removed
+WHR,Consumer Discretionary,,1996-01-02,2024-03-18,removed
+WU,Financials,,2006-10-02,2021-12-20,removed
+XRAY,Health Care,,2008-11-14,2024-04-02,removed
+XRX,Industrials,,1996-01-02,2021-03-22,removed
+ZION,Financials,,2001-06-25,2024-03-18,removed

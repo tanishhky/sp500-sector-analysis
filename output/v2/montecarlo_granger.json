@@ -1,0 +1,27 @@
+{
+  "T": 1989,
+  "reps_pair": 1000,
+  "reps_system": 100,
+  "factor_garch": {
+    "omega": 0.030624068382433346,
+    "alpha[1]": 0.15903092639430016,
+    "beta[1]": 0.8150439290390692,
+    "nu": 7.131722779190739
+  },
+  "size_5pct": {
+    "F_lag5": 0.21,
+    "F_min1to5": 0.307,
+    "HC3_lag1": 0.052,
+    "HC3_lag5": 0.041
+  },
+  "fdr_survivors_classical_min_lag": {
+    "mean": 5.28,
+    "median": 0.0,
+    "p90": 16.500000000000043
+  },
+  "fdr_survivors_hc3_lag5": {
+    "mean": 0.09,
+    "median": 0.0,
+    "p90": 0.0
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "sample": [
+    "2018-10-01",
+    "2026-08-31"
+  ],
+  "T": 1989,
+  "lag_selection": {
+    "ret": {
+      "bic": 0,
+      "aic": 1
+    },
+    "vol": {
+      "bic": 1,
+      "aic": 5
+    }
+  },
+  "static_TCI": {
+    "ret": 79.54123513951781,
+    "vol": 77.6958589801563,
+    "p_ret": 1,
+    "p_vol": 1
+  },
+  "tvp_robustness_corr_with_baseline": {
+    "k1=0.99,k2=0.96": 0.787,
+    "k1=0.98,k2=0.99": 0.999,
+    "k1=0.995,k2=0.99": 1.0,
+    "constituent returns": 0.993,
+    "baseline": 1.0
+  },
+  "tvp_TCI_ret": {
+    "mean": 75.3549985423946,
+    "min": 53.71383266751755,
+    "min_date": "2026-08-26",
+    "max": 88.9336294116807,
+    "max_date": "2020-03-16",
+    "first": 58.96132531942253,
+    "last": 54.095103256606855
+  },
+  "tvp_TCI_vol": {
+    "mean": 75.46129457075732,
+    "min": 55.51954922089579,
+    "min_date": "2026-08-24",
+    "max": 86.89527717993089,
+    "max_date": "2020-03-25",
+    "last": 55.82130346707504
+  },
+  "share_days_transmitter_ret": {
+    "Communication Services": 0.284,
+    "Consumer Discretionary": 0.936,
+    "Consumer Staples": 0.241,
+    "Energy": 0.0,
+    "Financials": 0.853,
+    "Health Care": 0.397,
+    "Industrials": 1.0,
+    "Information Technology": 0.428,
+    "Materials": 0.999,
+    "Real Estate": 0.709,
+    "Utilities": 0.0
+  },
+  "granger": {
+    "full": {
+      "raw": 6,
+      "fdr": 0,
+      "bonferroni": 0,
+      "T": 1989
+    },
+    "first_half": {
+      "raw": 15,
+      "fdr": 0,
+      "bonferroni": 0,
+      "T": 987
+    },
+    "second_half": {
+      "raw": 4,
+      "fdr": 0,
+      "bonferroni": 0,
+      "T": 1002
+    },
+    "pairwise_lag5_HC3": {
+      "raw": 20,
+      "fdr": 0,
+      "bonferroni": 0
+    }
+  },
+  "oos": {
+    "start": "2020-09-23",
+    "n_R2pos_KS": 0,
+    "n_R2pos_COMB": 0,
+    "n_CW_sig_KS": 1,
+    "n_CW_sig_COMB": 0,
+    "fdr_CW_COMB": 0,
+    "fdr_CW_KS": 0
+  },
+  "index_level": {
+    "levels_TCI_ret": {
+      "b_top10": -0.5390366531430988,
+      "t_top10": -2.1427761182595253,
+      "b_logvix": 10.171772389640784,
+      "t_logvix": 3.720615449809678,
+      "R2": 0.37561083765874204
+    },
+    "diff_TCI_ret": {
+      "b_top10": 0.34287901283535116,
+      "t_top10": 1.2357589146723469,
+      "b_logvix": 6.084187864679726,
+      "t_logvix": 2.9392610171417712,
+      "R2": 0.23255353673134183
+    },
+    "levels_TCI_vol": {
+      "b_top10": -0.7535249485572815,
+      "t_top10": -4.295718725956758,
+      "b_logvix": 9.802459912372601,
+      "t_logvix": 6.038536307032749,
+      "R2": 0.6154081809512372
+    },
+    "diff_TCI_vol": {
+      "b_top10": 0.13940210001173384,
+      "t_top10": 0.7032172356499709,
+      "b_logvix": 6.525845709828401,
+      "t_logvix": 4.841164342556643,
+      "R2": 0.3140670239037957
+    }
+  },
+  "corr_TCIret_top10_levels": -0.4570181785432811
+}
