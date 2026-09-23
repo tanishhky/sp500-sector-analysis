@@ -14,3 +14,4 @@ sector_ticker_map.json
 *.out
 *.synctex.gz
 .venv/
+paper/v2/submission/
