@@ -2,10 +2,13 @@
 
 **Within-Sector Concentration and Time-Varying Connectedness in the S&P 500, 2018 to 2026**
 
-**Author:** Tanishk Yadav, NYU Tandon School of Engineering
-**Status:** submitted to *Studies in Nonlinear Dynamics & Econometrics* (September 2026). Not yet peer reviewed.
-**Manuscript:** [`paper/v2/manuscript.pdf`](paper/v2/manuscript.pdf)
-**Earlier version:** SSRN preprint [6475898](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6475898), superseded by this study (see [Previous version](#previous-version-and-what-was-retracted)).
+**Author:** Tanishk Yadav, NYU Tandon School of Engineering\
+**Status:** SSRN preprint [6475898](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6475898), revised September 2026 to this manuscript. Not peer reviewed.\
+**Paper, figures and summary:** [tanishkyadav.me/research/concentrated-sectors](https://www.tanishkyadav.me/research/concentrated-sectors)\
+**Manuscript:** [`paper/v2/manuscript.pdf`](paper/v2/manuscript.pdf)\
+**Earlier version:** a 2019 to 2025 study first posted under the same SSRN ID; its retracted results are listed under [Previous version](#previous-version-and-what-was-retracted).
+
+![Net connectedness against the top-3 firms' share of sector market cap: (a) across sectors, (b) within sector over time with sector and month fixed effects](paper/v2/fig/fig4_concentration_link.png)
 
 ---
 
@@ -85,7 +88,7 @@ paper/paper.tex, .pdf     earlier version (superseded)
 
 ## Previous version and what was retracted
 
-An earlier version of this project, posted on SSRN as "S&P 500 Sector Dynamics: Return Connectedness, Market Concentration, and Structural Clustering (2019 to 2025)", reported results that did not survive closer testing. They are listed here so nobody relies on them:
+An earlier version of this project, posted on SSRN as "S&P 500 Sector Dynamics: Return Connectedness, Market Concentration, and Structural Clustering (2019 to 2025)" (same abstract ID, replaced by the current manuscript in September 2026), reported results that did not survive closer testing. They are listed here so nobody relies on them:
 
 - **"88 of 110 Granger links significant under FDR"**: an artifact. Classical F-tests are oversized under heteroskedastic (GARCH) errors, and selecting the minimum p-value over lags makes it worse. Every classical rejection came from February to June 2020. With robust tests, 0 of 110 survive.
 - **"Total connectedness 78.6%, rolling 55% to 87% peak in June 2020"**: an earlier data vintage and a rolling-window start artifact. Use the filtered figures above.
