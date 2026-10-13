@@ -257,13 +257,27 @@ Utilities & 27.8 & 27.9 & 8.7 & 9.4 & 10.5 & $-1.1$ \\
 
 Table~\ref{tab:intl} repeats the analysis of Sections~\ref{sec:conc} and~\ref{sec:gran} market by market. Own volatility is the log of realized volatility in the month, since range data for sector aggregates are not available outside the fund series, and the U.S. row uses the same current-membership design so that the rows are comparable.
 
-The granular pattern holds everywhere. In every market the top-three component has a lower $R^2$ against the market's other sectors than the rest of its sector in most sector-years, from 52\% in Germany to 92\% in Korea, and in 78\% of the 933 sector-years pooled across markets.
+The granular pattern holds everywhere. In every market the top-three component has a lower $R^2$ against the market's other sectors than the rest of its sector in most sector-years, from 52\% in Germany to 92\% in Korea, and in 78\% of the 933 sector-years pooled across markets (Figure~\ref{fig:granworld}(a)).
 
-The concentration effect is narrower. Under current membership the coefficient on monthly $R^2$ is negative in eight of the ten other markets, and the permutation test rejects in Japan ($-0.55$, $p=0.05$) and Canada ($-0.40$, $p=0.02$). The United Kingdom is weaker for $R^2$ ($p=0.17$) and closer for the average squared correlation ($-0.22$, $p=0.06$). With concentration measured among the firms trading in October 2018, the same three markets keep their estimates, the estimates for China, Korea, Australia, and Brazil turn small and positive, and India's stays positive; none of these is significant by permutation. Pooled across the ten other markets, with market-by-sector and market-by-month fixed effects and permutations within each market, the coefficient is $-0.14$ ($p=0.10$) under current membership and $-0.03$ ($p=0.75$) under fixed membership. Outside the United States the evidence rests on Japan, Canada, and the United Kingdom.
+\begin{figure}[H]
+\centering
+\includegraphics[width=\textwidth]{fig/fig6_granular_world.pdf}
+\caption{Granular pattern and sector co-movement in eleven markets, current-membership constituent panels. Panel (a): mean of annual $R^2$ of each component on the equal-weighted return of the market's other sectors; the share of sector-years in which the top-three component has the lower $R^2$ is in parentheses. Panel (b): mean squared pairwise correlation among sector returns by calendar year (2018 is October to December, 2026 is January to August); grey lines are the other nine markets.}
+\label{fig:granworld}
+\end{figure}
 
-Two market characteristics line up with where the effect appears. Across the eleven markets, the estimated coefficient has a correlation of $-0.72$ with the median number of firms per sector and $-0.89$ with the change in the average top-three share. Developed markets average $-0.33$ and the three emerging markets $+0.11$. With eleven markets these correlations are descriptive.
+The concentration effect is narrower. Under current membership the coefficient on monthly $R^2$ is negative in eight of the ten other markets, and the permutation test rejects in Japan ($-0.55$, $p=0.05$) and Canada ($-0.40$, $p=0.02$). The United Kingdom is weaker for $R^2$ ($p=0.17$) and closer for the average squared correlation ($-0.22$, $p=0.06$). With concentration measured among the firms trading in October 2018, the same three markets keep their estimates, the estimates for China, Korea, Australia, and Brazil turn small and positive, and India's stays positive; none of these is significant by permutation. Pooled across the ten other markets, with market-by-sector and market-by-month fixed effects and permutations within each market, the coefficient is $-0.14$ ($p=0.10$) under current membership and $-0.03$ ($p=0.75$) under fixed membership. Outside the United States the evidence rests on Japan, Canada, and the United Kingdom (Figure~\ref{fig:effworld}(a)).
 
-The decline in co-movement is not confined to the United States. Average squared correlation among sector returns fell by more than two points from the first to the last twelve months of the sample in eight markets, including China, Germany, and Australia, where concentration fell or held steady. It held in India and Brazil and rose in Korea. Holding top-three weights at their late-2018 levels changes the last-twelve-month value by at most 2.1 points in any market.
+Two market characteristics line up with where the effect appears. Across the eleven markets, the estimated coefficient has a correlation of $-0.72$ with the median number of firms per sector (Figure~\ref{fig:effworld}(b)) and $-0.89$ with the change in the average top-three share. Developed markets average $-0.33$ and the three emerging markets $+0.11$. With eleven markets these correlations are descriptive.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=\textwidth]{fig/fig7_effect_world.pdf}
+\caption{Effect of the lagged top-three share on monthly $R^2$, by market. Panel (a): concentration among current members and among firms trading in October 2018; filled markers have permutation $p$-values below 0.10. Panel (b): current-membership estimates against the median number of firms per sector; the line is a least-squares fit on log firms per sector across the eleven markets.}
+\label{fig:effworld}
+\end{figure}
+
+The decline in co-movement is not confined to the United States. Average squared correlation among sector returns fell by more than two points from the first to the last twelve months of the sample in eight markets, including China, Germany, and Australia, where concentration fell or held steady. It held in India and Brazil and rose in Korea (Figure~\ref{fig:granworld}(b)). Holding top-three weights at their late-2018 levels changes the last-twelve-month value by at most 2.1 points in any market.
 
 \begin{table}[H]
 \centering
