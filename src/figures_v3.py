@@ -1,8 +1,8 @@
 """
-figures_v3.py - New figures for the v3 manuscript (normalization, granular decomposition, and the
-concentration link on co-movement measured afresh each month). Figures 1 and 2 are unchanged
-from v2 and are copied. Run after referee_checks.py, inference_checks.py and
-granular_decomposition.py. Writes paper/v3/fig/.
+figures_v3.py - Manuscript figures for normalization, the granular decomposition, and the
+concentration link on co-movement measured afresh each month. The connectedness and
+concentration figures are drawn by figures_v2.py and copied here. Run after
+normalization_checks.py, inference_checks.py and granular_decomposition.py. Writes paper/v3/fig/.
 """
 from __future__ import annotations
 

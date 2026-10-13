@@ -1,6 +1,6 @@
 """
 granular_decomposition.py - How much of the decline in sector connectedness is the weight shift
-toward each sector's three largest firms? (v3 revision, October 2026)
+toward each sector's three largest firms?
 
 Each day, the uncapped constituent sector return is split into the return on the sector's three
 largest firms (chosen and weighted by the previous day's market capitalization) and the return on
@@ -30,7 +30,7 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from build_panel import GICS_2023, START  # noqa: E402
 from econometrics import OUT, PANEL, SECTORS, load  # noqa: E402
 from fetch_top_firms import CANDIDATES  # noqa: E402
-from referee_checks import dir_measures  # noqa: E402
+from normalization_checks import dir_measures  # noqa: E402
 
 BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 FIRM = os.path.join(BASE, "data", "firm")

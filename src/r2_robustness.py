@@ -1,5 +1,5 @@
 """
-r2_robustness.py - Robustness of the monthly R2 result (v3 revision): Driscoll-Kraay lags, HHI,
+r2_robustness.py - Robustness of the monthly R2 result: Driscoll-Kraay lags, HHI,
 no controls, leave-one-sector-out. Writes output/v3/r2_robustness.csv.
 """
 import os

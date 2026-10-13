@@ -1,6 +1,6 @@
 """
 inference_checks.py - How much of the concentration result survives inference that allows for
-slow-moving, trending regressors (v3 revision, October 2026).
+slow-moving, trending regressors.
 
 Monthly averages of daily TVP-VAR measures inherit the filter's memory (forgetting factor 0.99,
 an effective window of about 100 days), and within-sector concentration moves almost like a
@@ -145,7 +145,7 @@ def run_all(pan, y, label, rows, conc="top3_lag_pp"):
 def main():
     os.makedirs(OUT3, exist_ok=True)
     rows = []
-    # 1. TVP measures (baseline and variants), monthly, from referee_checks.py output
+    # 1. TVP measures (baseline and variants), monthly, from normalization_checks.py output
     for label in ("ETF", "Constituent"):
         pv = pd.read_csv(os.path.join(OUT3, f"panel_variants_{label}.csv"))
         pv["period"] = pd.PeriodIndex(pv["month"], freq="M")

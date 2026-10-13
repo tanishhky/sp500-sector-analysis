@@ -1,5 +1,6 @@
 """
-referee_checks.py - Checks added for the v3 revision (October 2026).
+normalization_checks.py - What the directional connectedness measures record, and how much the
+concentration result depends on how the variance decomposition is normalized.
 
   1. How much of connectedness is contemporaneous correlation: static and TVP measures from the
      covariance matrix alone (H = 1, no lag dynamics) against the baseline VAR(1), H = 10.

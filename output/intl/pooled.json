@@ -1,0 +1,38 @@
+{
+  "international_R2": {
+    "coef": -0.13900028566763026,
+    "t_cluster_unit": -1.8236165396169792,
+    "t_DK_month": -3.532144277245215,
+    "p_perm_within_market": 0.095,
+    "N": 8911,
+    "units": 95,
+    "markets": 10
+  },
+  "international_rho2": {
+    "coef": -0.07092488140416939,
+    "t_cluster_unit": -2.0850463479773818,
+    "t_DK_month": -3.5928367207793737,
+    "p_perm_within_market": 0.063,
+    "N": 8911,
+    "units": 95,
+    "markets": 10
+  },
+  "all_R2": {
+    "coef": -0.1890385457884976,
+    "t_cluster_unit": -2.599649008558222,
+    "t_DK_month": -5.500534388263666,
+    "p_perm_within_market": 0.02,
+    "N": 9945,
+    "units": 106,
+    "markets": 11
+  },
+  "all_rho2": {
+    "coef": -0.08723555495313576,
+    "t_cluster_unit": -2.7300016066722224,
+    "t_DK_month": -4.964503028142801,
+    "p_perm_within_market": 0.023,
+    "N": 9945,
+    "units": 106,
+    "markets": 11
+  }
+}

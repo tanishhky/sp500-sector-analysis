@@ -1,0 +1,934 @@
+market,sector,year,R2_top,R2_rest,vol_top,vol_rest
+United States,Communication Services,2018,58.104,74.011,2.305,1.562
+United States,Communication Services,2019,39.119,53.915,1.417,0.827
+United States,Communication Services,2020,60.353,82.346,2.499,1.93
+United States,Communication Services,2021,31.628,26.009,1.458,1.074
+United States,Communication Services,2022,53.317,65.469,2.694,1.594
+United States,Communication Services,2023,20.778,45.234,1.863,1.098
+United States,Communication Services,2024,18.294,37.286,1.63,0.825
+United States,Communication Services,2025,39.039,46.377,1.853,1.2
+United States,Communication Services,2026,14.573,8.456,1.888,1.193
+United States,Consumer Discretionary,2018,72.051,83.374,2.775,1.547
+United States,Consumer Discretionary,2019,52.018,76.321,1.137,0.88
+United States,Consumer Discretionary,2020,41.829,84.598,2.388,2.582
+United States,Consumer Discretionary,2021,19.718,61.021,1.573,1.063
+United States,Consumer Discretionary,2022,55.362,76.205,2.89,1.83
+United States,Consumer Discretionary,2023,33.038,71.005,1.874,0.943
+United States,Consumer Discretionary,2024,31.675,64.368,1.75,0.869
+United States,Consumer Discretionary,2025,49.031,73.055,2.196,1.205
+United States,Consumer Discretionary,2026,17.877,41.341,1.936,1.165
+United States,Consumer Staples,2018,42.615,57.273,1.221,1.121
+United States,Consumer Staples,2019,26.65,50.018,0.754,0.677
+United States,Consumer Staples,2020,57.156,80.562,1.756,1.782
+United States,Consumer Staples,2021,24.339,47.708,0.764,0.72
+United States,Consumer Staples,2022,33.156,60.485,1.21,1.18
+United States,Consumer Staples,2023,17.702,40.707,0.771,0.751
+United States,Consumer Staples,2024,14.129,11.299,0.788,0.686
+United States,Consumer Staples,2025,21.872,10.754,1.189,0.925
+United States,Consumer Staples,2026,2.582,7.18,1.367,1.032
+United States,Energy,2018,61.281,61.7,1.701,1.912
+United States,Energy,2019,33.257,35.375,1.107,1.386
+United States,Energy,2020,59.095,55.249,3.544,4.185
+United States,Energy,2021,19.679,19.861,1.743,2.088
+United States,Energy,2022,14.503,20.763,2.146,2.379
+United States,Energy,2023,9.04,16.466,1.484,1.504
+United States,Energy,2024,5.495,17.891,1.131,1.195
+United States,Energy,2025,24.738,45.865,1.52,1.687
+United States,Energy,2026,12.155,3.993,1.695,1.421
+United States,Financials,2018,84.953,81.678,1.671,1.547
+United States,Financials,2019,66.956,70.495,0.896,0.957
+United States,Financials,2020,88.42,89.303,2.51,2.895
+United States,Financials,2021,50.118,66.184,1.019,1.157
+United States,Financials,2022,74.986,81.77,1.474,1.669
+United States,Financials,2023,56.174,67.634,0.839,1.109
+United States,Financials,2024,33.149,53.595,0.921,0.937
+United States,Financials,2025,62.923,78.742,1.141,1.342
+United States,Financials,2026,13.225,24.157,0.915,1.071
+United States,Health Care,2018,63.11,83.942,1.511,1.565
+United States,Health Care,2019,27.594,57.573,0.868,0.923
+United States,Health Care,2020,68.193,80.755,2.072,1.948
+United States,Health Care,2021,14.766,37.551,0.84,0.789
+United States,Health Care,2022,30.042,70.262,1.193,1.293
+United States,Health Care,2023,6.963,50.421,1.006,0.761
+United States,Health Care,2024,8.435,39.332,1.044,0.709
+United States,Health Care,2025,9.109,44.266,1.53,1.087
+United States,Health Care,2026,2.731,20.81,1.614,1.005
+United States,Industrials,2018,79.585,85.911,1.808,1.562
+United States,Industrials,2019,42.358,71.42,1.254,0.975
+United States,Industrials,2020,76.409,88.372,2.669,2.492
+United States,Industrials,2021,48.948,69.414,1.076,1.011
+United States,Industrials,2022,63.498,86.13,1.453,1.412
+United States,Industrials,2023,51.163,71.088,1.1,0.943
+United States,Industrials,2024,41.831,68.21,1.204,0.855
+United States,Industrials,2025,55.94,81.345,1.484,1.218
+United States,Industrials,2026,19.167,41.232,2.008,1.18
+United States,Information Technology,2018,75.241,77.729,2.311,2.135
+United States,Information Technology,2019,61.466,72.881,1.29,1.165
+United States,Information Technology,2020,64.496,84.082,2.771,2.503
+United States,Information Technology,2021,28.3,50.473,1.403,1.26
+United States,Information Technology,2022,72.588,78.881,2.249,2.116
+United States,Information Technology,2023,27.796,53.796,1.341,1.229
+United States,Information Technology,2024,17.878,34.513,1.488,1.45
+United States,Information Technology,2025,45.339,54.859,1.842,1.882
+United States,Information Technology,2026,5.48,2.567,1.452,2.299
+United States,Materials,2018,67.459,66.739,1.451,1.501
+United States,Materials,2019,38.363,54.16,1.026,1.051
+United States,Materials,2020,81.972,81.958,2.394,2.657
+United States,Materials,2021,51.03,48.982,1.008,1.343
+United States,Materials,2022,63.227,74.443,1.738,1.745
+United States,Materials,2023,38.2,67.188,1.114,1.184
+United States,Materials,2024,38.087,53.821,0.879,1.006
+United States,Materials,2025,49.674,69.858,1.17,1.49
+United States,Materials,2026,20.71,41.565,1.621,1.195
+United States,Real Estate,2018,31.78,41.371,1.425,1.337
+United States,Real Estate,2019,5.333,18.907,0.967,0.775
+United States,Real Estate,2020,68.013,81.056,2.634,2.64
+United States,Real Estate,2021,15.292,42.723,1.113,0.95
+United States,Real Estate,2022,50.727,69.654,1.89,1.54
+United States,Real Estate,2023,44.286,55.594,1.413,1.231
+United States,Real Estate,2024,19.929,34.137,1.255,1.003
+United States,Real Estate,2025,29.792,54.908,1.15,1.101
+United States,Real Estate,2026,14.723,25.541,1.102,0.993
+United States,Utilities,2018,12.872,10.198,1.449,1.257
+United States,Utilities,2019,3.616,8.44,0.775,0.756
+United States,Utilities,2020,61.691,70.182,2.532,2.483
+United States,Utilities,2021,16.083,18.247,1.066,0.946
+United States,Utilities,2022,36.458,42.335,1.505,1.338
+United States,Utilities,2023,17.572,28.229,1.3,1.093
+United States,Utilities,2024,6.096,19.217,1.166,0.966
+United States,Utilities,2025,10.236,35.722,1.355,1.022
+United States,Utilities,2026,5.204,8.052,1.291,1.038
+Japan,Communication Services,2018,33.616,66.878,2.57,2.208
+Japan,Communication Services,2019,22.073,44.537,1.034,0.948
+Japan,Communication Services,2020,40.157,57.633,1.712,1.45
+Japan,Communication Services,2021,49.723,52.284,1.512,1.012
+Japan,Communication Services,2022,43.162,54.855,1.395,1.206
+Japan,Communication Services,2023,48.975,46.351,0.929,0.894
+Japan,Communication Services,2024,63.553,66.541,1.74,1.231
+Japan,Communication Services,2025,34.672,52.327,2.207,1.279
+Japan,Communication Services,2026,15.898,9.58,3.122,1.382
+Japan,Consumer Discretionary,2018,73.503,90.249,1.552,1.511
+Japan,Consumer Discretionary,2019,53.218,79.003,0.901,0.873
+Japan,Consumer Discretionary,2020,77.805,84.373,1.717,1.661
+Japan,Consumer Discretionary,2021,48.269,79.866,1.354,1.117
+Japan,Consumer Discretionary,2022,57.443,76.493,1.518,1.252
+Japan,Consumer Discretionary,2023,62.252,80.558,1.319,1.001
+Japan,Consumer Discretionary,2024,71.546,87.213,2.034,1.43
+Japan,Consumer Discretionary,2025,55.708,82.463,1.884,1.114
+Japan,Consumer Discretionary,2026,46.252,44.651,1.756,1.234
+Japan,Consumer Staples,2018,69.861,78.263,1.324,1.698
+Japan,Consumer Staples,2019,34.058,51.723,0.933,0.88
+Japan,Consumer Staples,2020,57.007,60.907,1.408,1.302
+Japan,Consumer Staples,2021,41.508,57.732,1.036,0.915
+Japan,Consumer Staples,2022,35.33,47.954,1.121,1.011
+Japan,Consumer Staples,2023,41.997,46.06,0.898,0.81
+Japan,Consumer Staples,2024,46.645,61.51,1.383,1.019
+Japan,Consumer Staples,2025,41.087,40.488,1.2,0.886
+Japan,Consumer Staples,2026,18.915,8.198,1.32,1.177
+Japan,Energy,2018,45.754,35.039,2.481,3.075
+Japan,Energy,2019,35.721,32.117,1.783,2.423
+Japan,Energy,2020,50.81,49.296,1.839,2.631
+Japan,Energy,2021,28.91,30.872,1.646,1.988
+Japan,Energy,2022,15.4,7.796,2.042,2.245
+Japan,Energy,2023,31.79,22.325,1.683,1.968
+Japan,Energy,2024,57.567,50.38,2.063,2.219
+Japan,Energy,2025,55.67,37.535,1.654,2.479
+Japan,Energy,2026,17.069,20.17,2.166,2.54
+Japan,Financials,2018,59.909,75.448,1.314,1.377
+Japan,Financials,2019,56.465,72.087,0.878,0.893
+Japan,Financials,2020,63.568,79.099,1.834,1.695
+Japan,Financials,2021,56.606,72.168,1.372,1.134
+Japan,Financials,2022,32.086,42.872,1.385,1.161
+Japan,Financials,2023,24.109,37.952,1.565,1.211
+Japan,Financials,2024,61.719,73.724,2.272,1.976
+Japan,Financials,2025,60.606,74.311,2.054,1.738
+Japan,Financials,2026,54.999,61.246,2.256,1.756
+Japan,Health Care,2018,56.781,81.86,1.85,1.966
+Japan,Health Care,2019,28.275,47.931,1.207,0.971
+Japan,Health Care,2020,33.601,61.042,1.804,1.459
+Japan,Health Care,2021,36.783,50.233,1.389,1.099
+Japan,Health Care,2022,43.767,54.854,1.497,1.356
+Japan,Health Care,2023,30.649,52.434,1.369,0.966
+Japan,Health Care,2024,42.283,68.24,1.752,1.153
+Japan,Health Care,2025,20.283,54.757,1.883,1.136
+Japan,Health Care,2026,13.26,22.784,1.622,1.3
+Japan,Industrials,2018,76.333,92.649,1.618,1.63
+Japan,Industrials,2019,59.283,89.133,0.923,0.944
+Japan,Industrials,2020,66.688,93.091,1.608,1.632
+Japan,Industrials,2021,66.424,88.882,1.532,1.125
+Japan,Industrials,2022,65.134,86.53,1.515,1.177
+Japan,Industrials,2023,69.343,87.76,1.359,0.975
+Japan,Industrials,2024,76.59,93.951,2.147,1.555
+Japan,Industrials,2025,64.766,89.46,2.013,1.262
+Japan,Industrials,2026,54.817,79.158,1.919,1.679
+Japan,Information Technology,2018,75.125,71.712,2.146,2.033
+Japan,Information Technology,2019,38.098,60.155,1.304,1.195
+Japan,Information Technology,2020,52.323,71.73,1.611,1.683
+Japan,Information Technology,2021,39.336,49.229,1.52,1.295
+Japan,Information Technology,2022,53.326,56.0,2.039,1.55
+Japan,Information Technology,2023,30.234,46.596,1.413,1.162
+Japan,Information Technology,2024,58.626,71.768,2.181,1.785
+Japan,Information Technology,2025,54.288,63.348,2.043,1.753
+Japan,Information Technology,2026,14.879,32.28,4.026,2.485
+Japan,Materials,2018,55.5,79.732,1.907,1.669
+Japan,Materials,2019,49.322,71.28,1.221,1.212
+Japan,Materials,2020,68.224,84.306,1.947,1.843
+Japan,Materials,2021,53.817,75.077,1.584,1.325
+Japan,Materials,2022,55.164,74.858,1.776,1.311
+Japan,Materials,2023,36.723,74.461,1.362,1.055
+Japan,Materials,2024,69.144,89.598,1.903,1.606
+Japan,Materials,2025,58.879,76.528,1.67,1.317
+Japan,Materials,2026,36.97,74.307,2.415,1.754
+Japan,Real Estate,2018,57.378,56.654,1.57,1.486
+Japan,Real Estate,2019,32.426,38.655,1.126,0.927
+Japan,Real Estate,2020,63.797,72.895,2.362,2.28
+Japan,Real Estate,2021,53.928,53.547,1.359,1.406
+Japan,Real Estate,2022,48.066,57.235,1.363,1.356
+Japan,Real Estate,2023,56.155,56.854,1.196,1.135
+Japan,Real Estate,2024,61.271,61.548,1.906,1.673
+Japan,Real Estate,2025,45.664,45.405,1.408,1.259
+Japan,Real Estate,2026,43.591,32.078,2.183,1.252
+Japan,Utilities,2018,28.804,45.605,1.811,1.618
+Japan,Utilities,2019,14.579,23.228,1.23,1.119
+Japan,Utilities,2020,38.714,41.561,1.59,1.492
+Japan,Utilities,2021,20.659,22.658,1.059,1.138
+Japan,Utilities,2022,9.187,20.374,1.304,1.395
+Japan,Utilities,2023,28.036,24.677,1.466,1.349
+Japan,Utilities,2024,39.817,49.314,2.045,1.756
+Japan,Utilities,2025,35.385,37.736,1.343,1.459
+Japan,Utilities,2026,47.038,42.533,1.606,1.501
+China,Communication Services,2019,35.44,3.616,1.446,3.376
+China,Communication Services,2020,53.009,25.237,1.872,3.533
+China,Communication Services,2021,23.712,5.687,1.45,2.781
+China,Communication Services,2022,35.886,30.354,1.229,1.537
+China,Communication Services,2023,18.893,10.355,2.251,1.985
+China,Communication Services,2024,26.892,47.331,1.52,1.818
+China,Communication Services,2025,13.266,34.219,1.312,1.31
+China,Communication Services,2026,9.608,36.243,1.572,1.237
+China,Consumer Discretionary,2019,55.58,77.62,1.576,1.412
+China,Consumer Discretionary,2020,51.844,64.98,2.13,1.951
+China,Consumer Discretionary,2021,39.653,44.763,2.366,1.532
+China,Consumer Discretionary,2022,54.305,59.669,2.051,1.656
+China,Consumer Discretionary,2023,34.082,43.093,1.303,1.147
+China,Consumer Discretionary,2024,43.501,69.565,1.54,1.535
+China,Consumer Discretionary,2025,37.924,62.359,1.4,1.158
+China,Consumer Discretionary,2026,26.156,46.783,1.133,1.1
+China,Consumer Staples,2019,40.933,44.178,1.811,1.631
+China,Consumer Staples,2020,43.903,50.094,1.819,1.903
+China,Consumer Staples,2021,22.969,29.612,2.333,2.106
+China,Consumer Staples,2022,40.922,48.752,1.873,1.622
+China,Consumer Staples,2023,28.494,33.913,1.343,1.106
+China,Consumer Staples,2024,50.074,68.338,1.792,1.771
+China,Consumer Staples,2025,32.911,35.292,1.033,0.98
+China,Consumer Staples,2026,16.237,31.652,1.517,1.32
+China,Energy,2019,51.192,58.94,0.858,1.352
+China,Energy,2020,41.306,53.046,1.208,1.835
+China,Energy,2021,2.45,2.943,1.707,2.818
+China,Energy,2022,16.245,15.53,1.727,2.613
+China,Energy,2023,14.232,13.28,1.503,1.452
+China,Energy,2024,15.666,20.683,1.76,1.802
+China,Energy,2025,14.513,20.917,1.197,1.382
+China,Energy,2026,0.472,6.199,2.062,2.358
+China,Financials,2019,53.223,67.768,1.046,1.325
+China,Financials,2020,43.492,63.587,1.293,1.568
+China,Financials,2021,18.686,28.889,1.149,1.075
+China,Financials,2022,27.596,58.023,0.96,1.342
+China,Financials,2023,9.093,54.887,1.201,1.126
+China,Financials,2024,3.015,67.687,1.258,1.408
+China,Financials,2025,0.971,47.126,1.071,1.011
+China,Financials,2026,0.007,38.558,1.315,1.136
+China,Health Care,2019,28.077,57.996,1.715,1.502
+China,Health Care,2020,25.329,33.298,1.966,1.888
+China,Health Care,2021,23.034,35.289,2.482,2.138
+China,Health Care,2022,18.961,35.612,2.181,1.783
+China,Health Care,2023,10.717,26.132,1.433,1.082
+China,Health Care,2024,49.778,65.039,1.969,1.843
+China,Health Care,2025,27.395,52.592,1.661,1.0
+China,Health Care,2026,23.589,33.303,1.937,1.41
+China,Industrials,2019,62.481,84.964,1.349,1.265
+China,Industrials,2020,52.179,85.116,2.019,1.477
+China,Industrials,2021,36.982,57.541,2.538,1.313
+China,Industrials,2022,36.528,69.051,2.382,1.396
+China,Industrials,2023,30.227,65.657,1.395,0.906
+China,Industrials,2024,58.993,86.487,2.115,1.416
+China,Industrials,2025,40.198,76.521,1.897,1.017
+China,Industrials,2026,17.113,54.764,2.012,1.113
+China,Information Technology,2019,54.938,52.316,2.054,1.972
+China,Information Technology,2020,52.897,54.011,2.282,2.415
+China,Information Technology,2021,34.697,33.129,2.231,1.556
+China,Information Technology,2022,35.644,31.397,2.037,1.702
+China,Information Technology,2023,19.41,23.537,2.01,1.435
+China,Information Technology,2024,36.929,45.638,2.434,2.233
+China,Information Technology,2025,9.358,33.598,3.02,1.785
+China,Information Technology,2026,0.11,0.229,3.53,2.55
+China,Materials,2019,57.999,60.027,1.468,1.394
+China,Materials,2020,53.91,72.968,1.931,1.699
+China,Materials,2021,28.275,34.919,2.254,1.979
+China,Materials,2022,55.868,59.594,1.685,1.669
+China,Materials,2023,32.158,48.973,1.279,1.054
+China,Materials,2024,40.883,77.56,1.792,1.588
+China,Materials,2025,28.648,46.419,1.996,1.375
+China,Materials,2026,31.929,32.182,2.988,2.015
+China,Real Estate,2019,41.638,39.053,1.654,1.804
+China,Real Estate,2020,34.503,41.573,1.817,2.01
+China,Real Estate,2021,5.812,7.608,2.225,1.744
+China,Real Estate,2022,18.504,32.605,2.573,2.446
+China,Real Estate,2023,19.124,24.074,1.653,1.395
+China,Real Estate,2024,30.421,39.928,2.695,2.426
+China,Real Estate,2025,24.4,23.851,1.527,1.88
+China,Real Estate,2026,37.167,35.19,2.106,1.935
+China,Utilities,2019,16.26,56.141,0.965,0.998
+China,Utilities,2020,32.959,57.247,1.055,1.171
+China,Utilities,2021,2.103,3.823,1.392,1.862
+China,Utilities,2022,33.788,33.552,1.324,1.592
+China,Utilities,2023,6.56,2.739,0.797,0.962
+China,Utilities,2024,6.803,25.248,1.257,1.339
+China,Utilities,2025,13.103,17.226,0.76,0.83
+China,Utilities,2026,15.312,15.217,0.927,1.178
+United Kingdom,Communication Services,2018,27.465,52.117,1.695,1.085
+United Kingdom,Communication Services,2019,24.859,45.686,1.132,0.951
+United Kingdom,Communication Services,2020,59.163,69.086,2.365,2.163
+United Kingdom,Communication Services,2021,36.027,48.311,1.275,1.051
+United Kingdom,Communication Services,2022,33.808,65.784,1.394,1.524
+United Kingdom,Communication Services,2023,32.611,62.625,1.299,0.976
+United Kingdom,Communication Services,2024,22.092,47.919,1.129,0.88
+United Kingdom,Communication Services,2025,31.408,48.185,1.192,1.011
+United Kingdom,Communication Services,2026,18.77,21.202,1.569,1.251
+United Kingdom,Consumer Discretionary,2018,35.608,32.13,1.877,1.386
+United Kingdom,Consumer Discretionary,2019,34.888,38.286,1.308,1.121
+United Kingdom,Consumer Discretionary,2020,60.392,67.692,3.079,2.459
+United Kingdom,Consumer Discretionary,2021,40.946,60.973,1.463,1.104
+United Kingdom,Consumer Discretionary,2022,49.305,62.86,1.87,1.845
+United Kingdom,Consumer Discretionary,2023,36.981,60.837,1.417,1.262
+United Kingdom,Consumer Discretionary,2024,26.371,55.961,1.311,1.008
+United Kingdom,Consumer Discretionary,2025,24.305,48.101,1.231,1.098
+United Kingdom,Consumer Discretionary,2026,37.617,41.489,1.295,1.33
+United Kingdom,Consumer Staples,2018,12.998,45.249,1.088,0.927
+United Kingdom,Consumer Staples,2019,18.049,48.611,0.979,0.759
+United Kingdom,Consumer Staples,2020,51.942,55.298,1.664,1.32
+United Kingdom,Consumer Staples,2021,22.475,30.02,0.829,0.788
+United Kingdom,Consumer Staples,2022,23.371,50.837,1.13,1.062
+United Kingdom,Consumer Staples,2023,14.38,36.166,0.862,0.658
+United Kingdom,Consumer Staples,2024,17.22,25.123,0.782,0.81
+United Kingdom,Consumer Staples,2025,10.627,26.608,0.957,0.832
+United Kingdom,Consumer Staples,2026,7.753,21.995,1.347,1.045
+United Kingdom,Energy,2018,26.593,30.486,1.536,2.127
+United Kingdom,Energy,2019,20.021,18.219,1.119,1.502
+United Kingdom,Energy,2020,55.172,34.336,3.543,4.552
+United Kingdom,Energy,2021,23.182,14.074,1.749,2.64
+United Kingdom,Energy,2022,10.79,4.585,2.059,2.492
+United Kingdom,Energy,2023,14.033,18.306,1.443,2.045
+United Kingdom,Energy,2024,8.898,19.752,1.112,1.671
+United Kingdom,Energy,2025,20.032,10.263,1.304,2.014
+United Kingdom,Energy,2026,10.781,11.285,1.696,2.081
+United Kingdom,Financials,2018,57.913,60.843,1.307,1.301
+United Kingdom,Financials,2019,52.794,53.215,1.017,1.067
+United Kingdom,Financials,2020,65.573,80.579,2.083,2.59
+United Kingdom,Financials,2021,37.382,54.404,1.25,1.146
+United Kingdom,Financials,2022,41.395,70.562,1.484,1.657
+United Kingdom,Financials,2023,37.349,64.969,1.046,1.168
+United Kingdom,Financials,2024,27.016,55.967,0.989,0.966
+United Kingdom,Financials,2025,33.255,52.934,1.301,1.15
+United Kingdom,Financials,2026,29.09,45.794,1.747,1.137
+United Kingdom,Health Care,2018,13.72,38.789,1.317,1.755
+United Kingdom,Health Care,2019,10.891,21.269,1.116,1.138
+United Kingdom,Health Care,2020,28.509,21.697,1.777,1.509
+United Kingdom,Health Care,2021,5.586,16.341,1.102,0.963
+United Kingdom,Health Care,2022,19.158,51.482,1.405,1.679
+United Kingdom,Health Care,2023,9.472,38.843,1.111,0.919
+United Kingdom,Health Care,2024,7.252,17.334,1.062,1.065
+United Kingdom,Health Care,2025,23.541,31.975,1.385,1.289
+United Kingdom,Health Care,2026,10.5,19.667,1.556,1.271
+United Kingdom,Industrials,2018,36.062,61.184,1.3,1.379
+United Kingdom,Industrials,2019,32.541,70.177,1.1,0.94
+United Kingdom,Industrials,2020,70.01,83.829,1.999,2.238
+United Kingdom,Industrials,2021,32.936,66.948,0.956,1.036
+United Kingdom,Industrials,2022,30.327,74.216,1.179,1.589
+United Kingdom,Industrials,2023,20.607,63.197,0.895,1.04
+United Kingdom,Industrials,2024,17.934,52.104,0.976,0.905
+United Kingdom,Industrials,2025,22.754,56.68,1.345,1.082
+United Kingdom,Industrials,2026,24.972,46.637,1.698,1.15
+United Kingdom,Information Technology,2018,21.028,29.803,1.677,1.603
+United Kingdom,Information Technology,2019,34.842,15.359,1.235,1.317
+United Kingdom,Information Technology,2020,41.72,42.186,1.859,2.211
+United Kingdom,Information Technology,2021,16.527,19.6,1.243,1.181
+United Kingdom,Information Technology,2022,39.361,49.429,1.568,1.881
+United Kingdom,Information Technology,2023,22.37,39.037,1.147,1.213
+United Kingdom,Information Technology,2024,9.632,28.132,1.265,1.216
+United Kingdom,Information Technology,2025,31.855,35.243,1.176,1.399
+United Kingdom,Information Technology,2026,1.393,7.034,1.728,1.719
+United Kingdom,Materials,2018,23.094,38.568,1.984,1.639
+United Kingdom,Materials,2019,28.837,38.889,1.469,1.109
+United Kingdom,Materials,2020,63.102,60.371,2.714,1.875
+United Kingdom,Materials,2021,24.1,36.373,2.013,1.115
+United Kingdom,Materials,2022,17.268,47.332,2.113,1.601
+United Kingdom,Materials,2023,21.553,41.652,1.739,1.292
+United Kingdom,Materials,2024,18.733,29.297,1.42,1.367
+United Kingdom,Materials,2025,12.457,12.737,1.49,1.679
+United Kingdom,Materials,2026,12.977,18.262,1.97,2.84
+United Kingdom,Real Estate,2018,27.087,41.181,1.4,1.12
+United Kingdom,Real Estate,2019,23.006,22.626,1.091,0.905
+United Kingdom,Real Estate,2020,51.885,61.032,1.98,2.348
+United Kingdom,Real Estate,2021,31.865,31.447,1.112,1.033
+United Kingdom,Real Estate,2022,40.368,48.16,1.998,1.679
+United Kingdom,Real Estate,2023,35.088,39.889,1.658,1.653
+United Kingdom,Real Estate,2024,28.389,36.001,1.169,1.099
+United Kingdom,Real Estate,2025,39.587,49.304,1.258,1.18
+United Kingdom,Real Estate,2026,38.597,46.102,1.659,1.258
+United Kingdom,Utilities,2018,13.828,13.01,1.642,1.551
+United Kingdom,Utilities,2019,15.547,18.566,1.005,1.312
+United Kingdom,Utilities,2020,44.824,45.493,2.033,1.867
+United Kingdom,Utilities,2021,11.486,10.823,0.989,1.095
+United Kingdom,Utilities,2022,22.437,24.595,1.359,1.466
+United Kingdom,Utilities,2023,12.823,22.361,0.968,1.112
+United Kingdom,Utilities,2024,10.351,24.033,1.22,1.113
+United Kingdom,Utilities,2025,14.865,21.562,1.192,1.143
+United Kingdom,Utilities,2026,17.568,28.681,1.473,1.454
+Canada,Communication Services,2018,18.51,30.689,0.712,1.02
+Canada,Communication Services,2019,6.904,6.397,0.687,0.861
+Canada,Communication Services,2020,73.389,52.681,2.135,2.008
+Canada,Communication Services,2021,10.934,8.084,0.615,0.887
+Canada,Communication Services,2022,28.981,18.18,0.965,1.327
+Canada,Communication Services,2023,34.254,15.372,0.909,1.38
+Canada,Communication Services,2024,6.209,1.754,0.852,1.042
+Canada,Communication Services,2025,0.002,0.043,1.065,1.115
+Canada,Communication Services,2026,3.972,0.067,1.156,1.456
+Canada,Consumer Discretionary,2018,55.081,53.518,1.371,1.152
+Canada,Consumer Discretionary,2019,22.189,25.195,0.898,0.856
+Canada,Consumer Discretionary,2020,72.581,74.335,2.359,2.373
+Canada,Consumer Discretionary,2021,32.912,48.084,1.088,0.953
+Canada,Consumer Discretionary,2022,44.709,54.914,1.406,1.363
+Canada,Consumer Discretionary,2023,30.546,44.338,0.9,0.957
+Canada,Consumer Discretionary,2024,22.088,39.443,0.978,0.808
+Canada,Consumer Discretionary,2025,29.479,44.915,1.156,1.123
+Canada,Consumer Discretionary,2026,25.336,32.954,1.249,1.395
+Canada,Consumer Staples,2018,16.066,28.506,0.952,1.121
+Canada,Consumer Staples,2019,20.481,14.101,0.672,0.781
+Canada,Consumer Staples,2020,55.058,62.341,1.852,1.621
+Canada,Consumer Staples,2021,10.993,12.404,0.823,0.747
+Canada,Consumer Staples,2022,11.599,24.21,1.19,0.949
+Canada,Consumer Staples,2023,11.39,19.104,0.936,0.864
+Canada,Consumer Staples,2024,15.53,17.577,0.83,0.709
+Canada,Consumer Staples,2025,6.269,14.132,1.046,0.914
+Canada,Consumer Staples,2026,3.909,3.191,1.226,1.055
+Canada,Energy,2018,36.753,41.19,1.548,1.577
+Canada,Energy,2019,16.972,3.476,0.842,1.23
+Canada,Energy,2020,72.155,55.8,3.075,3.997
+Canada,Energy,2021,19.204,16.738,1.044,1.773
+Canada,Energy,2022,24.416,18.927,1.446,2.101
+Canada,Energy,2023,12.836,10.665,1.221,1.278
+Canada,Energy,2024,7.784,14.692,0.99,1.044
+Canada,Energy,2025,26.426,33.367,1.006,1.414
+Canada,Energy,2026,7.717,0.147,1.38,1.27
+Canada,Financials,2018,56.875,56.854,0.931,0.957
+Canada,Financials,2019,24.716,30.247,0.568,0.604
+Canada,Financials,2020,75.675,82.461,2.429,2.617
+Canada,Financials,2021,24.33,37.941,0.693,0.704
+Canada,Financials,2022,41.42,66.302,1.059,1.116
+Canada,Financials,2023,51.046,64.375,0.904,0.88
+Canada,Financials,2024,48.452,53.56,0.801,0.693
+Canada,Financials,2025,55.245,61.398,1.049,0.907
+Canada,Financials,2026,16.142,27.71,1.044,0.971
+Canada,Industrials,2018,53.876,57.742,1.545,1.275
+Canada,Industrials,2019,43.568,39.633,0.834,0.726
+Canada,Industrials,2020,71.141,81.115,1.94,1.919
+Canada,Industrials,2021,20.091,52.796,1.035,0.816
+Canada,Industrials,2022,40.288,63.49,1.18,1.239
+Canada,Industrials,2023,26.627,47.444,0.898,0.803
+Canada,Industrials,2024,32.496,40.648,0.848,0.706
+Canada,Industrials,2025,34.829,62.456,1.133,0.984
+Canada,Industrials,2026,13.758,33.884,1.249,1.263
+Canada,Information Technology,2018,42.224,44.92,2.514,1.771
+Canada,Information Technology,2019,14.632,25.778,1.532,1.161
+Canada,Information Technology,2020,20.615,61.156,3.127,2.445
+Canada,Information Technology,2021,9.112,9.907,2.294,1.982
+Canada,Information Technology,2022,21.192,34.236,3.411,2.192
+Canada,Information Technology,2023,15.896,23.881,1.95,1.301
+Canada,Information Technology,2024,10.345,16.048,2.001,1.543
+Canada,Information Technology,2025,24.444,23.071,2.673,2.147
+Canada,Information Technology,2026,8.556,1.93,3.009,2.038
+Canada,Materials,2018,27.413,5.969,1.583,1.694
+Canada,Materials,2019,1.519,0.04,0.984,1.221
+Canada,Materials,2020,10.498,18.768,2.321,2.799
+Canada,Materials,2021,13.531,13.647,1.194,1.714
+Canada,Materials,2022,10.466,24.96,1.962,2.256
+Canada,Materials,2023,13.68,17.334,1.221,1.489
+Canada,Materials,2024,12.434,18.948,1.622,1.598
+Canada,Materials,2025,5.72,19.042,2.169,1.885
+Canada,Materials,2026,6.861,6.902,3.149,2.91
+Canada,Real Estate,2018,28.384,54.626,0.748,0.825
+Canada,Real Estate,2019,11.923,30.045,0.679,0.568
+Canada,Real Estate,2020,49.205,61.15,2.381,2.542
+Canada,Real Estate,2021,29.739,39.72,0.937,0.752
+Canada,Real Estate,2022,56.258,56.017,1.403,1.235
+Canada,Real Estate,2023,41.936,53.095,1.075,1.071
+Canada,Real Estate,2024,27.773,32.071,1.053,0.895
+Canada,Real Estate,2025,39.923,38.373,1.224,0.847
+Canada,Real Estate,2026,24.222,22.023,1.528,0.82
+Canada,Utilities,2018,34.016,29.81,0.987,0.831
+Canada,Utilities,2019,8.446,9.054,0.458,0.461
+Canada,Utilities,2020,79.584,77.55,2.283,2.481
+Canada,Utilities,2021,3.917,15.993,0.506,0.674
+Canada,Utilities,2022,19.652,19.211,0.931,0.965
+Canada,Utilities,2023,29.84,46.275,1.115,1.167
+Canada,Utilities,2024,22.097,37.886,0.969,0.969
+Canada,Utilities,2025,10.422,33.22,0.731,0.828
+Canada,Utilities,2026,0.063,0.892,0.828,0.779
+Korea,Communication Services,2018,13.878,38.592,1.709,1.408
+Korea,Communication Services,2019,10.798,9.926,1.142,0.993
+Korea,Communication Services,2020,28.194,51.642,2.239,1.683
+Korea,Communication Services,2021,24.585,23.338,1.865,1.401
+Korea,Communication Services,2022,39.898,39.405,2.234,1.669
+Korea,Communication Services,2023,31.466,31.086,1.706,1.274
+Korea,Communication Services,2024,23.053,25.586,1.643,1.173
+Korea,Communication Services,2025,16.026,28.041,2.105,1.002
+Korea,Communication Services,2026,47.096,35.828,3.221,2.18
+Korea,Consumer Discretionary,2018,22.84,57.264,2.283,1.357
+Korea,Consumer Discretionary,2019,12.589,46.647,1.367,0.893
+Korea,Consumer Discretionary,2020,55.68,68.975,2.893,2.192
+Korea,Consumer Discretionary,2021,32.122,55.017,2.143,1.302
+Korea,Consumer Discretionary,2022,31.518,66.618,1.549,1.39
+Korea,Consumer Discretionary,2023,17.224,47.069,1.361,1.071
+Korea,Consumer Discretionary,2024,30.719,51.913,2.124,1.245
+Korea,Consumer Discretionary,2025,25.996,46.252,1.949,1.166
+Korea,Consumer Discretionary,2026,49.527,68.741,4.478,2.465
+Korea,Consumer Staples,2018,36.824,50.792,2.275,1.327
+Korea,Consumer Staples,2019,15.335,33.501,1.21,0.981
+Korea,Consumer Staples,2020,40.02,67.978,1.856,1.667
+Korea,Consumer Staples,2021,23.347,43.165,1.364,1.147
+Korea,Consumer Staples,2022,21.015,42.565,1.748,1.176
+Korea,Consumer Staples,2023,14.546,16.304,1.556,0.995
+Korea,Consumer Staples,2024,7.325,30.525,1.796,1.325
+Korea,Consumer Staples,2025,6.737,30.676,1.562,1.197
+Korea,Consumer Staples,2026,23.088,32.431,2.384,2.184
+Korea,Financials,2018,8.63,25.736,1.359,1.253
+Korea,Financials,2019,25.1,37.059,1.074,1.052
+Korea,Financials,2020,56.329,69.709,2.674,2.352
+Korea,Financials,2021,12.349,31.277,1.749,1.242
+Korea,Financials,2022,41.201,48.568,1.608,1.404
+Korea,Financials,2023,15.995,32.461,1.489,1.135
+Korea,Financials,2024,22.87,38.303,2.359,1.66
+Korea,Financials,2025,24.536,40.085,1.787,1.59
+Korea,Financials,2026,51.921,66.502,2.946,2.743
+Korea,Health Care,2018,9.946,32.481,3.42,2.243
+Korea,Health Care,2019,9.535,18.359,1.924,1.586
+Korea,Health Care,2020,26.219,27.843,2.644,2.889
+Korea,Health Care,2021,9.786,19.235,2.053,1.748
+Korea,Health Care,2022,28.942,39.915,1.712,1.836
+Korea,Health Care,2023,17.824,21.196,1.366,1.849
+Korea,Health Care,2024,15.218,26.533,1.795,2.069
+Korea,Health Care,2025,14.888,24.366,1.602,1.865
+Korea,Health Care,2026,41.523,44.16,2.612,3.264
+Korea,Industrials,2018,56.561,53.925,1.609,1.647
+Korea,Industrials,2019,47.068,59.097,1.153,1.02
+Korea,Industrials,2020,69.139,80.112,2.633,2.345
+Korea,Industrials,2021,49.573,51.668,1.652,1.369
+Korea,Industrials,2022,24.902,54.614,2.098,1.579
+Korea,Industrials,2023,28.027,38.435,2.656,1.279
+Korea,Industrials,2024,20.733,56.7,2.184,1.523
+Korea,Industrials,2025,27.694,43.211,2.203,1.767
+Korea,Industrials,2026,61.655,74.438,3.306,3.535
+Korea,Information Technology,2018,26.997,56.666,1.587,1.833
+Korea,Information Technology,2019,23.767,40.33,1.437,1.181
+Korea,Information Technology,2020,55.19,78.508,2.067,2.275
+Korea,Information Technology,2021,40.772,54.421,1.39,1.504
+Korea,Information Technology,2022,44.02,74.983,1.5,1.746
+Korea,Information Technology,2023,22.283,57.743,1.316,1.33
+Korea,Information Technology,2024,25.295,56.455,1.962,1.678
+Korea,Information Technology,2025,29.553,56.532,2.27,1.773
+Korea,Information Technology,2026,37.277,52.71,5.716,4.77
+Korea,Materials,2018,35.411,61.583,2.03,1.387
+Korea,Materials,2019,38.264,59.194,1.221,1.039
+Korea,Materials,2020,57.107,73.974,2.721,2.507
+Korea,Materials,2021,20.978,39.479,1.948,1.384
+Korea,Materials,2022,44.89,64.101,2.222,1.73
+Korea,Materials,2023,30.641,40.829,2.3,1.291
+Korea,Materials,2024,25.719,47.69,2.549,1.715
+Korea,Materials,2025,25.69,51.463,2.449,1.635
+Korea,Materials,2026,65.307,75.801,3.759,3.256
+Australia,Communication Services,2018,35.528,49.439,1.182,1.239
+Australia,Communication Services,2019,36.03,38.51,1.037,0.93
+Australia,Communication Services,2020,56.035,75.915,1.691,1.967
+Australia,Communication Services,2021,31.668,25.205,0.96,0.955
+Australia,Communication Services,2022,50.452,60.834,1.164,1.409
+Australia,Communication Services,2023,32.433,40.342,0.79,0.879
+Australia,Communication Services,2024,46.889,47.723,0.902,0.879
+Australia,Communication Services,2025,22.304,33.241,0.846,1.077
+Australia,Communication Services,2026,21.923,26.191,1.054,1.117
+Australia,Consumer Discretionary,2018,62.291,49.698,0.978,1.314
+Australia,Consumer Discretionary,2019,42.719,35.546,0.972,0.976
+Australia,Consumer Discretionary,2020,79.259,73.997,1.936,2.428
+Australia,Consumer Discretionary,2021,38.419,37.355,0.878,1.117
+Australia,Consumer Discretionary,2022,58.547,63.529,1.316,1.5
+Australia,Consumer Discretionary,2023,44.574,47.703,0.836,0.917
+Australia,Consumer Discretionary,2024,45.51,51.477,0.972,1.025
+Australia,Consumer Discretionary,2025,35.073,49.769,1.063,1.08
+Australia,Consumer Discretionary,2026,29.415,46.748,1.18,1.359
+Australia,Consumer Staples,2018,52.386,52.557,1.237,1.725
+Australia,Consumer Staples,2019,45.854,16.501,1.001,1.76
+Australia,Consumer Staples,2020,35.569,30.693,1.687,2.356
+Australia,Consumer Staples,2021,18.243,3.914,1.023,1.566
+Australia,Consumer Staples,2022,18.571,36.641,1.143,1.159
+Australia,Consumer Staples,2023,18.678,25.0,0.838,1.146
+Australia,Consumer Staples,2024,18.912,23.107,0.934,1.151
+Australia,Consumer Staples,2025,3.231,19.46,1.023,1.184
+Australia,Consumer Staples,2026,2.813,28.345,1.24,1.484
+Australia,Energy,2018,47.093,55.752,1.474,1.715
+Australia,Energy,2019,27.902,22.175,1.315,1.366
+Australia,Energy,2020,62.849,60.479,3.098,2.814
+Australia,Energy,2021,10.182,8.619,1.692,1.693
+Australia,Energy,2022,5.001,12.834,2.076,2.151
+Australia,Energy,2023,13.135,9.218,1.378,1.429
+Australia,Energy,2024,6.21,20.997,1.221,1.288
+Australia,Energy,2025,21.14,28.766,1.713,1.577
+Australia,Energy,2026,6.698,0.189,1.777,1.64
+Australia,Financials,2018,56.15,71.813,1.27,1.102
+Australia,Financials,2019,22.474,55.233,1.06,0.802
+Australia,Financials,2020,64.962,80.994,2.587,2.142
+Australia,Financials,2021,29.209,44.368,1.046,0.772
+Australia,Financials,2022,33.081,57.988,1.235,0.951
+Australia,Financials,2023,31.209,46.245,0.974,0.73
+Australia,Financials,2024,41.611,50.728,1.097,0.758
+Australia,Financials,2025,21.963,49.934,1.233,0.899
+Australia,Financials,2026,4.803,26.441,1.366,0.836
+Australia,Health Care,2018,62.282,48.596,1.723,1.432
+Australia,Health Care,2019,35.895,44.653,1.182,0.862
+Australia,Health Care,2020,41.939,52.6,2.13,1.694
+Australia,Health Care,2021,17.363,25.013,1.191,0.965
+Australia,Health Care,2022,34.009,51.661,1.265,1.303
+Australia,Health Care,2023,11.558,30.131,1.053,0.9
+Australia,Health Care,2024,23.766,33.936,0.967,0.993
+Australia,Health Care,2025,14.402,43.826,1.392,1.12
+Australia,Health Care,2026,11.771,38.073,1.637,1.526
+Australia,Industrials,2018,31.299,70.262,0.824,1.029
+Australia,Industrials,2019,44.578,53.034,0.881,0.778
+Australia,Industrials,2020,63.893,72.348,2.012,2.235
+Australia,Industrials,2021,27.979,50.159,1.035,0.864
+Australia,Industrials,2022,44.807,68.644,1.145,1.115
+Australia,Industrials,2023,41.01,51.297,0.755,0.708
+Australia,Industrials,2024,51.036,57.377,0.909,0.767
+Australia,Industrials,2025,28.553,48.073,0.9,0.814
+Australia,Industrials,2026,13.72,50.072,1.107,1.054
+Australia,Information Technology,2018,48.988,34.275,2.477,1.698
+Australia,Information Technology,2019,30.64,26.691,1.975,1.446
+Australia,Information Technology,2020,41.576,43.322,2.687,2.142
+Australia,Information Technology,2021,12.96,22.036,1.963,1.52
+Australia,Information Technology,2022,50.647,55.586,2.771,2.066
+Australia,Information Technology,2023,19.44,33.767,1.805,1.188
+Australia,Information Technology,2024,18.466,40.642,1.899,1.33
+Australia,Information Technology,2025,26.4,39.038,1.949,1.83
+Australia,Information Technology,2026,14.092,19.703,3.211,2.403
+Australia,Materials,2018,34.386,39.813,1.637,1.277
+Australia,Materials,2019,14.285,18.784,1.282,0.884
+Australia,Materials,2020,49.651,64.514,2.333,2.141
+Australia,Materials,2021,8.009,31.038,1.805,1.243
+Australia,Materials,2022,11.649,38.635,2.129,1.825
+Australia,Materials,2023,10.572,32.992,1.383,1.197
+Australia,Materials,2024,10.502,28.981,1.242,1.168
+Australia,Materials,2025,14.827,19.417,1.381,1.475
+Australia,Materials,2026,4.256,5.575,2.105,2.118
+Australia,Real Estate,2018,22.398,17.766,1.305,1.03
+Australia,Real Estate,2019,22.816,30.075,1.047,0.968
+Australia,Real Estate,2020,51.384,50.126,2.528,2.832
+Australia,Real Estate,2021,32.741,32.92,1.126,1.032
+Australia,Real Estate,2022,50.553,48.83,1.761,1.414
+Australia,Real Estate,2023,41.804,48.141,1.25,1.214
+Australia,Real Estate,2024,41.456,43.541,1.363,1.231
+Australia,Real Estate,2025,44.964,42.511,1.368,0.969
+Australia,Real Estate,2026,31.318,29.436,1.436,1.161
+Australia,Utilities,2018,37.477,0.487,1.299,1.288
+Australia,Utilities,2019,47.019,3.971,0.967,1.813
+Australia,Utilities,2020,37.395,39.267,1.75,1.941
+Australia,Utilities,2021,8.519,8.762,1.202,1.523
+Australia,Utilities,2022,12.323,13.589,1.426,1.539
+Australia,Utilities,2023,2.505,3.069,0.954,1.315
+Australia,Utilities,2024,8.13,1.151,1.068,1.464
+Australia,Utilities,2025,7.728,6.888,1.079,1.285
+Australia,Utilities,2026,0.163,0.203,1.089,1.277
+India,Consumer Discretionary,2018,49.434,66.723,1.801,1.428
+India,Consumer Discretionary,2019,40.02,58.844,1.454,1.661
+India,Consumer Discretionary,2020,63.856,72.285,2.408,2.47
+India,Consumer Discretionary,2021,40.108,51.938,1.561,1.487
+India,Consumer Discretionary,2022,58.607,66.064,1.536,1.492
+India,Consumer Discretionary,2023,29.035,30.016,0.825,0.866
+India,Consumer Discretionary,2024,42.752,45.992,1.319,1.116
+India,Consumer Discretionary,2025,31.727,61.922,1.231,1.186
+India,Consumer Discretionary,2026,52.261,64.065,1.451,1.428
+India,Consumer Staples,2018,47.342,59.895,1.19,1.424
+India,Consumer Staples,2019,31.856,40.599,0.896,1.089
+India,Consumer Staples,2020,46.604,59.995,1.799,1.724
+India,Consumer Staples,2021,24.736,27.044,1.079,0.9
+India,Consumer Staples,2022,44.303,44.669,1.175,1.144
+India,Consumer Staples,2023,11.091,13.977,0.776,0.742
+India,Consumer Staples,2024,7.348,17.758,0.976,1.006
+India,Consumer Staples,2025,14.352,30.078,0.883,0.98
+India,Consumer Staples,2026,25.213,39.859,1.107,1.091
+India,Energy,2018,40.766,22.42,1.944,3.619
+India,Energy,2019,28.697,40.657,1.381,1.93
+India,Energy,2020,51.313,57.07,2.708,2.406
+India,Energy,2021,39.662,44.393,1.497,1.575
+India,Energy,2022,43.678,36.244,1.55,1.477
+India,Energy,2023,40.952,25.677,1.244,1.173
+India,Energy,2024,63.181,56.685,1.52,2.02
+India,Energy,2025,51.669,48.866,1.139,1.177
+India,Energy,2026,31.074,58.527,1.181,1.508
+India,Financials,2018,49.994,57.837,1.118,1.638
+India,Financials,2019,38.264,60.329,1.2,1.318
+India,Financials,2020,56.109,71.855,2.604,2.696
+India,Financials,2021,35.731,55.748,1.405,1.38
+India,Financials,2022,50.119,67.405,1.36,1.381
+India,Financials,2023,28.183,37.531,0.869,0.892
+India,Financials,2024,43.997,69.848,1.201,1.303
+India,Financials,2025,41.641,65.325,0.817,1.108
+India,Financials,2026,45.558,69.334,1.263,1.402
+India,Health Care,2018,9.703,32.756,1.91,1.451
+India,Health Care,2019,13.068,26.247,1.372,0.992
+India,Health Care,2020,36.686,26.545,1.986,1.997
+India,Health Care,2021,21.98,12.595,1.256,1.219
+India,Health Care,2022,26.29,36.221,1.229,1.182
+India,Health Care,2023,9.538,11.096,0.849,0.839
+India,Health Care,2024,11.624,20.768,1.07,1.004
+India,Health Care,2025,30.739,42.935,1.106,1.019
+India,Health Care,2026,14.558,24.555,1.085,1.003
+India,Industrials,2018,58.722,35.141,1.501,1.339
+India,Industrials,2019,45.867,49.055,1.355,1.243
+India,Industrials,2020,62.562,47.304,2.287,2.024
+India,Industrials,2021,55.265,45.641,1.559,1.289
+India,Industrials,2022,73.212,52.011,1.595,1.372
+India,Industrials,2023,45.109,33.941,1.253,1.012
+India,Industrials,2024,64.756,54.115,1.911,1.767
+India,Industrials,2025,55.196,52.515,1.28,1.44
+India,Industrials,2026,67.446,59.834,1.494,1.538
+India,Information Technology,2018,3.765,18.199,1.75,2.028
+India,Information Technology,2019,0.842,1.155,1.231,1.151
+India,Information Technology,2020,42.476,47.065,2.117,2.413
+India,Information Technology,2021,18.803,12.014,1.197,1.854
+India,Information Technology,2022,31.755,32.888,1.46,1.984
+India,Information Technology,2023,9.916,9.692,1.124,1.365
+India,Information Technology,2024,7.831,8.121,1.226,1.484
+India,Information Technology,2025,13.051,19.978,1.279,1.505
+India,Information Technology,2026,4.182,5.68,1.911,2.023
+India,Materials,2018,43.597,61.244,1.417,1.579
+India,Materials,2019,57.915,63.885,1.214,1.486
+India,Materials,2020,58.374,80.996,2.0,2.254
+India,Materials,2021,35.023,51.588,1.308,1.529
+India,Materials,2022,52.917,59.262,1.402,1.541
+India,Materials,2023,34.191,53.287,0.753,0.89
+India,Materials,2024,37.88,61.214,1.272,1.323
+India,Materials,2025,50.103,65.91,1.032,1.181
+India,Materials,2026,49.491,56.296,1.396,1.377
+India,Utilities,2018,30.253,53.317,1.173,2.717
+India,Utilities,2019,19.418,34.275,1.199,1.886
+India,Utilities,2020,41.142,44.291,2.089,2.423
+India,Utilities,2021,18.648,36.244,1.8,1.872
+India,Utilities,2022,23.86,39.86,2.305,1.715
+India,Utilities,2023,16.294,21.044,2.16,2.0
+India,Utilities,2024,52.185,45.609,1.99,2.206
+India,Utilities,2025,43.618,54.926,1.361,1.69
+India,Utilities,2026,24.58,44.608,1.356,1.836
+Germany,Communication Services,2018,25.114,42.723,1.01,1.623
+Germany,Communication Services,2019,19.58,33.249,0.793,1.041
+Germany,Communication Services,2020,69.439,72.4,1.789,2.186
+Germany,Communication Services,2021,35.624,27.752,1.084,1.076
+Germany,Communication Services,2022,40.663,67.921,1.305,1.582
+Germany,Communication Services,2023,6.339,29.987,0.973,1.072
+Germany,Communication Services,2024,10.228,33.305,0.801,1.123
+Germany,Communication Services,2025,4.502,32.904,1.319,1.31
+Germany,Communication Services,2026,8.392,18.183,1.823,1.353
+Germany,Consumer Discretionary,2018,60.066,63.61,1.366,1.705
+Germany,Consumer Discretionary,2019,60.754,65.964,1.232,1.211
+Germany,Consumer Discretionary,2020,83.313,82.05,2.68,2.307
+Germany,Consumer Discretionary,2021,51.425,41.949,1.346,1.287
+Germany,Consumer Discretionary,2022,67.895,69.587,2.053,2.315
+Germany,Consumer Discretionary,2023,45.084,55.021,1.297,1.302
+Germany,Consumer Discretionary,2024,33.654,41.503,1.349,1.079
+Germany,Consumer Discretionary,2025,33.795,56.992,1.598,1.325
+Germany,Consumer Discretionary,2026,33.248,53.756,1.49,1.383
+Germany,Financials,2018,53.277,62.655,1.144,1.674
+Germany,Financials,2019,58.125,46.16,0.818,1.276
+Germany,Financials,2020,81.468,70.882,2.482,2.852
+Germany,Financials,2021,45.656,38.004,1.08,1.436
+Germany,Financials,2022,56.554,54.227,1.377,2.101
+Germany,Financials,2023,32.16,23.647,0.922,1.317
+Germany,Financials,2024,30.088,33.014,0.849,1.115
+Germany,Financials,2025,38.028,54.778,1.256,1.482
+Germany,Financials,2026,37.926,29.602,1.163,1.04
+Germany,Health Care,2018,39.078,23.101,1.68,1.656
+Germany,Health Care,2019,46.691,33.501,1.302,1.04
+Germany,Health Care,2020,60.718,57.406,1.99,1.57
+Germany,Health Care,2021,22.078,14.255,1.06,0.953
+Germany,Health Care,2022,51.579,48.721,1.503,1.557
+Germany,Health Care,2023,30.713,23.111,1.19,1.195
+Germany,Health Care,2024,24.118,22.209,1.066,1.073
+Germany,Health Care,2025,42.058,38.974,1.312,1.285
+Germany,Health Care,2026,29.583,19.809,1.431,1.21
+Germany,Industrials,2018,66.338,71.646,1.299,1.54
+Germany,Industrials,2019,64.08,72.485,1.117,1.108
+Germany,Industrials,2020,79.172,81.049,2.859,2.627
+Germany,Industrials,2021,63.252,62.021,1.368,1.196
+Germany,Industrials,2022,81.928,76.465,2.0,1.752
+Germany,Industrials,2023,55.077,62.084,1.155,1.084
+Germany,Industrials,2024,48.659,44.274,1.183,1.077
+Germany,Industrials,2025,53.046,56.733,1.736,1.566
+Germany,Industrials,2026,22.834,32.284,1.99,1.53
+Germany,Information Technology,2018,48.735,56.251,1.827,2.615
+Germany,Information Technology,2019,39.181,46.069,1.49,1.98
+Germany,Information Technology,2020,54.598,48.57,2.468,2.458
+Germany,Information Technology,2021,37.23,15.673,1.298,1.443
+Germany,Information Technology,2022,58.392,60.374,1.78,2.303
+Germany,Information Technology,2023,41.826,37.065,1.227,1.419
+Germany,Information Technology,2024,21.955,30.615,1.359,1.419
+Germany,Information Technology,2025,37.633,46.584,1.75,2.125
+Germany,Information Technology,2026,11.144,11.199,2.3,2.496
+Germany,Materials,2018,64.841,69.761,1.423,1.401
+Germany,Materials,2019,63.046,70.023,1.326,1.304
+Germany,Materials,2020,79.875,79.215,2.247,2.364
+Germany,Materials,2021,50.851,54.673,1.084,0.994
+Germany,Materials,2022,68.449,67.582,1.814,1.869
+Germany,Materials,2023,49.282,47.863,1.252,1.267
+Germany,Materials,2024,41.885,36.679,1.036,1.064
+Germany,Materials,2025,52.02,45.859,1.568,1.516
+Germany,Materials,2026,22.832,5.237,1.372,1.585
+Hong Kong,Communication Services,2020,56.705,5.647,2.134,3.456
+Hong Kong,Communication Services,2021,48.796,39.028,2.311,2.8
+Hong Kong,Communication Services,2022,73.383,74.166,2.587,3.782
+Hong Kong,Communication Services,2023,58.583,51.822,1.787,2.305
+Hong Kong,Communication Services,2024,71.098,69.999,1.457,2.145
+Hong Kong,Communication Services,2025,69.347,58.223,1.601,2.312
+Hong Kong,Communication Services,2026,40.638,38.995,1.705,2.303
+Hong Kong,Consumer Discretionary,2018,60.676,70.766,3.059,2.105
+Hong Kong,Consumer Discretionary,2019,46.086,55.156,1.855,1.44
+Hong Kong,Consumer Discretionary,2020,52.021,71.06,2.572,2.27
+Hong Kong,Consumer Discretionary,2021,48.733,69.862,2.802,1.949
+Hong Kong,Consumer Discretionary,2022,74.919,81.612,4.392,2.942
+Hong Kong,Consumer Discretionary,2023,63.596,78.594,2.416,1.777
+Hong Kong,Consumer Discretionary,2024,73.644,81.05,2.522,2.117
+Hong Kong,Consumer Discretionary,2025,64.293,75.691,2.841,1.92
+Hong Kong,Consumer Discretionary,2026,52.339,59.706,2.606,1.468
+Hong Kong,Consumer Staples,2018,69.925,28.965,2.18,2.31
+Hong Kong,Consumer Staples,2019,38.593,31.61,1.694,1.461
+Hong Kong,Consumer Staples,2020,39.508,46.786,2.13,1.748
+Hong Kong,Consumer Staples,2021,29.665,19.691,1.759,1.378
+Hong Kong,Consumer Staples,2022,51.585,54.457,2.166,1.831
+Hong Kong,Consumer Staples,2023,53.606,59.023,1.577,1.446
+Hong Kong,Consumer Staples,2024,61.388,70.378,2.485,1.912
+Hong Kong,Consumer Staples,2025,42.717,37.746,1.721,1.377
+Hong Kong,Consumer Staples,2026,32.002,23.997,1.611,1.422
+Hong Kong,Financials,2018,82.502,86.301,1.334,1.362
+Hong Kong,Financials,2019,63.703,70.668,1.006,1.109
+Hong Kong,Financials,2020,43.109,59.891,1.544,1.426
+Hong Kong,Financials,2021,15.037,40.439,1.205,1.174
+Hong Kong,Financials,2022,48.091,70.527,1.467,1.813
+Hong Kong,Financials,2023,56.353,72.706,1.2,1.49
+Hong Kong,Financials,2024,56.857,75.65,1.177,1.828
+Hong Kong,Financials,2025,54.1,70.406,1.328,1.377
+Hong Kong,Financials,2026,45.446,49.608,1.343,1.163
+Hong Kong,Health Care,2018,55.644,52.624,3.263,2.699
+Hong Kong,Health Care,2019,31.643,31.628,2.299,1.94
+Hong Kong,Health Care,2020,37.583,50.244,2.639,2.168
+Hong Kong,Health Care,2021,44.495,38.532,3.453,2.067
+Hong Kong,Health Care,2022,59.551,64.4,4.132,3.043
+Hong Kong,Health Care,2023,50.375,52.17,2.62,2.079
+Hong Kong,Health Care,2024,56.452,61.301,2.886,2.789
+Hong Kong,Health Care,2025,50.09,44.576,2.561,2.528
+Hong Kong,Health Care,2026,35.171,37.672,2.241,2.116
+Hong Kong,Industrials,2018,60.299,41.184,1.137,2.245
+Hong Kong,Industrials,2019,44.762,34.786,0.956,1.854
+Hong Kong,Industrials,2020,54.762,47.417,1.741,2.474
+Hong Kong,Industrials,2021,20.673,31.032,1.276,1.601
+Hong Kong,Industrials,2022,40.516,63.835,1.287,2.553
+Hong Kong,Industrials,2023,56.759,52.119,1.369,1.722
+Hong Kong,Industrials,2024,72.23,65.692,1.687,1.747
+Hong Kong,Industrials,2025,52.555,57.979,1.424,1.631
+Hong Kong,Industrials,2026,41.35,52.744,1.326,1.346
+Hong Kong,Information Technology,2018,61.273,62.729,2.773,2.612
+Hong Kong,Information Technology,2019,39.268,31.609,2.006,2.071
+Hong Kong,Information Technology,2020,47.895,43.929,3.188,2.736
+Hong Kong,Information Technology,2021,40.924,41.013,2.166,2.591
+Hong Kong,Information Technology,2022,70.021,50.787,2.812,2.407
+Hong Kong,Information Technology,2023,48.02,50.464,2.186,2.255
+Hong Kong,Information Technology,2024,55.632,46.62,2.526,3.002
+Hong Kong,Information Technology,2025,50.696,54.092,2.856,3.171
+Hong Kong,Information Technology,2026,24.69,23.491,2.414,2.374
+Hong Kong,Real Estate,2018,57.101,67.768,1.564,1.456
+Hong Kong,Real Estate,2019,47.047,46.599,1.356,1.247
+Hong Kong,Real Estate,2020,49.327,51.969,1.836,1.684
+Hong Kong,Real Estate,2021,12.092,23.476,1.64,1.18
+Hong Kong,Real Estate,2022,38.638,53.429,2.136,1.956
+Hong Kong,Real Estate,2023,56.513,65.458,1.727,1.583
+Hong Kong,Real Estate,2024,65.808,71.829,2.2,2.004
+Hong Kong,Real Estate,2025,49.011,55.125,1.44,1.313
+Hong Kong,Real Estate,2026,41.761,46.587,1.747,1.463
+Hong Kong,Utilities,2018,35.065,33.369,0.918,1.181
+Hong Kong,Utilities,2019,29.707,19.856,0.842,1.013
+Hong Kong,Utilities,2020,34.071,36.233,1.396,1.524
+Hong Kong,Utilities,2021,0.784,2.561,1.012,1.229
+Hong Kong,Utilities,2022,17.175,32.19,1.363,1.591
+Hong Kong,Utilities,2023,34.647,26.765,1.165,1.254
+Hong Kong,Utilities,2024,23.274,38.186,1.055,1.412
+Hong Kong,Utilities,2025,17.134,37.526,0.732,0.929
+Hong Kong,Utilities,2026,13.256,25.449,0.887,1.013
+Brazil,Consumer Discretionary,2019,42.667,38.336,1.676,1.562
+Brazil,Consumer Discretionary,2020,71.358,76.504,3.75,4.122
+Brazil,Consumer Discretionary,2021,33.146,52.549,2.577,2.099
+Brazil,Consumer Discretionary,2022,50.883,56.457,3.008,2.55
+Brazil,Consumer Discretionary,2023,45.815,54.28,2.548,2.362
+Brazil,Consumer Discretionary,2024,54.363,53.868,1.692,2.287
+Brazil,Consumer Discretionary,2025,60.991,62.408,1.758,2.221
+Brazil,Consumer Discretionary,2026,58.564,63.269,1.694,2.266
+Brazil,Consumer Staples,2019,19.019,25.298,1.563,1.854
+Brazil,Consumer Staples,2020,54.187,64.449,2.861,3.874
+Brazil,Consumer Staples,2021,29.99,50.232,1.652,2.25
+Brazil,Consumer Staples,2022,26.631,40.907,1.485,2.275
+Brazil,Consumer Staples,2023,28.973,42.583,1.311,2.349
+Brazil,Consumer Staples,2024,22.744,51.48,1.209,2.434
+Brazil,Consumer Staples,2025,18.449,36.751,1.375,2.323
+Brazil,Consumer Staples,2026,29.305,54.886,1.559,2.238
+Brazil,Energy,2019,47.132,5.736,1.687,2.817
+Brazil,Energy,2020,77.377,52.044,3.64,6.263
+Brazil,Energy,2021,32.763,34.994,2.35,2.483
+Brazil,Energy,2022,18.219,39.89,2.436,2.459
+Brazil,Energy,2023,13.608,23.997,1.837,2.048
+Brazil,Energy,2024,6.295,47.355,1.43,1.785
+Brazil,Energy,2025,17.561,37.885,1.37,2.434
+Brazil,Energy,2026,0.407,44.128,1.735,2.287
+Brazil,Financials,2019,45.243,64.171,1.535,1.343
+Brazil,Financials,2020,73.285,86.362,3.179,3.051
+Brazil,Financials,2021,44.566,73.158,1.852,1.583
+Brazil,Financials,2022,37.263,68.365,1.621,1.763
+Brazil,Financials,2023,52.782,68.127,1.291,1.474
+Brazil,Financials,2024,46.776,62.0,1.012,1.089
+Brazil,Financials,2025,52.412,63.095,1.332,1.206
+Brazil,Financials,2026,74.278,75.532,1.678,1.457
+Brazil,Industrials,2019,58.677,43.607,1.317,1.367
+Brazil,Industrials,2020,74.406,81.589,2.798,3.793
+Brazil,Industrials,2021,52.163,61.428,1.628,1.778
+Brazil,Industrials,2022,58.561,59.862,1.713,1.909
+Brazil,Industrials,2023,51.05,55.206,1.228,1.394
+Brazil,Industrials,2024,28.07,44.573,1.126,1.385
+Brazil,Industrials,2025,21.528,61.576,1.348,1.727
+Brazil,Industrials,2026,53.439,73.493,1.548,1.929
+Brazil,Materials,2019,5.427,23.57,2.179,1.672
+Brazil,Materials,2020,49.519,61.452,3.152,3.54
+Brazil,Materials,2021,4.426,16.973,2.028,2.001
+Brazil,Materials,2022,2.101,16.756,2.171,2.175
+Brazil,Materials,2023,10.244,20.864,1.48,1.623
+Brazil,Materials,2024,5.926,18.375,1.258,1.494
+Brazil,Materials,2025,8.986,31.313,1.234,1.589
+Brazil,Materials,2026,26.986,35.965,1.613,1.842
+Brazil,Real Estate,2019,38.517,26.795,1.305,1.81
+Brazil,Real Estate,2020,67.782,65.186,4.119,3.713
+Brazil,Real Estate,2021,52.417,44.313,2.252,2.282
+Brazil,Real Estate,2022,61.507,44.341,2.247,3.112
+Brazil,Real Estate,2023,61.435,41.092,1.704,2.452
+Brazil,Real Estate,2024,52.679,48.94,1.399,2.185
+Brazil,Real Estate,2025,62.537,43.511,1.42,2.082
+Brazil,Real Estate,2026,63.954,43.731,1.734,2.651
+Brazil,Utilities,2019,33.368,50.329,2.001,1.195
+Brazil,Utilities,2020,67.539,75.282,3.245,2.639
+Brazil,Utilities,2021,44.504,49.59,1.807,1.367
+Brazil,Utilities,2022,41.61,54.357,1.608,1.338
+Brazil,Utilities,2023,46.058,47.288,1.382,1.064
+Brazil,Utilities,2024,46.633,46.327,1.195,0.995
+Brazil,Utilities,2025,36.612,64.472,1.465,1.083
+Brazil,Utilities,2026,65.218,71.746,1.641,1.415

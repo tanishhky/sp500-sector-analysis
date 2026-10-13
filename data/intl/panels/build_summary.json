@@ -1,0 +1,145 @@
+[
+ {
+  "market": "United States",
+  "firms": 501,
+  "days": 1989,
+  "first": "2018-10-01",
+  "last": "2026-08-31",
+  "share_flags": {
+   "historical": 495,
+   "constant (unit mismatch)": 5,
+   "constant": 1
+  },
+  "share_series_cleaned": 8,
+  "sectors": 11
+ },
+ {
+  "market": "Japan",
+  "firms": 490,
+  "days": 1929,
+  "first": "2018-10-01",
+  "last": "2026-08-31",
+  "share_flags": {
+   "historical": 486,
+   "constant (unit mismatch)": 4
+  },
+  "share_series_cleaned": 3,
+  "sectors": 11
+ },
+ {
+  "market": "China",
+  "firms": 298,
+  "days": 1917,
+  "first": "2018-10-08",
+  "last": "2026-08-31",
+  "share_flags": {
+   "historical": 294,
+   "constant (unit mismatch)": 4
+  },
+  "share_series_cleaned": 15,
+  "sectors": 11
+ },
+ {
+  "market": "United Kingdom",
+  "firms": 260,
+  "days": 1999,
+  "first": "2018-10-01",
+  "last": "2026-08-28",
+  "share_flags": {
+   "historical": 260
+  },
+  "share_series_cleaned": 9,
+  "sectors": 11
+ },
+ {
+  "market": "Canada",
+  "firms": 214,
+  "days": 1987,
+  "first": "2018-10-01",
+  "last": "2026-08-31",
+  "share_flags": {
+   "historical": 211,
+   "constant (unit mismatch)": 3
+  },
+  "share_series_cleaned": 7,
+  "sectors": 11
+ },
+ {
+  "market": "Korea",
+  "firms": 199,
+  "days": 1929,
+  "first": "2018-10-01",
+  "last": "2026-08-31",
+  "share_flags": {
+   "historical": 198,
+   "constant (unit mismatch)": 1
+  },
+  "share_series_cleaned": 9,
+  "sectors": 11
+ },
+ {
+  "market": "Australia",
+  "firms": 193,
+  "days": 2004,
+  "first": "2018-10-01",
+  "last": "2026-08-31",
+  "share_flags": {
+   "historical": 191,
+   "constant (unit mismatch)": 2
+  },
+  "share_series_cleaned": 16,
+  "sectors": 11
+ },
+ {
+  "market": "India",
+  "firms": 100,
+  "days": 1953,
+  "first": "2018-10-01",
+  "last": "2026-08-31",
+  "share_flags": {
+   "historical": 100
+  },
+  "share_series_cleaned": 3,
+  "sectors": 11
+ },
+ {
+  "market": "Germany",
+  "firms": 86,
+  "days": 2009,
+  "first": "2018-10-01",
+  "last": "2026-08-31",
+  "share_flags": {
+   "historical": 82,
+   "constant (unit mismatch)": 4
+  },
+  "share_series_cleaned": 2,
+  "sectors": 10
+ },
+ {
+  "market": "Hong Kong",
+  "firms": 85,
+  "days": 1946,
+  "first": "2018-10-02",
+  "last": "2026-08-31",
+  "share_flags": {
+   "historical": 70,
+   "constant (unit mismatch)": 15
+  },
+  "share_series_cleaned": 3,
+  "sectors": 11
+ },
+ {
+  "market": "Brazil",
+  "firms": 73,
+  "days": 1967,
+  "first": "2018-10-01",
+  "last": "2026-08-31",
+  "share_flags": {
+   "historical": 63,
+   "constant (unit mismatch)": 5,
+   "constant": 5
+  },
+  "share_series_cleaned": 4,
+  "sectors": 11
+ }
+]
