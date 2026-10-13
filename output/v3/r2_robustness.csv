@@ -1,0 +1,33 @@
+returns,spec,mean_R2,coef,se,t,p
+Constituent,DK lag 3,45.5367,-0.7479,0.1618,-4.6212,0.0
+Constituent,DK lag 6,45.5367,-0.7479,0.1682,-4.4455,0.0
+Constituent,DK lag 12,45.5367,-0.7479,0.1617,-4.6251,0.0
+Constituent,HHI,45.5367,-0.8874,0.3341,-2.6556,0.0093
+Constituent,no controls,45.5367,-0.7984,0.1813,-4.4041,0.0
+Constituent,drop Communication Services,45.7619,-0.8283,0.1444,-5.7347,0.0
+Constituent,drop Consumer Discretionary,44.9802,-0.8107,0.1888,-4.294,0.0
+Constituent,drop Consumer Staples,46.5703,-0.6692,0.1735,-3.8582,0.0002
+Constituent,drop Energy,47.4357,-0.701,0.1902,-3.6846,0.0004
+Constituent,drop Financials,44.1658,-0.7145,0.1635,-4.3697,0.0
+Constituent,drop Health Care,45.7955,-0.8057,0.1689,-4.7711,0.0
+Constituent,drop Industrials,43.1496,-0.7249,0.1768,-4.1,0.0001
+Constituent,drop Information Technology,45.4443,-0.6778,0.1488,-4.5562,0.0
+Constituent,drop Materials,43.9873,-0.7448,0.1651,-4.5114,0.0
+Constituent,drop Real Estate,46.0184,-0.8164,0.155,-5.2685,0.0
+Constituent,drop Utilities,47.5949,-0.7103,0.1637,-4.3401,0.0
+ETF,DK lag 3,47.2654,-0.5607,0.1705,-3.2897,0.0014
+ETF,DK lag 6,47.2654,-0.5607,0.1738,-3.2263,0.0017
+ETF,DK lag 12,47.2654,-0.5607,0.1732,-3.2374,0.0017
+ETF,HHI,47.2654,-0.42,0.3121,-1.3459,0.1816
+ETF,no controls,47.2654,-0.6597,0.1986,-3.3217,0.0013
+ETF,drop Communication Services,47.278,-0.7719,0.1504,-5.1319,0.0
+ETF,drop Consumer Discretionary,46.4161,-0.6171,0.1904,-3.2411,0.0017
+ETF,drop Consumer Staples,48.3247,-0.4891,0.1835,-2.6656,0.0091
+ETF,drop Energy,49.2094,-0.5271,0.1837,-2.8687,0.0051
+ETF,drop Financials,45.9243,-0.5246,0.1848,-2.838,0.0056
+ETF,drop Health Care,47.5897,-0.6066,0.176,-3.4473,0.0009
+ETF,drop Industrials,44.9604,-0.5274,0.187,-2.8203,0.0059
+ETF,drop Information Technology,47.4052,-0.4501,0.1677,-2.6831,0.0086
+ETF,drop Materials,45.6407,-0.5283,0.1715,-3.0808,0.0027
+ETF,drop Real Estate,47.7461,-0.6015,0.1608,-3.7407,0.0003
+ETF,drop Utilities,49.4248,-0.525,0.1702,-3.0851,0.0027

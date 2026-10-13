@@ -1,0 +1,83 @@
+{
+  "validation_top3_vs_full_panel": {
+    "Communication Services": {
+      "mean_abs_dev_pp": 5.04291444283962e-15,
+      "p99_abs_dev_pp": 2.220446049250313e-14,
+      "max_abs_dev_pp_after_base_start": 4.440892098500626e-14
+    },
+    "Consumer Discretionary": {
+      "mean_abs_dev_pp": 6.165423637757408e-15,
+      "p99_abs_dev_pp": 2.220446049250313e-14,
+      "max_abs_dev_pp_after_base_start": 3.3306690738754696e-14
+    },
+    "Consumer Staples": {
+      "mean_abs_dev_pp": 4.808360282707544e-15,
+      "p99_abs_dev_pp": 1.6653345369377348e-14,
+      "max_abs_dev_pp_after_base_start": 2.7755575615628914e-14
+    },
+    "Energy": {
+      "mean_abs_dev_pp": 4.1549594080539055e-15,
+      "p99_abs_dev_pp": 2.220446049250313e-14,
+      "max_abs_dev_pp_after_base_start": 2.220446049250313e-14
+    },
+    "Financials": {
+      "mean_abs_dev_pp": 4.506790648252019e-15,
+      "p99_abs_dev_pp": 1.6653345369377348e-14,
+      "max_abs_dev_pp_after_base_start": 2.220446049250313e-14
+    },
+    "Health Care": {
+      "mean_abs_dev_pp": 4.510979115397235e-15,
+      "p99_abs_dev_pp": 1.6653345369377348e-14,
+      "max_abs_dev_pp_after_base_start": 2.220446049250313e-14
+    },
+    "Industrials": {
+      "mean_abs_dev_pp": 0.07277506930020436,
+      "p99_abs_dev_pp": 0.7923505424952164,
+      "max_abs_dev_pp_after_base_start": 0.952014698945533
+    },
+    "Information Technology": {
+      "mean_abs_dev_pp": 6.198931374919134e-15,
+      "p99_abs_dev_pp": 2.220446049250313e-14,
+      "max_abs_dev_pp_after_base_start": 4.440892098500626e-14
+    },
+    "Materials": {
+      "mean_abs_dev_pp": 0.16859517884060649,
+      "p99_abs_dev_pp": 10.633791503475399,
+      "max_abs_dev_pp_after_base_start": 1.9387802062559245
+    },
+    "Real Estate": {
+      "mean_abs_dev_pp": 4.191259456645775e-15,
+      "p99_abs_dev_pp": 1.6653345369377348e-14,
+      "max_abs_dev_pp_after_base_start": 2.220446049250313e-14
+    },
+    "Utilities": {
+      "mean_abs_dev_pp": 3.747281939252918e-15,
+      "p99_abs_dev_pp": 1.6653345369377348e-14,
+      "max_abs_dev_pp_after_base_start": 2.220446049250313e-14
+    }
+  },
+  "days": 1988,
+  "share_sector_years_R2top_below_R2rest": 0.9191919191919192,
+  "system_first12": {
+    "TCI": 77.25025896208834,
+    "avg_rho2": 38.20254566098777
+  },
+  "system_first12_cf": {
+    "TCI": 77.25035313113884,
+    "avg_rho2": 38.19342615972868
+  },
+  "system_last12_actual": {
+    "TCI": 48.23949277065339,
+    "avg_rho2": 10.148674052187348
+  },
+  "system_last12_cf": {
+    "TCI": 50.037700750895276,
+    "avg_rho2": 11.034942868391004
+  },
+  "megacap_block_last12": {
+    "top_within_block": 0.49163213610084927,
+    "rest_within_block": 0.1577980718400452,
+    "top_block_vs_other_sectors": 0.0805957756393111,
+    "rest_block_vs_other_sectors": 0.20136881208524016
+  }
+}
