@@ -1,0 +1,42 @@
+{
+  "d_R2_ETF": {
+    "corr": -0.5180879578338154,
+    "slope": -1.130113784751342,
+    "perm_p_two_sided": 0.102
+  },
+  "d_rho2_ETF": {
+    "corr": -0.2822663996385304,
+    "slope": -0.2523182578508406,
+    "perm_p_two_sided": 0.41035
+  },
+  "d_row_NET_ETF": {
+    "corr": -0.47338152959164975,
+    "slope": -0.8132875879759989,
+    "perm_p_two_sided": 0.1404
+  },
+  "d_maxrow_TO_ETF": {
+    "corr": -0.32289731017619583,
+    "slope": -0.7210982508693154,
+    "perm_p_two_sided": 0.33315
+  },
+  "d_R2_Constituent": {
+    "corr": -0.5976539991873235,
+    "slope": -1.2431169054472704,
+    "perm_p_two_sided": 0.05205
+  },
+  "d_rho2_Constituent": {
+    "corr": -0.3468235176290405,
+    "slope": -0.3086239570945589,
+    "perm_p_two_sided": 0.29835
+  },
+  "d_row_NET_Constituent": {
+    "corr": -0.5820876371380022,
+    "slope": -1.0028763446812694,
+    "perm_p_two_sided": 0.06005
+  },
+  "d_maxrow_TO_Constituent": {
+    "corr": -0.4336747812563,
+    "slope": -0.9741483908661409,
+    "perm_p_two_sided": 0.183
+  }
+}

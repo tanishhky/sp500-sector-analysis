@@ -1,0 +1,97 @@
+returns,dep,spec,coef,se,t,p
+ETF,row_NET,"baseline, DK lag 3",-0.4648,0.1299,-3.5785,0.0006
+ETF,row_NET,"baseline, DK lag 6",-0.4648,0.1537,-3.0247,0.0032
+ETF,row_NET,"baseline, DK lag 12",-0.4648,0.1744,-2.6652,0.0091
+ETF,row_NET,no controls,-0.5924,0.1416,-4.1825,0.0001
+ETF,row_NET,sector-specific linear trends,-0.6676,,,
+ETF,row_NET,drop Communication Services,-0.6208,0.144,-4.3112,0.0
+ETF,row_NET,drop Consumer Discretionary,-0.5161,0.123,-4.1943,0.0001
+ETF,row_NET,drop Consumer Staples,-0.4381,0.1391,-3.1492,0.0022
+ETF,row_NET,drop Energy,-0.4787,0.1432,-3.3437,0.0012
+ETF,row_NET,drop Financials,-0.3702,0.106,-3.4922,0.0007
+ETF,row_NET,drop Health Care,-0.4625,0.1379,-3.3549,0.0012
+ETF,row_NET,drop Industrials,-0.3895,0.1285,-3.0312,0.0032
+ETF,row_NET,drop Information Technology,-0.4117,0.1181,-3.4863,0.0007
+ETF,row_NET,drop Materials,-0.4415,0.1313,-3.3629,0.0011
+ETF,row_NET,drop Real Estate,-0.4859,0.1365,-3.5606,0.0006
+ETF,row_NET,drop Utilities,-0.5012,0.1307,-3.8351,0.0002
+ETF,row_TO,"baseline, DK lag 3",-0.5021,0.2034,-2.4687,0.0154
+ETF,row_TO,"baseline, DK lag 6",-0.5021,0.2365,-2.1228,0.0364
+ETF,row_TO,"baseline, DK lag 12",-0.5021,0.2633,-1.9069,0.0596
+ETF,row_TO,no controls,-0.6885,0.2205,-3.1222,0.0024
+ETF,row_TO,sector-specific linear trends,-0.4592,0.7549,-0.6082,0.5445
+ETF,row_TO,drop Communication Services,-0.7014,0.2226,-3.1511,0.0022
+ETF,row_TO,drop Consumer Discretionary,-0.5744,0.1957,-2.9347,0.0042
+ETF,row_TO,drop Consumer Staples,-0.4106,0.215,-1.9097,0.0592
+ETF,row_TO,drop Energy,-0.6055,0.1911,-3.1687,0.0021
+ETF,row_TO,drop Financials,-0.3367,0.1795,-1.8763,0.0637
+ETF,row_TO,drop Health Care,-0.4942,0.2147,-2.302,0.0236
+ETF,row_TO,drop Industrials,-0.4102,0.2081,-1.9711,0.0517
+ETF,row_TO,drop Information Technology,-0.4239,0.1949,-2.1748,0.0322
+ETF,row_TO,drop Materials,-0.4718,0.2114,-2.2325,0.028
+ETF,row_TO,drop Real Estate,-0.5197,0.2107,-2.4666,0.0155
+ETF,row_TO,drop Utilities,-0.5735,0.2078,-2.7602,0.007
+ETF,row_FROM,"baseline, DK lag 3",-0.0373,0.0795,-0.4695,0.6398
+ETF,row_FROM,"baseline, DK lag 6",-0.0373,0.0901,-0.4142,0.6797
+ETF,row_FROM,"baseline, DK lag 12",-0.0373,0.0965,-0.3868,0.6998
+ETF,row_FROM,no controls,-0.0961,0.0844,-1.1389,0.2576
+ETF,row_FROM,sector-specific linear trends,0.2084,,,
+ETF,row_FROM,drop Communication Services,-0.0806,0.0889,-0.9072,0.3666
+ETF,row_FROM,drop Consumer Discretionary,-0.0583,0.0792,-0.7365,0.4633
+ETF,row_FROM,drop Consumer Staples,0.0276,0.0823,0.3347,0.7386
+ETF,row_FROM,drop Energy,-0.1268,0.0546,-2.3241,0.0223
+ETF,row_FROM,drop Financials,0.0335,0.0826,0.4049,0.6865
+ETF,row_FROM,drop Health Care,-0.0318,0.0836,-0.38,0.7048
+ETF,row_FROM,drop Industrials,-0.0208,0.0853,-0.2433,0.8083
+ETF,row_FROM,drop Information Technology,-0.0122,0.0855,-0.1426,0.8869
+ETF,row_FROM,drop Materials,-0.0303,0.0847,-0.3576,0.7214
+ETF,row_FROM,drop Real Estate,-0.0337,0.0808,-0.4173,0.6774
+ETF,row_FROM,drop Utilities,-0.0723,0.0836,-0.8645,0.3895
+Constituent,row_NET,"baseline, DK lag 3",-0.6551,0.1367,-4.7922,0.0
+Constituent,row_NET,"baseline, DK lag 6",-0.6551,0.1566,-4.1825,0.0001
+Constituent,row_NET,"baseline, DK lag 12",-0.6551,0.1668,-3.9276,0.0002
+Constituent,row_NET,no controls,-0.7439,0.1361,-5.4641,0.0
+Constituent,row_NET,sector-specific linear trends,-0.9712,,,
+Constituent,row_NET,drop Communication Services,-0.6683,0.1346,-4.965,0.0
+Constituent,row_NET,drop Consumer Discretionary,-0.7231,0.1321,-5.4743,0.0
+Constituent,row_NET,drop Consumer Staples,-0.636,0.1446,-4.3994,0.0
+Constituent,row_NET,drop Energy,-0.668,0.1526,-4.3791,0.0
+Constituent,row_NET,drop Financials,-0.5563,0.105,-5.2975,0.0
+Constituent,row_NET,drop Health Care,-0.6625,0.1431,-4.6281,0.0
+Constituent,row_NET,drop Industrials,-0.5903,0.1393,-4.2373,0.0001
+Constituent,row_NET,drop Information Technology,-0.6324,0.1287,-4.9134,0.0
+Constituent,row_NET,drop Materials,-0.6528,0.142,-4.5974,0.0
+Constituent,row_NET,drop Real Estate,-0.6918,0.1449,-4.7736,0.0
+Constituent,row_NET,drop Utilities,-0.6992,0.1446,-4.8345,0.0
+Constituent,row_TO,"baseline, DK lag 3",-0.8274,0.2102,-3.9358,0.0002
+Constituent,row_TO,"baseline, DK lag 6",-0.8274,0.2392,-3.4594,0.0008
+Constituent,row_TO,"baseline, DK lag 12",-0.8274,0.2553,-3.2406,0.0017
+Constituent,row_TO,no controls,-0.9584,0.2124,-4.512,0.0
+Constituent,row_TO,sector-specific linear trends,-0.8976,,,
+Constituent,row_TO,drop Communication Services,-0.8216,0.2011,-4.0849,0.0001
+Constituent,row_TO,drop Consumer Discretionary,-0.9325,0.2073,-4.4983,0.0
+Constituent,row_TO,drop Consumer Staples,-0.7395,0.2255,-3.2787,0.0015
+Constituent,row_TO,drop Energy,-0.9346,0.2044,-4.5732,0.0
+Constituent,row_TO,drop Financials,-0.6595,0.1778,-3.7095,0.0004
+Constituent,row_TO,drop Health Care,-0.8361,0.2195,-3.809,0.0003
+Constituent,row_TO,drop Industrials,-0.7463,0.2175,-3.4319,0.0009
+Constituent,row_TO,drop Information Technology,-0.7913,0.2089,-3.7873,0.0003
+Constituent,row_TO,drop Materials,-0.8268,0.2224,-3.7176,0.0003
+Constituent,row_TO,drop Real Estate,-0.8633,0.2188,-3.9447,0.0002
+Constituent,row_TO,drop Utilities,-0.9102,0.2216,-4.1081,0.0001
+Constituent,row_FROM,"baseline, DK lag 3",-0.1724,0.0776,-2.2207,0.0288
+Constituent,row_FROM,"baseline, DK lag 6",-0.1724,0.0873,-1.9748,0.0513
+Constituent,row_FROM,"baseline, DK lag 12",-0.1724,0.0946,-1.822,0.0717
+Constituent,row_FROM,no controls,-0.2145,0.0799,-2.6858,0.0086
+Constituent,row_FROM,sector-specific linear trends,0.0736,,,
+Constituent,row_FROM,drop Communication Services,-0.1533,0.0768,-1.9951,0.049
+Constituent,row_FROM,drop Consumer Discretionary,-0.2094,0.0795,-2.6342,0.0099
+Constituent,row_FROM,drop Consumer Staples,-0.1035,0.0848,-1.2197,0.2257
+Constituent,row_FROM,drop Energy,-0.2666,0.0631,-4.2222,0.0001
+Constituent,row_FROM,drop Financials,-0.1032,0.077,-1.3395,0.1837
+Constituent,row_FROM,drop Health Care,-0.1736,0.0809,-2.1458,0.0345
+Constituent,row_FROM,drop Industrials,-0.1561,0.0817,-1.9101,0.0592
+Constituent,row_FROM,drop Information Technology,-0.1589,0.0848,-1.8735,0.0641
+Constituent,row_FROM,drop Materials,-0.174,0.0835,-2.0836,0.0399
+Constituent,row_FROM,drop Real Estate,-0.1715,0.0779,-2.2002,0.0303
+Constituent,row_FROM,drop Utilities,-0.211,0.0821,-2.571,0.0117

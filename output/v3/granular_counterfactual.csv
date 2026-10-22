@@ -1,0 +1,12 @@
+sector,W_2018Q4,W_last12,R2_first12,R2_last12_actual,R2_last12_cf,top3_last,R2_change_actual,R2_due_to_weights
+Communication Services,61.89,81.61,64.41,17.01,18.89,GOOGL 57.6%; META 20.0%; NFLX 4.7%,-47.4,-1.88
+Consumer Discretionary,47.28,65.12,77.36,31.02,37.12,AMZN 42.2%; TSLA 19.2%; HD 4.8%,-46.35,-6.1
+Consumer Staples,38.76,49.2,50.24,3.98,5.63,WMT 23.6%; COST 12.1%; KO 11.1%,-46.27,-1.66
+Energy,55.74,54.26,51.9,3.1,2.75,XOM 28.0%; CVX 17.1%; COP 6.9%,-48.8,0.35
+Financials,35.98,31.03,66.62,30.31,31.34,BRK-B 12.4%; JPM 10.8%; V 8.1%,-36.31,-1.03
+Health Care,27.87,32.41,68.02,15.82,18.75,LLY 16.5%; JNJ 10.1%; ABBV 7.1%,-52.2,-2.93
+Industrials,19.06,17.37,79.79,42.68,43.51,CAT 6.5%; GE 6.3%; RTX 5.0%,-37.11,-0.83
+Information Technology,44.07,56.47,75.18,5.52,4.05,NVDA 20.7%; AAPL 18.3%; MSFT 15.0%,-69.66,1.47
+Materials,36.42,37.67,65.56,38.27,41.77,LIN 18.3%; NEM 11.1%; FCX 8.7%,-27.29,-3.49
+Real Estate,27.79,31.03,27.8,26.93,30.35,WELL 14.2%; PLD 10.9%; EQIX 8.5%,-0.87,-3.42
+Utilities,27.78,27.89,8.67,9.35,10.47,NEE 12.7%; SO 7.4%; CEG 7.4%,0.69,-1.12

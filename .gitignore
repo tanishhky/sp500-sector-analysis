@@ -14,4 +14,8 @@ sector_ticker_map.json
 *.out
 *.synctex.gz
 .venv/
+.venv-main
+data/firm/
+data/intl/raw/
+data/intl/panels/*.csv
 paper/v2/submission/
