@@ -3,7 +3,7 @@
 **Concentration and Sector Connectedness Around the World**
 
 **Author:** Tanishk Yadav, New York University, Tandon School of Engineering\
-**Status:** Working paper, October 2026. Not peer reviewed.\
+**Status:** SSRN preprint [6475898](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6475898), October 2026. Not peer reviewed.\
 **Paper, figures and summary:** [tanishkyadav.me/research/concentrated-sectors](https://www.tanishkyadav.me/research/concentrated-sectors)\
 **Manuscript:** [`paper/v3/manuscript.pdf`](paper/v3/manuscript.pdf)
 
@@ -111,7 +111,7 @@ paper/v3/                  manuscript and figures
 
 ## Cite
 
-Yadav, Tanishk (2026). "Too Big to Co-Move: Concentration and Sector Connectedness Around the World." Working paper, New York University.
+Yadav, Tanishk (2026). "Too Big to Co-Move: Concentration and Sector Connectedness Around the World." SSRN preprint 6475898. https://ssrn.com/abstract=6475898
 
 ## License
 
